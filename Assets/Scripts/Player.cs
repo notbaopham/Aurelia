@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -12,6 +13,10 @@ public class Player : MonoBehaviour
 {
     public Rigidbody2D rb;
     [SerializeField] public float moveSpeed = 5f;
+    private Boolean canDash;
+    private Boolean canSlide;
+    private Boolean canDoubleJump;
+
 
     Vector2 moveDirection = Vector2.zero;
 
