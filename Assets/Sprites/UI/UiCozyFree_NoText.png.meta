@@ -1,0 +1,2821 @@
+fileFormatVersion: 2
+guid: b4567e1f00e1f30408f95aaa47f158b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8507087267106436987
+    second: UiCozyFree_NoText_0
+  - first:
+      213: -6527112375825287351
+    second: UiCozyFree_NoText_1
+  - first:
+      213: -1822046082275314276
+    second: UiCozyFree_NoText_2
+  - first:
+      213: 3771655114999274397
+    second: UiCozyFree_NoText_3
+  - first:
+      213: -2236378263009524470
+    second: UiCozyFree_NoText_4
+  - first:
+      213: 4069276516871253042
+    second: UiCozyFree_NoText_5
+  - first:
+      213: 4978720961448659822
+    second: UiCozyFree_NoText_6
+  - first:
+      213: 2373532989967168492
+    second: UiCozyFree_NoText_7
+  - first:
+      213: 4350563698349302487
+    second: UiCozyFree_NoText_8
+  - first:
+      213: 8125683407512638806
+    second: UiCozyFree_NoText_9
+  - first:
+      213: 2770751887231531262
+    second: UiCozyFree_NoText_10
+  - first:
+      213: -1405352343495122965
+    second: UiCozyFree_NoText_11
+  - first:
+      213: -2646291095385922102
+    second: UiCozyFree_NoText_12
+  - first:
+      213: -6229640124522610429
+    second: UiCozyFree_NoText_13
+  - first:
+      213: -892632455068326171
+    second: UiCozyFree_NoText_14
+  - first:
+      213: 257193236924385127
+    second: UiCozyFree_NoText_15
+  - first:
+      213: -8844142747965995560
+    second: UiCozyFree_NoText_16
+  - first:
+      213: 2697044823887795361
+    second: UiCozyFree_NoText_17
+  - first:
+      213: 732061834769674937
+    second: UiCozyFree_NoText_18
+  - first:
+      213: 7617296688558879418
+    second: UiCozyFree_NoText_19
+  - first:
+      213: -3942708557816619606
+    second: UiCozyFree_NoText_20
+  - first:
+      213: 8707736148020240120
+    second: UiCozyFree_NoText_21
+  - first:
+      213: 4873800402665602045
+    second: UiCozyFree_NoText_22
+  - first:
+      213: -5583103779132970496
+    second: UiCozyFree_NoText_23
+  - first:
+      213: -5271907830140211254
+    second: UiCozyFree_NoText_24
+  - first:
+      213: 3843569062418960731
+    second: UiCozyFree_NoText_25
+  - first:
+      213: 1890930073819478572
+    second: UiCozyFree_NoText_26
+  - first:
+      213: -3480844877880820765
+    second: UiCozyFree_NoText_27
+  - first:
+      213: 7941561219643591954
+    second: UiCozyFree_NoText_28
+  - first:
+      213: -1678211008175256756
+    second: UiCozyFree_NoText_29
+  - first:
+      213: 2880127521410174659
+    second: UiCozyFree_NoText_30
+  - first:
+      213: 101620738995121257
+    second: UiCozyFree_NoText_31
+  - first:
+      213: 6118548945455217271
+    second: UiCozyFree_NoText_32
+  - first:
+      213: -546152032317810052
+    second: UiCozyFree_NoText_33
+  - first:
+      213: -6857192566867769502
+    second: UiCozyFree_NoText_34
+  - first:
+      213: -2602109988519719435
+    second: UiCozyFree_NoText_35
+  - first:
+      213: 8034964098652753535
+    second: UiCozyFree_NoText_36
+  - first:
+      213: -7254899232287913724
+    second: UiCozyFree_NoText_37
+  - first:
+      213: -3626421283644420069
+    second: UiCozyFree_NoText_38
+  - first:
+      213: -6731684595073099279
+    second: UiCozyFree_NoText_39
+  - first:
+      213: 4706987784619161547
+    second: UiCozyFree_NoText_40
+  - first:
+      213: -6028484580205659366
+    second: UiCozyFree_NoText_41
+  - first:
+      213: 7178805417696241387
+    second: UiCozyFree_NoText_42
+  - first:
+      213: 8932543250528784580
+    second: UiCozyFree_NoText_43
+  - first:
+      213: -5926332023509670820
+    second: UiCozyFree_NoText_44
+  - first:
+      213: 2502129168348081966
+    second: UiCozyFree_NoText_45
+  - first:
+      213: 9151158960486916792
+    second: UiCozyFree_NoText_46
+  - first:
+      213: -4683133853122710509
+    second: UiCozyFree_NoText_47
+  - first:
+      213: -5688983149215970645
+    second: UiCozyFree_NoText_48
+  - first:
+      213: 4390358035386303549
+    second: UiCozyFree_NoText_49
+  - first:
+      213: -1622000115343587419
+    second: UiCozyFree_NoText_50
+  - first:
+      213: -635038609284464038
+    second: UiCozyFree_NoText_51
+  - first:
+      213: 519911773433567845
+    second: UiCozyFree_NoText_52
+  - first:
+      213: 5713902823777962309
+    second: UiCozyFree_NoText_53
+  - first:
+      213: 1466780406671332040
+    second: UiCozyFree_NoText_54
+  - first:
+      213: 4583313461442743230
+    second: UiCozyFree_NoText_55
+  - first:
+      213: -4955559298952130572
+    second: UiCozyFree_NoText_56
+  - first:
+      213: -5485944664308544181
+    second: UiCozyFree_NoText_57
+  - first:
+      213: -4272513676524464653
+    second: UiCozyFree_NoText_58
+  - first:
+      213: -3908525463783877677
+    second: UiCozyFree_NoText_59
+  - first:
+      213: -4346541014939245334
+    second: UiCozyFree_NoText_60
+  - first:
+      213: -6392551446686972010
+    second: UiCozyFree_NoText_61
+  - first:
+      213: -415138581514881746
+    second: UiCozyFree_NoText_62
+  - first:
+      213: -40117574955905555
+    second: UiCozyFree_NoText_63
+  - first:
+      213: 2305677483501512747
+    second: UiCozyFree_NoText_64
+  - first:
+      213: -3256526097568118883
+    second: UiCozyFree_NoText_65
+  - first:
+      213: 5979835099215042089
+    second: UiCozyFree_NoText_66
+  - first:
+      213: -5786055899735806861
+    second: UiCozyFree_NoText_67
+  - first:
+      213: 8729223722109051709
+    second: UiCozyFree_NoText_68
+  - first:
+      213: 7995569092462151290
+    second: UiCozyFree_NoText_69
+  - first:
+      213: 7753416038377725416
+    second: UiCozyFree_NoText_70
+  - first:
+      213: 1274327617553941150
+    second: UiCozyFree_NoText_71
+  - first:
+      213: 2679537629611140410
+    second: UiCozyFree_NoText_72
+  - first:
+      213: 664830170743692625
+    second: UiCozyFree_NoText_73
+  - first:
+      213: 3721096807849110512
+    second: UiCozyFree_NoText_74
+  - first:
+      213: -8232024675815402394
+    second: UiCozyFree_NoText_75
+  - first:
+      213: 1497392471729904793
+    second: UiCozyFree_NoText_76
+  - first:
+      213: -6597256596470388082
+    second: UiCozyFree_NoText_77
+  - first:
+      213: -2867158413843368204
+    second: UiCozyFree_NoText_78
+  - first:
+      213: 6103397844588594220
+    second: UiCozyFree_NoText_79
+  - first:
+      213: 8615605206150483357
+    second: UiCozyFree_NoText_80
+  - first:
+      213: -5648375550512271933
+    second: UiCozyFree_NoText_81
+  - first:
+      213: -7739820502837736976
+    second: UiCozyFree_NoText_82
+  - first:
+      213: 2370444174046248847
+    second: UiCozyFree_NoText_83
+  - first:
+      213: 1870910021042349329
+    second: UiCozyFree_NoText_84
+  - first:
+      213: 4484276533416613692
+    second: UiCozyFree_NoText_85
+  - first:
+      213: -2654439801463994749
+    second: UiCozyFree_NoText_86
+  - first:
+      213: 9175583227853519136
+    second: UiCozyFree_NoText_87
+  - first:
+      213: -2340758570964940445
+    second: UiCozyFree_NoText_88
+  - first:
+      213: -7550366783925822423
+    second: UiCozyFree_NoText_89
+  - first:
+      213: 6102643720452196338
+    second: UiCozyFree_NoText_90
+  - first:
+      213: -8407930772569740367
+    second: UiCozyFree_NoText_91
+  - first:
+      213: 5138166412151152427
+    second: UiCozyFree_NoText_92
+  - first:
+      213: 217199659673671115
+    second: UiCozyFree_NoText_93
+  - first:
+      213: -8286725777398499652
+    second: UiCozyFree_NoText_94
+  - first:
+      213: -3932760137695131146
+    second: UiCozyFree_NoText_95
+  - first:
+      213: -2976026584496758298
+    second: UiCozyFree_NoText_96
+  - first:
+      213: 2437069899553937289
+    second: UiCozyFree_NoText_97
+  - first:
+      213: -8103504913446666087
+    second: UiCozyFree_NoText_98
+  - first:
+      213: 5054695969335310105
+    second: UiCozyFree_NoText_99
+  - first:
+      213: -8471410650398425916
+    second: UiCozyFree_NoText_100
+  - first:
+      213: -9161798644385302236
+    second: UiCozyFree_NoText_101
+  - first:
+      213: -1463150719329403993
+    second: UiCozyFree_NoText_102
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5884fdaf331c0f980800000000000000
+      internalID: -8507087267106436987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 223
+        width: 92
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947b0e550e90b65a0800000000000000
+      internalID: -6527112375825287351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c957695edbac6b6e0800000000000000
+      internalID: -1822046082275314276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b11d0185c975430800000000000000
+      internalID: 3771655114999274397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0589e191d9c6f0e0800000000000000
+      internalID: -2236378263009524470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c23f0ae69f87830800000000000000
+      internalID: 4069276516871253042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b40f60658f71540800000000000000
+      internalID: 4978720961448659822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3f9a9cdab70f020800000000000000
+      internalID: 2373532989967168492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_8
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 223
+        width: 92
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2e1d422ae406c30800000000000000
+      internalID: 4350563698349302487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6559316e10a34c070800000000000000
+      internalID: 8125683407512638806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_10
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 162
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8bd2f4920b37620800000000000000
+      internalID: 2770751887231531262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befd5bd4d7f2f7ce0800000000000000
+      internalID: -1405352343495122965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac52e37f44c764bd0800000000000000
+      internalID: -2646291095385922102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3014f43105fdb89a0800000000000000
+      internalID: -6229640124522610429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6eaa0f28bbc93f0800000000000000
+      internalID: -892632455068326171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767c285e2ebb19300800000000000000
+      internalID: 257193236924385127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5c3ac670b434580800000000000000
+      internalID: -8844142747965995560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4532f4af3dd6520800000000000000
+      internalID: 2697044823887795361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2311f2c5ec82a00800000000000000
+      internalID: 732061834769674937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2bf46eaf216b960800000000000000
+      internalID: 7617296688558879418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad927eb47fa849c0800000000000000
+      internalID: -3942708557816619606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe139c14e718d870800000000000000
+      internalID: 8707736148020240120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbf90bc4a733a340800000000000000
+      internalID: 4873800402665602045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_23
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 184
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a63a481b4d482b0800000000000000
+      internalID: -5583103779132970496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf64ef92cb66d6b0800000000000000
+      internalID: -5271907830140211254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51d92bb2b9175530800000000000000
+      internalID: 3843569062418960731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2afc1132eeed3a10800000000000000
+      internalID: 1890930073819478572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ebfcaf960e81bfc0800000000000000
+      internalID: -3480844877880820765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21dcfd26ad7163e60800000000000000
+      internalID: 7941561219643591954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b4097cafbc5b8e0800000000000000
+      internalID: -1678211008175256756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ceca7d98b448f720800000000000000
+      internalID: 2880127521410174659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ced911687096100800000000000000
+      internalID: 101620738995121257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77af2b239d379e450800000000000000
+      internalID: 6118548945455217271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ad658ce9dab68f0800000000000000
+      internalID: -546152032317810052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267c56ff0bb56d0a0800000000000000
+      internalID: -6857192566867769502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd49c380c273ebd0800000000000000
+      internalID: -2602109988519719435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ec633d64de18f60800000000000000
+      internalID: 8034964098652753535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409893a169b615b90800000000000000
+      internalID: -7254899232287913724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10557e5e0d5cadc0800000000000000
+      internalID: -3626421283644420069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_39
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9d2bad6804492a0800000000000000
+      internalID: -6731684595073099279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_40
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7f3509374925140800000000000000
+      internalID: 4706987784619161547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bfbeee635865ca0800000000000000
+      internalID: -6028484580205659366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_42
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be62f611e7d30a360800000000000000
+      internalID: 7178805417696241387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_43
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c0d49c72c4c6fb70800000000000000
+      internalID: 8932543250528784580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_44
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 146
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c542fa57c6071cda0800000000000000
+      internalID: -5926332023509670820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_45
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 146
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2fe785c83959b220800000000000000
+      internalID: 2502129168348081966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_46
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 145
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2a4f2f6927ffe70800000000000000
+      internalID: 9151158960486916792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_47
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 145
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314b309a29a220fb0800000000000000
+      internalID: -4683133853122710509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_48
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 146
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa8cc1a7fbac01b0800000000000000
+      internalID: -5688983149215970645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_49
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 146
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d348bff3f5fadec30800000000000000
+      internalID: 4390358035386303549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_50
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 145
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a78d432d7f7d79e0800000000000000
+      internalID: -1622000115343587419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_51
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 145
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5201fadfb3ef27f0800000000000000
+      internalID: -635038609284464038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a1d0ad009173700800000000000000
+      internalID: 519911773433567845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_53
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549036c385cdb4f40800000000000000
+      internalID: 5713902823777962309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_54
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2d52f220d0b5410800000000000000
+      internalID: 1466780406671332040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_55
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb8f8b4f433b9f30800000000000000
+      internalID: 4583313461442743230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_56
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff0392c2115a3bb0800000000000000
+      internalID: -4955559298952130572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_57
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d8072c4620ed3b0800000000000000
+      internalID: -5485944664308544181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_58
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5d2cca27bf4b4c0800000000000000
+      internalID: -4272513676524464653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_59
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3d7978cc022c9c0800000000000000
+      internalID: -3908525463783877677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_60
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 130
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae461e2d9fbfda3c0800000000000000
+      internalID: -4346541014939245334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_61
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 130
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69740d314581947a0800000000000000
+      internalID: -6392551446686972010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_62
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 131
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25fe3cd8a12d3af0800000000000000
+      internalID: -415138581514881746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_63
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 131
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedc0833749717ff0800000000000000
+      internalID: -40117574955905555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_64
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 130
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2869ba84796fff10800000000000000
+      internalID: 2305677483501512747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_65
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 130
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97c9a0a4ce7ec2d0800000000000000
+      internalID: -3256526097568118883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_66
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 131
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92610281754acf250800000000000000
+      internalID: 5979835099215042089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_67
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 131
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ca1b5a0dcc3bfa0800000000000000
+      internalID: -5786055899735806861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d332931d9be642970800000000000000
+      internalID: 8729223722109051709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_69
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a768c4d2ab7f5fe60800000000000000
+      internalID: 7995569092462151290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_70
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed125bbecaa99b60800000000000000
+      internalID: 7753416038377725416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_71
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92c5cb67325fa110800000000000000
+      internalID: 1274327617553941150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_72
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35a34ff641af2520800000000000000
+      internalID: 2679537629611140410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_73
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15dd3239483f93900800000000000000
+      internalID: 664830170743692625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_74
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fbafaed4ddf3a330800000000000000
+      internalID: 3721096807849110512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_75
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664d5c72c29f1cd80800000000000000
+      internalID: -8232024675815402394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_76
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 114
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c1ecef48ec7c410800000000000000
+      internalID: 1497392471729904793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_77
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 114
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8aa74b4416d174a0800000000000000
+      internalID: -6597256596470388082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_78
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 113
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6f71c0d9ec538d0800000000000000
+      internalID: -2867158413843368204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_79
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 113
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c248691a000a3b450800000000000000
+      internalID: 6103397844588594220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_80
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 114
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d0b9d9947c09770800000000000000
+      internalID: 8615605206150483357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_81
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 114
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cde6b9fc50fc91b0800000000000000
+      internalID: -5648375550512271933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_82
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 113
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9421f8242a69490800000000000000
+      internalID: -7739820502837736976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_83
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 113
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8fbbe9ca6285e020800000000000000
+      internalID: 2370444174046248847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115a2fa60cec6f910800000000000000
+      internalID: 1870910021042349329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_85
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37dae89fb95b3e30800000000000000
+      internalID: 4484276533416613692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_86
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386841c7019892bd0800000000000000
+      internalID: -2654439801463994749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_87
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029bd37d458365f70800000000000000
+      internalID: 9175583227853519136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3690fa84b74f38fd0800000000000000
+      internalID: -2340758570964940445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_89
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c5130e965b73790800000000000000
+      internalID: -7550366783925822423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_90
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7425c6122f0b450800000000000000
+      internalID: 6102643720452196338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_91
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bba7ec6287015b80800000000000000
+      internalID: -8407930772569740367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_92
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 98
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fdc11f02f6e4740800000000000000
+      internalID: 5138166412151152427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_93
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 98
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc55f2090f5a30300800000000000000
+      internalID: 217199659673671115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_94
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 99
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6f6177fc2affc80800000000000000
+      internalID: -8286725777398499652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_95
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 99
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f98dddcd770c69c0800000000000000
+      internalID: -3932760137695131146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_96
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 98
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1a3fcc69703b6d0800000000000000
+      internalID: -2976026584496758298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_97
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 98
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98795b7592632d120800000000000000
+      internalID: 2437069899553937289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_98
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 99
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990016627319a8f80800000000000000
+      internalID: -8103504913446666087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_99
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 99
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91774d30433e52640800000000000000
+      internalID: 5054695969335310105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_100
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 7
+        width: 89
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc7a8c95e08f6a80800000000000000
+      internalID: -8471410650398425916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_101
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 7
+        width: 59
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42932c99ca0cad080800000000000000
+      internalID: -9161798644385302236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UiCozyFree_NoText_102
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 8
+        width: 49
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab73814c28d1bbe0800000000000000
+      internalID: -1463150719329403993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UiCozyFree_NoText_0: -8507087267106436987
+      UiCozyFree_NoText_1: -6527112375825287351
+      UiCozyFree_NoText_10: 2770751887231531262
+      UiCozyFree_NoText_100: -8471410650398425916
+      UiCozyFree_NoText_101: -9161798644385302236
+      UiCozyFree_NoText_102: -1463150719329403993
+      UiCozyFree_NoText_11: -1405352343495122965
+      UiCozyFree_NoText_12: -2646291095385922102
+      UiCozyFree_NoText_13: -6229640124522610429
+      UiCozyFree_NoText_14: -892632455068326171
+      UiCozyFree_NoText_15: 257193236924385127
+      UiCozyFree_NoText_16: -8844142747965995560
+      UiCozyFree_NoText_17: 2697044823887795361
+      UiCozyFree_NoText_18: 732061834769674937
+      UiCozyFree_NoText_19: 7617296688558879418
+      UiCozyFree_NoText_2: -1822046082275314276
+      UiCozyFree_NoText_20: -3942708557816619606
+      UiCozyFree_NoText_21: 8707736148020240120
+      UiCozyFree_NoText_22: 4873800402665602045
+      UiCozyFree_NoText_23: -5583103779132970496
+      UiCozyFree_NoText_24: -5271907830140211254
+      UiCozyFree_NoText_25: 3843569062418960731
+      UiCozyFree_NoText_26: 1890930073819478572
+      UiCozyFree_NoText_27: -3480844877880820765
+      UiCozyFree_NoText_28: 7941561219643591954
+      UiCozyFree_NoText_29: -1678211008175256756
+      UiCozyFree_NoText_3: 3771655114999274397
+      UiCozyFree_NoText_30: 2880127521410174659
+      UiCozyFree_NoText_31: 101620738995121257
+      UiCozyFree_NoText_32: 6118548945455217271
+      UiCozyFree_NoText_33: -546152032317810052
+      UiCozyFree_NoText_34: -6857192566867769502
+      UiCozyFree_NoText_35: -2602109988519719435
+      UiCozyFree_NoText_36: 8034964098652753535
+      UiCozyFree_NoText_37: -7254899232287913724
+      UiCozyFree_NoText_38: -3626421283644420069
+      UiCozyFree_NoText_39: -6731684595073099279
+      UiCozyFree_NoText_4: -2236378263009524470
+      UiCozyFree_NoText_40: 4706987784619161547
+      UiCozyFree_NoText_41: -6028484580205659366
+      UiCozyFree_NoText_42: 7178805417696241387
+      UiCozyFree_NoText_43: 8932543250528784580
+      UiCozyFree_NoText_44: -5926332023509670820
+      UiCozyFree_NoText_45: 2502129168348081966
+      UiCozyFree_NoText_46: 9151158960486916792
+      UiCozyFree_NoText_47: -4683133853122710509
+      UiCozyFree_NoText_48: -5688983149215970645
+      UiCozyFree_NoText_49: 4390358035386303549
+      UiCozyFree_NoText_5: 4069276516871253042
+      UiCozyFree_NoText_50: -1622000115343587419
+      UiCozyFree_NoText_51: -635038609284464038
+      UiCozyFree_NoText_52: 519911773433567845
+      UiCozyFree_NoText_53: 5713902823777962309
+      UiCozyFree_NoText_54: 1466780406671332040
+      UiCozyFree_NoText_55: 4583313461442743230
+      UiCozyFree_NoText_56: -4955559298952130572
+      UiCozyFree_NoText_57: -5485944664308544181
+      UiCozyFree_NoText_58: -4272513676524464653
+      UiCozyFree_NoText_59: -3908525463783877677
+      UiCozyFree_NoText_6: 4978720961448659822
+      UiCozyFree_NoText_60: -4346541014939245334
+      UiCozyFree_NoText_61: -6392551446686972010
+      UiCozyFree_NoText_62: -415138581514881746
+      UiCozyFree_NoText_63: -40117574955905555
+      UiCozyFree_NoText_64: 2305677483501512747
+      UiCozyFree_NoText_65: -3256526097568118883
+      UiCozyFree_NoText_66: 5979835099215042089
+      UiCozyFree_NoText_67: -5786055899735806861
+      UiCozyFree_NoText_68: 8729223722109051709
+      UiCozyFree_NoText_69: 7995569092462151290
+      UiCozyFree_NoText_7: 2373532989967168492
+      UiCozyFree_NoText_70: 7753416038377725416
+      UiCozyFree_NoText_71: 1274327617553941150
+      UiCozyFree_NoText_72: 2679537629611140410
+      UiCozyFree_NoText_73: 664830170743692625
+      UiCozyFree_NoText_74: 3721096807849110512
+      UiCozyFree_NoText_75: -8232024675815402394
+      UiCozyFree_NoText_76: 1497392471729904793
+      UiCozyFree_NoText_77: -6597256596470388082
+      UiCozyFree_NoText_78: -2867158413843368204
+      UiCozyFree_NoText_79: 6103397844588594220
+      UiCozyFree_NoText_8: 4350563698349302487
+      UiCozyFree_NoText_80: 8615605206150483357
+      UiCozyFree_NoText_81: -5648375550512271933
+      UiCozyFree_NoText_82: -7739820502837736976
+      UiCozyFree_NoText_83: 2370444174046248847
+      UiCozyFree_NoText_84: 1870910021042349329
+      UiCozyFree_NoText_85: 4484276533416613692
+      UiCozyFree_NoText_86: -2654439801463994749
+      UiCozyFree_NoText_87: 9175583227853519136
+      UiCozyFree_NoText_88: -2340758570964940445
+      UiCozyFree_NoText_89: -7550366783925822423
+      UiCozyFree_NoText_9: 8125683407512638806
+      UiCozyFree_NoText_90: 6102643720452196338
+      UiCozyFree_NoText_91: -8407930772569740367
+      UiCozyFree_NoText_92: 5138166412151152427
+      UiCozyFree_NoText_93: 217199659673671115
+      UiCozyFree_NoText_94: -8286725777398499652
+      UiCozyFree_NoText_95: -3932760137695131146
+      UiCozyFree_NoText_96: -2976026584496758298
+      UiCozyFree_NoText_97: 2437069899553937289
+      UiCozyFree_NoText_98: -8103504913446666087
+      UiCozyFree_NoText_99: 5054695969335310105
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
