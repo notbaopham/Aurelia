@@ -1,9 +1,20 @@
 # COSC 416 Project
 
-Contributors - Hoc Nguyen, Toby Nguyen, Phong Nguyen, Bao Pham
+## Contributors: 
+### Hoc Nguyen:
+- Wolf:
+- Slime:
+- Insects:
+### Toby Nguyen:
+- Menu:
+- Map 1:
+- UI:
+### Phong Nguyen:
+- Map 2:
+- Map 3:
+### Bao Pham:
+- Player:
 
-- [x] Kanban and basic GitHub setup
-- [ ] Finish detailed Project Brief
 
 # Project Brief
 
