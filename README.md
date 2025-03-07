@@ -5,7 +5,8 @@
 - Rough monster's designs:
 
 https://github.com/user-attachments/assets/49f38734-d395-48f4-bba1-5fd2976ff8d4
-  Link:
+  
+Link:
   + https://github.com/notbaopham/COSC-416-Proj/commit/10f91845480cc43c3ed58b5e687ca5cfffb812b5
 
 - Wolf:
