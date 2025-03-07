@@ -1,6 +1,6 @@
 using System;
+using NUnit.Framework;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 // TODO:
 /*
@@ -11,14 +11,17 @@ using UnityEngine.InputSystem;
 */
 public class Player : MonoBehaviour
 {
+    [SerializeField] private InputManager inputManager;
+    [SerializeField] private float acceleration = 10f;
+    [SerializeField] private float maxSpeed = 5f;
+    [SerializeField] private float jumpForce = 3f;
     public Rigidbody2D rb;
-    [SerializeField] public float moveSpeed = 5f;
-    private Boolean canDash;
-    private Boolean canSlide;
-    private Boolean canDoubleJump;
-
-
-    Vector2 moveDirection = Vector2.zero;
+    private void Awake()
+    {
+        inputManager.OnMove.AddListener(MovePlayer);
+        inputManager.OnJump.AddListener(Jump);
+        rb = GetComponent<Rigidbody2D>();
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -29,23 +32,34 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Things to do - convert this whole code into the new InputSystem
-        float moveX = Input.GetAxis("Horizontal");
-        float moveY = Input.GetAxis("Vertical");
-        moveDirection = new Vector2(moveX, moveY).normalized;
-        rb.linearVelocity = new Vector2(moveDirection.x * moveSpeed, rb.linearVelocity.y);
-        // Barebone procedure of Jump key - make sure that you fix up this code asap
-        if (Input.GetKey(KeyCode.Space))
-            Jump();
+
     }
 
-    void Jump() {
-        rb.linearVelocityY = moveSpeed;
-    }
-
-
-    private void FixedUpdate()
+    void FixedUpdate()
     {
+        Vector2 velocity = rb.linearVelocity;
+        
+        if (velocity.magnitude > maxSpeed) {
+            velocity = velocity.normalized * maxSpeed;
+        }
 
+        rb.linearVelocity = new Vector2(velocity.x, rb.linearVelocity.y);
+    }
+
+    private bool isTouchingGround() 
+    {
+        return Physics2D.Raycast(transform.position, Vector2.down, 1.1f, 3);
+    }
+    
+    void Jump() {
+        // Need to ask TA / Teacher on why the horizontal momentum are not being maintained
+        Vector2 jumpDir = Vector2.up;
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
+        rb.AddForce(jumpDir * jumpForce, ForceMode2D.Impulse);
+    }
+
+    private void MovePlayer(Vector2 directionInput) {
+        rb.AddForce(directionInput * acceleration);
     }
 }
+        

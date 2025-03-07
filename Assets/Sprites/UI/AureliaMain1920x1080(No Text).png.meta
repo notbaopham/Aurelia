@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AureliaMain1920x1080(No Text)_0: 6083296626771444401
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
