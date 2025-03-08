@@ -10,13 +10,12 @@ public class Wolf : MonoBehaviour
     private float dashDuration = 0.2f; // Duration of the dash
     private float dashTimeLeft;
 
-    // Patrol boundary points 
+    // Patrol boundary points (these can be children of the wolf)
     public Transform leftPoint;
     public Transform rightPoint;
 
-    // The actual sprite that should move (child of wolf) with a Rigidbody2D component.
+    // The actual sprite that should move (child of wolf)
     public Transform Body;
-    private Rigidbody2D bodyRb;
 
     private bool movingRight = true;
     private Vector3 leftWorld;
@@ -30,15 +29,11 @@ public class Wolf : MonoBehaviour
 
         // Set the Body's starting position to the left boundary.
         Body.position = leftWorld;
-
-        // Get the Rigidbody2D component from the Body.
-        bodyRb = Body.GetComponent<Rigidbody2D>();
     }
 
-    void FixedUpdate()
+    void Update()
     {
-        UpdateDashTimer();
-
+        // Choose between normal movement and dash movement for the Body.
         if (!isDashing)
         {
             MoveBody();
@@ -47,30 +42,30 @@ public class Wolf : MonoBehaviour
         {
             DashMovement();
         }
+
+        UpdateDashTimer();
     }
 
-    // Normal movement.
+    // Normal movement for the Body.
     void MoveBody()
     {
         float moveDirection = movingRight ? 1f : -1f;
-        Vector2 movement = new Vector2(moveDirection * moveSpeed * Time.fixedDeltaTime, 0f);
-        bodyRb.MovePosition(bodyRb.position + movement);
+        Body.Translate(Vector3.right * moveDirection * moveSpeed * Time.deltaTime, Space.World);
         CheckBoundaries();
     }
 
     // Movement during dash.
     void DashMovement()
     {
-        float moveDirection = movingRight ? 1f : -1f;
-        Vector2 dashMovement = new Vector2(moveDirection * dashSpeed * Time.fixedDeltaTime, 0f);
-        bodyRb.MovePosition(bodyRb.position + dashMovement);
+        Vector3 dashDirection = movingRight ? Vector3.right : Vector3.left;
+        Body.Translate(dashDirection * dashSpeed * Time.deltaTime, Space.World);
         CheckBoundaries();
     }
 
     // Manages the dash timing.
     void UpdateDashTimer()
     {
-        dashTimer += Time.fixedDeltaTime;
+        dashTimer += Time.deltaTime;
 
         if (dashTimer >= dashInterval && !isDashing)
         {
@@ -81,7 +76,7 @@ public class Wolf : MonoBehaviour
 
         if (isDashing)
         {
-            dashTimeLeft -= Time.fixedDeltaTime;
+            dashTimeLeft -= Time.deltaTime;
             if (dashTimeLeft <= 0f)
             {
                 isDashing = false;
@@ -102,7 +97,7 @@ public class Wolf : MonoBehaviour
         }
     }
 
-    // Detect player attack with trigger collider.
+    //if the Body is hit by a player attack.
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("PlayerAttack"))

@@ -8,52 +8,39 @@ public class Insect : MonoBehaviour
     // Angular speed in degrees per second.
     public float angularSpeed = 90f;
 
-    // The center point of the patrol circle (set at start from the Body).
+    // The center point of the patrol circle (set at start).
     private Vector3 centerPoint;
 
     // The current angle (in degrees) used to compute position on the circle.
     private float angle;
 
-    // Reference to the Body object that will move (child of Insect).
-    public Transform Body;
-
-    // Rigidbody2D component attached to the Body.
-    private Rigidbody2D bodyRb;
-
     void Start()
     {
-        // Cache the Rigidbody2D component from the Body.
-        bodyRb = Body.GetComponent<Rigidbody2D>();
-
-        // Set the center point as the Body's starting position.
-        centerPoint = Body.position;
+        // Set the center point as the insect's starting position.
+        centerPoint = transform.position;
     }
 
-    // Use FixedUpdate for physics-based movement.
-    void FixedUpdate()
+    void Update()
     {
         Patrol();
     }
 
     void Patrol()
     {
-        // Increase the angle based on angular speed and fixedDeltaTime.
-        angle += angularSpeed * Time.fixedDeltaTime;
+        // Increase the angle based on angular speed and elapsed time.
+        angle += angularSpeed * Time.deltaTime;
 
-        // Convert the angle to radians.
+        // Convert the angle to radians for trigonometric functions.
         float rad = angle * Mathf.Deg2Rad;
 
         // Calculate the offset from the center using cosine for X and sine for Y.
         Vector3 offset = new Vector3(Mathf.Cos(rad), Mathf.Sin(rad), 0f) * patrolRadius;
 
-        // Calculate the new position.
-        Vector2 newPos = centerPoint + offset;
-
-        // Move the Body using Rigidbody2D's MovePosition.
-        bodyRb.MovePosition(newPos);
+        // Set the insect's position to the center plus the offset.
+        transform.position = centerPoint + offset;
     }
 
-    // Detect collisions with player attacks.
+    //if the Body is hit by a player attack.
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("PlayerAttack"))
