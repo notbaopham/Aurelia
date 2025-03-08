@@ -829,7 +829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3421299d4c8d8a448062d78ecd928f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeDuration: 5
+  fadeDuration: 4
   delayBeforeFade: 3
 --- !u!1 &1493563688
 GameObject:
@@ -1356,7 +1356,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 94759799109212448, guid: 68e3a700282976b4ea71ed58b16c06d0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: SampleScene
+      value: MainScene
       objectReference: {fileID: 0}
     - target: {fileID: 94759799109212448, guid: 68e3a700282976b4ea71ed58b16c06d0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
