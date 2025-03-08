@@ -47,6 +47,8 @@ public class Wolf : MonoBehaviour
         {
             DashMovement();
         }
+
+
     }
 
     // Normal movement.
