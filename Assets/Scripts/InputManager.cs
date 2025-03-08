@@ -6,6 +6,7 @@ public class InputManager : MonoBehaviour
     public UnityEvent<Vector2> OnMove = new();
     public UnityEvent OnJump = new();
     public UnityEvent OnDash = new();
+    public UnityEvent OnAttack = new();
     public UnityEvent OnSettingsMenu = new();
     
     void Start()
@@ -31,6 +32,10 @@ public class InputManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             OnDash?.Invoke();
+        }
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            OnAttack?.Invoke();
         }
         OnMove?.Invoke(input.normalized);
     }
