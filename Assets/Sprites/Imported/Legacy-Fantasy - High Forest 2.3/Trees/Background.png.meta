@@ -1,52 +1,40 @@
 fileFormatVersion: 2
-guid: 19135d11ad0af8243a997cb2b744bd7c
+guid: 819e47801ebc4724b9b6bf2282f5aac8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7642239210352435030
-    second: mm-crawl_0
+      213: -1955448553306655712
+    second: Background_0
   - first:
-      213: -4646643819573565424
-    second: mm-crawl_1
+      213: 7014286043975846214
+    second: Background_1
   - first:
-      213: 8307152512651035024
-    second: mm-crawl_2
+      213: -9078219959484023005
+    second: Background_2
   - first:
-      213: -54445679676193595
-    second: mm-crawl_3
+      213: -4817409605821441833
+    second: Background_3
   - first:
-      213: -145019286014699665
-    second: mm-crawl_4
+      213: -2146368423942107817
+    second: Background_4
   - first:
-      213: -7984336325675136224
-    second: mm-crawl_5
+      213: -3958678274390686719
+    second: Background_5
   - first:
-      213: 4877453704417069615
-    second: mm-crawl_6
+      213: -4821837225436941063
+    second: Background_6
   - first:
-      213: -7637235625606196721
-    second: mm-crawl_7
+      213: 7028156775451301730
+    second: Background_7
   - first:
-      213: 4003777128650395661
-    second: mm-crawl_8
+      213: -6975036532566498788
+    second: Background_8
   - first:
-      213: -2079231404392470295
-    second: mm-crawl_9
+      213: 5657654767279156548
+    second: Background_9
   - first:
-      213: 7665037911671998376
-    second: mm-crawl_10
-  - first:
-      213: -2931317901865379340
-    second: mm-crawl_11
-  - first:
-      213: 8166451613137566086
-    second: mm-crawl_12
-  - first:
-      213: -7508454181508693798
-    second: mm-crawl_13
-  - first:
-      213: -2490271311418276229
-    second: mm-crawl_14
+      213: 3751706319272519800
+    second: Background_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,7 +127,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -152,7 +140,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -168,13 +156,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mm-crawl_0
+      name: Background_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 142
-        width: 57
-        height: 38
+        x: 81
+        y: 220
+        width: 16
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 65f5e9d4210be0a60800000000000000
-      internalID: 7642239210352435030
+      spriteID: 024fa93b6e9dcd4e0800000000000000
+      internalID: -1955448553306655712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mm-crawl_1
+      name: Background_1
       rect:
         serializedVersion: 2
-        x: 68
-        y: 141
-        width: 57
-        height: 38
+        x: 90
+        y: 234
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 018ad88a01ec38fb0800000000000000
-      internalID: -4646643819573565424
+      spriteID: 64909246effb75160800000000000000
+      internalID: 7014286043975846214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mm-crawl_2
+      name: Background_2
       rect:
         serializedVersion: 2
-        x: 132
-        y: 141
-        width: 57
-        height: 36
+        x: 111
+        y: 0
+        width: 98
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0910f83723fe84370800000000000000
-      internalID: 8307152512651035024
+      spriteID: 32ff71a9b0fa30280800000000000000
+      internalID: -9078219959484023005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mm-crawl_3
+      name: Background_3
       rect:
         serializedVersion: 2
-        x: 194
-        y: 141
-        width: 61
-        height: 35
+        x: 223
+        y: 0
+        width: 129
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c4885b51f19e3ff0800000000000000
-      internalID: -54445679676193595
+      spriteID: 7d8557bbc7f152db0800000000000000
+      internalID: -4817409605821441833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mm-crawl_4
+      name: Background_4
       rect:
         serializedVersion: 2
-        x: 258
-        y: 138
-        width: 61
-        height: 35
+        x: 433
+        y: 220
+        width: 16
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +259,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f67538b4ab9ccfdf0800000000000000
-      internalID: -145019286014699665
+      spriteID: 75dc0d55a419632e0800000000000000
+      internalID: -2146368423942107817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mm-crawl_5
+      name: Background_5
       rect:
         serializedVersion: 2
-        x: 7
-        y: 78
-        width: 56
-        height: 38
+        x: 442
+        y: 234
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,20 +281,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02bc2e42a60f13190800000000000000
-      internalID: -7984336325675136224
+      spriteID: 10403ea5513ff09c0800000000000000
+      internalID: -3958678274390686719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mm-crawl_6
+      name: Background_6
       rect:
         serializedVersion: 2
-        x: 71
-        y: 78
-        width: 56
-        height: 38
+        x: 463
+        y: 0
+        width: 98
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,20 +303,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2a41346d4230b340800000000000000
-      internalID: 4877453704417069615
+      spriteID: 9f473153794651db0800000000000000
+      internalID: -4821837225436941063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mm-crawl_7
+      name: Background_7
       rect:
         serializedVersion: 2
-        x: 135
-        y: 78
-        width: 56
-        height: 35
+        x: 575
+        y: 0
+        width: 129
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -337,20 +325,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f02d8cd89a6130690800000000000000
-      internalID: -7637235625606196721
+      spriteID: 267978ab957098160800000000000000
+      internalID: 7028156775451301730
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mm-crawl_8
+      name: Background_8
       rect:
         serializedVersion: 2
-        x: 197
-        y: 77
-        width: 60
-        height: 35
+        x: 703
+        y: 0
+        width: 193
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -359,20 +347,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d005a09e516409730800000000000000
-      internalID: 4003777128650395661
+      spriteID: c12600d9a31b33f90800000000000000
+      internalID: -6975036532566498788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mm-crawl_9
+      name: Background_9
       rect:
         serializedVersion: 2
-        x: 260
-        y: 77
-        width: 60
-        height: 39
+        x: 0
+        y: 0
+        width: 97
+        height: 222
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,20 +369,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9e8a95fcd061523e0800000000000000
-      internalID: -2079231404392470295
+      spriteID: 44d28790907048e40800000000000000
+      internalID: 5657654767279156548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mm-crawl_10
+      name: Background_10
       rect:
         serializedVersion: 2
-        x: 4
-        y: 16
-        width: 57
-        height: 38
+        x: 351
+        y: 0
+        width: 98
+        height: 222
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -403,96 +391,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8a78c1b9e5faf5a60800000000000000
-      internalID: 7665037911671998376
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mm-crawl_11
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: 15
-        width: 57
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4f9129726edd157d0800000000000000
-      internalID: -2931317901865379340
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mm-crawl_12
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 15
-        width: 57
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 689fa747970155170800000000000000
-      internalID: 8166451613137566086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mm-crawl_13
-      rect:
-        serializedVersion: 2
-        x: 194
-        y: 15
-        width: 61
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad0c0e214bc9cc790800000000000000
-      internalID: -7508454181508693798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mm-crawl_14
-      rect:
-        serializedVersion: 2
-        x: 258
-        y: 15
-        width: 61
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b764190bf67c07dd0800000000000000
-      internalID: -2490271311418276229
+      spriteID: 878a3dd150db01430800000000000000
+      internalID: 3751706319272519800
       vertices: []
       indices: 
       edges: []
@@ -510,22 +410,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      mm-crawl_0: 7642239210352435030
-      mm-crawl_1: -4646643819573565424
-      mm-crawl_10: 7665037911671998376
-      mm-crawl_11: -2931317901865379340
-      mm-crawl_12: 8166451613137566086
-      mm-crawl_13: -7508454181508693798
-      mm-crawl_14: -2490271311418276229
-      mm-crawl_2: 8307152512651035024
-      mm-crawl_3: -54445679676193595
-      mm-crawl_4: -145019286014699665
-      mm-crawl_5: -7984336325675136224
-      mm-crawl_6: 4877453704417069615
-      mm-crawl_7: -7637235625606196721
-      mm-crawl_8: 4003777128650395661
-      mm-crawl_9: -2079231404392470295
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
