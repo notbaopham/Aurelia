@@ -335,7 +335,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hide-Sheet_0: 7439012081580386508
+      Hide-Sheet_1: -3429027478359741192
+      Hide-Sheet_2: 6839734950956085098
+      Hide-Sheet_3: -546791822559811015
+      Hide-Sheet_4: 3548033472127484636
+      Hide-Sheet_5: 7048769406480928315
+      Hide-Sheet_6: 4312416801371208025
+      Hide-Sheet_7: -448314115435835196
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
