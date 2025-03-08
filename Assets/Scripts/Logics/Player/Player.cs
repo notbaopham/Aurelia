@@ -61,5 +61,16 @@ public class Player : MonoBehaviour
     private void MovePlayer(Vector2 directionInput) {
         rb.AddForce(directionInput * acceleration);
     }
+
+    public float softLandingForce = 10f; // Small force to counteract the abrupt landing
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Ground") && rb.linearVelocity.y < 0) // Only apply on landing
+        {
+            // Slight upward force to smooth landing
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, Mathf.Lerp(rb.linearVelocity.y, 0, Time.deltaTime * softLandingForce));
+        }
+    }
 }
         
