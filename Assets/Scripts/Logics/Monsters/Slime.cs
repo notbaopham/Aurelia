@@ -40,6 +40,12 @@ public class Slime : MonoBehaviour
 
     void Update()
     {
+        // Stop executing if the object is being destroyed
+        if (rb == null)
+        {
+            return;
+        }
+
         // Increase the hop timer.
         hopTimer += Time.deltaTime;
 
@@ -62,6 +68,11 @@ public class Slime : MonoBehaviour
     // Applies an impulse force for hopping.
     void Hop()
     {
+        // If rb is null (destroyed), stop executing
+        if (rb == null)
+        {
+            return;
+        }
         // Record the direction at the moment of the hop.
         lastDirection = moveDirection;
         Vector2 hopVector = new Vector2(moveDirection * moveSpeed, hopForce);
@@ -91,6 +102,12 @@ public class Slime : MonoBehaviour
     // In LateUpdate, update the sprite's flip orientation only while airborne.
     void LateUpdate()
     {
+        // If Body is null (destroyed), stop executing
+        if (Body == null)
+        {
+            return;
+        }
+
         SpriteRenderer sr = Body.GetComponent<SpriteRenderer>();
         if (sr != null)
         {
@@ -103,19 +120,5 @@ public class Slime : MonoBehaviour
         }
     }
 
-    // Detect collision with a player attack.
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("PlayerAttack"))
-        {
-            Die();
-        }
-    }
 
-    // Handles the slime's death.
-    void Die()
-    {
-        // Optionally, add a death animation or particle effect here.
-        Destroy(gameObject);
-    }
 }
