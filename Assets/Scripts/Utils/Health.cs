@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using Unity.VisualScripting;
 
 public class Health : MonoBehaviour
 {
@@ -9,19 +10,26 @@ public class Health : MonoBehaviour
     [SerializeField] private int blinkCount = 3; // Number of times it blinks
     [SerializeField] private float deathBlinkDuration = 0.5f; // Time before disappearing
 
+    public bool canMove = true; // True by default; becomes false when hurt or dead
+
     private Rigidbody2D rb;
     private Collider2D col;
     private SpriteRenderer sr;
+    private Animator animator;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<Collider2D>();
         sr = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     public void TakeDamage(float damage, Vector2 knockbackDirection)
     {
+        // If already dead, do nothing.
+        if (health <= 0) return;
+
         // Apply knockback force if Rigidbody2D exists
         if (rb != null)
         {
@@ -34,10 +42,24 @@ public class Health : MonoBehaviour
 
         if (health > 0)
         {
+            // Disable movement during hurt effect.
+            canMove = false;
+            // Trigger Hurt animation if available
+            if (animator != null)
+            {
+                animator.SetTrigger("Hurt");
+            }
             StartCoroutine(BlinkEffect());
         }
         else
         {
+            // On death, disable movement permanently.
+            canMove = false;
+            // Trigger Death animation if available
+            if (animator != null)
+            {
+                animator.SetTrigger("Dead");
+            }
             StartCoroutine(DeathEffect());
         }
     }
@@ -57,6 +79,7 @@ public class Health : MonoBehaviour
 
         col.enabled = true; // Enable collider after invulnerability
         rb.bodyType = RigidbodyType2D.Dynamic; // Restore physics interaction
+        canMove = true; // Re-enable movement after hurt effect
     }
 
     private IEnumerator DeathEffect()
@@ -73,7 +96,6 @@ public class Health : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
             blinkTime += 0.2f;
         }
-
         Destroy(gameObject);
     }
 }
