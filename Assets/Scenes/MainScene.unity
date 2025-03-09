@@ -984,6 +984,7 @@ MonoBehaviour:
     m_Bits: 8
   dashSpeed: 20
   dashDuration: 0.1
+  myAttackAreaObject: {fileID: 69557328}
   softLandingForce: 5
 --- !u!114 &1708158287
 MonoBehaviour:
