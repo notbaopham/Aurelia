@@ -1,8 +1,6 @@
 using System;
-using NUnit.Framework;
-using UnityEditor.ShaderGraph.Internal;
+using System.Threading;
 using UnityEngine;
-using UnityEngine.Video;
 
 // TODO:
 /*
@@ -35,11 +33,20 @@ public class Player : MonoBehaviour
 
     // Double Jump variables
     private bool canDoubleJump;
+
+    // Attack variable
+    private bool isAttacking;
+    private GameObject attackArea = default;
+    private float timeAttacking = 0.125f;
+    private float attackTimer = 0f;
+
+    // Start of the player object
     private void Awake()
     {
         inputManager.OnMove.AddListener(MovePlayer);
         inputManager.OnJump.AddListener(Jump);
         inputManager.OnDash.AddListener(StartDash);
+        inputManager.OnAttack.AddListener(Attack);
         rb = GetComponent<Rigidbody2D>();
         currentlyFacing = Vector2.right;
     }
@@ -47,7 +54,7 @@ public class Player : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        attackArea = transform.GetChild(0).gameObject;
     }
 
     // Update is called once per frame
@@ -85,6 +92,18 @@ public class Player : MonoBehaviour
             canDoubleJump = true;
         } else {
             isOnGround = false;
+        }
+
+        // This is so that when you are attacking, it does not duplicates the attack
+        if (isAttacking) {
+
+            attackTimer += Time.deltaTime;
+
+            if (attackTimer >= timeAttacking) {
+                attackTimer = 0f;
+                isAttacking = false;
+                attackArea.SetActive(isAttacking);
+            }
         }
     }
 
@@ -154,5 +173,10 @@ public class Player : MonoBehaviour
         }
     }
 
+    void Attack() {
+        isAttacking = true;
+        attackArea.SetActive(isAttacking);
+        Debug.Log("I am attacking");
+    }
 }
        
