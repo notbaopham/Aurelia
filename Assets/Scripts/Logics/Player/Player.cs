@@ -142,6 +142,9 @@ public class Player : MonoBehaviour
         // Updating speed in Animator
         spriteObject.GetComponent<Animator>().SetFloat("xVelocity", Mathf.Abs(rb.linearVelocityX));
         spriteObject.GetComponent<Animator>().SetFloat("yVelocity", rb.linearVelocityY);
+
+        // Updating dash in Animator
+        spriteObject.GetComponent<Animator>().SetBool("isDashing", isDashing);
     }
 
     void Jump() {
