@@ -829,7 +829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3421299d4c8d8a448062d78ecd928f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeDuration: 4
+  fadeDuration: 5
   delayBeforeFade: 3
 --- !u!1 &1493563688
 GameObject:
@@ -1356,7 +1356,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 94759799109212448, guid: 68e3a700282976b4ea71ed58b16c06d0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: MainScene
+      value: SampleScene
       objectReference: {fileID: 0}
     - target: {fileID: 94759799109212448, guid: 68e3a700282976b4ea71ed58b16c06d0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1626,10 +1626,6 @@ PrefabInstance:
     - target: {fileID: 2965131551668051728, guid: e06eb497ccbdf464e8ec2ead2c6e55d1, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4503277281903829285, guid: e06eb497ccbdf464e8ec2ead2c6e55d1, type: 3}
-      propertyPath: m_Value
-      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4503277281903829285, guid: e06eb497ccbdf464e8ec2ead2c6e55d1, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
