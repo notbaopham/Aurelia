@@ -10,6 +10,10 @@ Link: https://github.com/notbaopham/COSC-416-Proj/commit/10f91845480cc43c3ed58b5
 
 - Wolf:
 
+https://github.com/user-attachments/assets/9b9b2cf9-053c-4ed0-b564-1dd12a4eca7f
+
+Link: https://github.com/notbaopham/COSC-416-Proj/commit/0bc660a666e0de936078886157f7b1793ab56e29#diff-c66289a3c24a4119b55890312a7f30cd098e93c5ee60d380d0f7fee4c0939d0a
+
 - Slime:
 
 https://github.com/user-attachments/assets/da51ac65-44e3-47d0-9dfe-c17c2ce5b6fd
@@ -21,8 +25,6 @@ https://github.com/user-attachments/assets/d7f253a0-008a-4537-a0a0-9bd19cb3b63f
 
 Link: https://github.com/notbaopham/COSC-416-Proj/commit/58c46cc9c1a3998907adca61372c4731135d0cf6
 
-
-  
 - Insects:
 
 
