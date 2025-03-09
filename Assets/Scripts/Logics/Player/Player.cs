@@ -108,8 +108,10 @@ public class Player : MonoBehaviour
     }
 
     void Jump() {
+        // Debug.Log("Jumping");
+        // Debug.Log(isOnGround);
         if (isOnGround) {
-            // Need to ask TA / Teacher on why the horizontal momentum are not being maintained
+            // Need to ask TA / Teacher on why the horizontal momentum are not being maintained    
             Vector2 jumpDir = Vector2.up;
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
             rb.AddForce(jumpDir * jumpForce, ForceMode2D.Impulse);
