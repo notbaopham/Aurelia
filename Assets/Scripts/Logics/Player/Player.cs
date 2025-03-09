@@ -40,6 +40,8 @@ public class Player : MonoBehaviour
     private float timeAttacking = 0.125f;
     private float attackTimer = 0f;
 
+    [SerializeField] GameObject myAttackAreaObject;
+
     // Start of the player object
     private void Awake()
     {
@@ -105,13 +107,20 @@ public class Player : MonoBehaviour
                 attackArea.SetActive(isAttacking);
             }
         }
+        
+        // Adjusting the Area to be left and right, as rotation
+        if (currentlyFacing == Vector2.left) {
+            myAttackAreaObject.transform.rotation = Quaternion.Euler(0, 0, 180);
+        } else {
+            myAttackAreaObject.transform.rotation = Quaternion.Euler(0, 0, 0);
+        }
     }
 
     void Jump() {
         // Debug.Log("Jumping");
         // Debug.Log(isOnGround);
         if (isOnGround) {
-            // Need to ask TA / Teacher on why the horizontal momentum are not being maintained    
+            // Need to ask TA / Teacher on why the horizontal momentum are not being maintained
             Vector2 jumpDir = Vector2.up;
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
             rb.AddForce(jumpDir * jumpForce, ForceMode2D.Impulse);
@@ -176,7 +185,6 @@ public class Player : MonoBehaviour
     void Attack() {
         isAttacking = true;
         attackArea.SetActive(isAttacking);
-        Debug.Log("I am attacking");
     }
 }
        

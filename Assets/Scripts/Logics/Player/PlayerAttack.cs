@@ -7,7 +7,6 @@ public class PlayerAttack : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        Debug.Log("I just hit something");
 
         // Check if the object has a Health component
         Health health = collider.GetComponent<Health>();
