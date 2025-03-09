@@ -1,5 +1,6 @@
 using System;
 using System.Threading;
+using NUnit.Framework;
 using UnityEngine;
 
 // TODO:
@@ -42,6 +43,9 @@ public class Player : MonoBehaviour
 
     [SerializeField] GameObject myAttackAreaObject;
 
+    // Animation / Sprite Renderer
+    [SerializeField] GameObject spriteObject;
+
     // Start of the player object
     private void Awake()
     {
@@ -76,6 +80,8 @@ public class Player : MonoBehaviour
         rb.linearVelocity = new Vector2(velocity.x, rb.linearVelocity.y);
         */
 
+        // Movement speed capper
+
         if (Math.Abs(rb.linearVelocityX) > maxSpeed) {
             if (rb.linearVelocityX < 0) {
                 rb.linearVelocityX = -maxSpeed;
@@ -85,10 +91,23 @@ public class Player : MonoBehaviour
                 currentlyFacing = Vector2.right;
             }
         } 
+
+        
+        // Rotator
+        if (rb.linearVelocityX < 0) {
+            currentlyFacing = Vector2.left;
+        } else if (rb.linearVelocityX > 0) {
+            currentlyFacing = Vector2.right;
+        }
+    
+
+        // Dashing check
         if (isDashing) {
             DashMovement();
         }
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1.1f, consideredGround);
+
+        // Ground collision check
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.55f, consideredGround);
         if (hit) {
             isOnGround = true;
             canDoubleJump = true;
@@ -96,7 +115,10 @@ public class Player : MonoBehaviour
             isOnGround = false;
         }
 
-        // This is so that when you are attacking, it does not duplicates the attack
+        // Updating isJumping variable in Animator
+        spriteObject.GetComponent<Animator>().SetBool("isJumping", !isOnGround);
+
+        // Attack management
         if (isAttacking) {
 
             attackTimer += Time.deltaTime;
@@ -111,16 +133,22 @@ public class Player : MonoBehaviour
         // Adjusting the Area to be left and right, as rotation
         if (currentlyFacing == Vector2.left) {
             myAttackAreaObject.transform.rotation = Quaternion.Euler(0, 0, 180);
+            spriteObject.GetComponent<SpriteRenderer>().flipX = true;
         } else {
             myAttackAreaObject.transform.rotation = Quaternion.Euler(0, 0, 0);
+            spriteObject.GetComponent<SpriteRenderer>().flipX = false;
         }
+
+        // Updating speed in Animator
+        spriteObject.GetComponent<Animator>().SetFloat("xVelocity", Mathf.Abs(rb.linearVelocityX));
+        spriteObject.GetComponent<Animator>().SetFloat("yVelocity", rb.linearVelocityY);
     }
 
     void Jump() {
         // Debug.Log("Jumping");
         // Debug.Log(isOnGround);
+        
         if (isOnGround) {
-            // Need to ask TA / Teacher on why the horizontal momentum are not being maintained
             Vector2 jumpDir = Vector2.up;
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
             rb.AddForce(jumpDir * jumpForce, ForceMode2D.Impulse);
@@ -130,6 +158,7 @@ public class Player : MonoBehaviour
             rb.AddForce(jumpDir * jumpForce, ForceMode2D.Impulse);
             canDoubleJump = false;
         }
+        
     }
 
     private void MovePlayer(Vector2 directionInput) {

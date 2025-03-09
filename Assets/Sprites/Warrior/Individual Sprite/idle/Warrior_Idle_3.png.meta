@@ -116,12 +116,12 @@ TextureImporter:
       name: Warrior_Idle_3_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 0
-        width: 22
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 13
+        y: 1
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 37b66915c6751ea4b83ca48a88553589
     internalID: 0
     vertices: []
     indices: 
