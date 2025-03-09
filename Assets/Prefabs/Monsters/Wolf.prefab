@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4491646134807762131}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Left Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7318666331003870765}
   - component: {fileID: 2418739490269263539}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wolf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 890737276880878121}
   - component: {fileID: 4483066191178642649}
   - component: {fileID: 2766499943336273416}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -297,7 +297,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7919820074286716039}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Right Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}

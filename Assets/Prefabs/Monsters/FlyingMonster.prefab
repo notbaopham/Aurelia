@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1270782654531652911}
   - component: {fileID: 3653153055905876845}
   - component: {fileID: 2390799091168031567}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -213,8 +213,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8098672901183525439}
-  - component: {fileID: 6726303770667091088}
-  m_Layer: 0
+  - component: {fileID: 7300757998041223843}
+  m_Layer: 6
   m_Name: FlyingMonster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -237,7 +237,7 @@ Transform:
   - {fileID: 5674688634387057011}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6726303770667091088
+--- !u!114 &7300757998041223843
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -250,5 +250,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   patrolRadius: 2
-  angularSpeed: 50
+  angularSpeed: 90
   Body: {fileID: 5674688634387057011}
