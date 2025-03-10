@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      magic-cliffs-preview-detailx1_0: 4675201537592300096
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

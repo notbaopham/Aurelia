@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      no-shuriken-dude3_0: -1309439016235041303
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

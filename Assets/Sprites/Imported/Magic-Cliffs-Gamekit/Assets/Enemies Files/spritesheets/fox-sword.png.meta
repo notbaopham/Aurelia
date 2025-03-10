@@ -335,7 +335,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fox-sword_0: 5777332400875437281
+      fox-sword_1: -697682293883099377
+      fox-sword_2: -4948047454187214106
+      fox-sword_3: -4591276207623468840
+      fox-sword_4: 8517769956867105480
+      fox-sword_5: 3033936917301485001
+      fox-sword_6: -9058226093457108480
+      fox-sword_7: 8437919569366338297
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

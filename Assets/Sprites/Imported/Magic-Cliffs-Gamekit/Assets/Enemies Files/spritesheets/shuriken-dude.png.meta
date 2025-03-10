@@ -410,7 +410,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      shuriken-dude_0: -5000087551642326664
+      shuriken-dude_1: -8923054681237893561
+      shuriken-dude_10: 9122693459148540138
+      shuriken-dude_2: -621390472911308400
+      shuriken-dude_3: -5104018426299765613
+      shuriken-dude_4: 4731572858788538675
+      shuriken-dude_5: 3454739795835812743
+      shuriken-dude_6: -6345660079342199659
+      shuriken-dude_7: 4953030747150288081
+      shuriken-dude_8: 2694632140996707200
+      shuriken-dude_9: 8673765938166758265
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
