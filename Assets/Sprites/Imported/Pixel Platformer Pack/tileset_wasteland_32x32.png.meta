@@ -1,0 +1,3143 @@
+fileFormatVersion: 2
+guid: 6bec91e47f373dd40819664a35473425
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 945256737631568155
+    second: tileset_wasteland_32x32_0
+  - first:
+      213: -2773993864591462806
+    second: tileset_wasteland_32x32_1
+  - first:
+      213: -3096531951616032824
+    second: tileset_wasteland_32x32_2
+  - first:
+      213: -6789524917768872238
+    second: tileset_wasteland_32x32_3
+  - first:
+      213: -7443139170062820706
+    second: tileset_wasteland_32x32_4
+  - first:
+      213: -4520010570334938222
+    second: tileset_wasteland_32x32_5
+  - first:
+      213: -1273521843951301628
+    second: tileset_wasteland_32x32_6
+  - first:
+      213: 3404895990889744151
+    second: tileset_wasteland_32x32_7
+  - first:
+      213: 7273160429962029385
+    second: tileset_wasteland_32x32_8
+  - first:
+      213: -3535590506190512838
+    second: tileset_wasteland_32x32_9
+  - first:
+      213: -8440019672434859452
+    second: tileset_wasteland_32x32_10
+  - first:
+      213: 6929177585575772585
+    second: tileset_wasteland_32x32_11
+  - first:
+      213: -3805808011557947986
+    second: tileset_wasteland_32x32_12
+  - first:
+      213: -2168702198712863744
+    second: tileset_wasteland_32x32_13
+  - first:
+      213: 7961543034584560903
+    second: tileset_wasteland_32x32_14
+  - first:
+      213: -5655867588166736124
+    second: tileset_wasteland_32x32_15
+  - first:
+      213: -4543865822968276460
+    second: tileset_wasteland_32x32_16
+  - first:
+      213: -5588186278905872764
+    second: tileset_wasteland_32x32_17
+  - first:
+      213: -3250006979587169276
+    second: tileset_wasteland_32x32_18
+  - first:
+      213: -9099879376976077572
+    second: tileset_wasteland_32x32_19
+  - first:
+      213: -875570133523662456
+    second: tileset_wasteland_32x32_20
+  - first:
+      213: -4907043246614466133
+    second: tileset_wasteland_32x32_21
+  - first:
+      213: -6139241386709829386
+    second: tileset_wasteland_32x32_22
+  - first:
+      213: -1939687142234876756
+    second: tileset_wasteland_32x32_23
+  - first:
+      213: 5050092179551635427
+    second: tileset_wasteland_32x32_24
+  - first:
+      213: -3999508560542714535
+    second: tileset_wasteland_32x32_25
+  - first:
+      213: -8708781453462323524
+    second: tileset_wasteland_32x32_26
+  - first:
+      213: -3311662140746349831
+    second: tileset_wasteland_32x32_27
+  - first:
+      213: -2921543637652119094
+    second: tileset_wasteland_32x32_28
+  - first:
+      213: -8363756434820277796
+    second: tileset_wasteland_32x32_29
+  - first:
+      213: 7562001694551892928
+    second: tileset_wasteland_32x32_30
+  - first:
+      213: -5579023545604531679
+    second: tileset_wasteland_32x32_31
+  - first:
+      213: 8398587250095687814
+    second: tileset_wasteland_32x32_32
+  - first:
+      213: -1967367007457647480
+    second: tileset_wasteland_32x32_33
+  - first:
+      213: 389500525690178197
+    second: tileset_wasteland_32x32_34
+  - first:
+      213: 5541323490848505020
+    second: tileset_wasteland_32x32_35
+  - first:
+      213: 8413212048959422866
+    second: tileset_wasteland_32x32_36
+  - first:
+      213: 5072372041080560849
+    second: tileset_wasteland_32x32_37
+  - first:
+      213: -3293586470268612931
+    second: tileset_wasteland_32x32_38
+  - first:
+      213: -3632107744209700891
+    second: tileset_wasteland_32x32_39
+  - first:
+      213: 48165799305804511
+    second: tileset_wasteland_32x32_40
+  - first:
+      213: -7791556422023155119
+    second: tileset_wasteland_32x32_41
+  - first:
+      213: -6949732966421548763
+    second: tileset_wasteland_32x32_42
+  - first:
+      213: -4408021779107858112
+    second: tileset_wasteland_32x32_43
+  - first:
+      213: 3314520428578462286
+    second: tileset_wasteland_32x32_44
+  - first:
+      213: -1027562517883648778
+    second: tileset_wasteland_32x32_45
+  - first:
+      213: 2379968111596127497
+    second: tileset_wasteland_32x32_46
+  - first:
+      213: 5255074977611962673
+    second: tileset_wasteland_32x32_47
+  - first:
+      213: 8001091387497095030
+    second: tileset_wasteland_32x32_48
+  - first:
+      213: -2112977440800309628
+    second: tileset_wasteland_32x32_49
+  - first:
+      213: 6870743671517702669
+    second: tileset_wasteland_32x32_50
+  - first:
+      213: -934594661241717552
+    second: tileset_wasteland_32x32_51
+  - first:
+      213: 7191862733181790780
+    second: tileset_wasteland_32x32_52
+  - first:
+      213: -5000027549310971993
+    second: tileset_wasteland_32x32_53
+  - first:
+      213: -6959461766499658735
+    second: tileset_wasteland_32x32_54
+  - first:
+      213: -3059457583495294030
+    second: tileset_wasteland_32x32_55
+  - first:
+      213: 4908920666523670736
+    second: tileset_wasteland_32x32_56
+  - first:
+      213: -5796116871247823793
+    second: tileset_wasteland_32x32_57
+  - first:
+      213: -3617467201479472314
+    second: tileset_wasteland_32x32_58
+  - first:
+      213: -7500276044562324443
+    second: tileset_wasteland_32x32_59
+  - first:
+      213: 1198102981009190
+    second: tileset_wasteland_32x32_60
+  - first:
+      213: -8266065559196102640
+    second: tileset_wasteland_32x32_61
+  - first:
+      213: 5549148551793417993
+    second: tileset_wasteland_32x32_62
+  - first:
+      213: 7068248057805127305
+    second: tileset_wasteland_32x32_63
+  - first:
+      213: -822715771651525550
+    second: tileset_wasteland_32x32_64
+  - first:
+      213: -6091080171362632018
+    second: tileset_wasteland_32x32_65
+  - first:
+      213: -3048454356571892460
+    second: tileset_wasteland_32x32_66
+  - first:
+      213: 6459342586814238385
+    second: tileset_wasteland_32x32_67
+  - first:
+      213: -1162594714931947626
+    second: tileset_wasteland_32x32_68
+  - first:
+      213: 2740112529454581782
+    second: tileset_wasteland_32x32_69
+  - first:
+      213: -150457259556693530
+    second: tileset_wasteland_32x32_70
+  - first:
+      213: -5553160210406750361
+    second: tileset_wasteland_32x32_71
+  - first:
+      213: 5573448450477396043
+    second: tileset_wasteland_32x32_72
+  - first:
+      213: -7786683479037345037
+    second: tileset_wasteland_32x32_73
+  - first:
+      213: -1357801762578186596
+    second: tileset_wasteland_32x32_74
+  - first:
+      213: -1569816947934000627
+    second: tileset_wasteland_32x32_75
+  - first:
+      213: 1252919853632662811
+    second: tileset_wasteland_32x32_76
+  - first:
+      213: 3468916975262383145
+    second: tileset_wasteland_32x32_77
+  - first:
+      213: 5934098408740228676
+    second: tileset_wasteland_32x32_78
+  - first:
+      213: 5303358839219143257
+    second: tileset_wasteland_32x32_79
+  - first:
+      213: -2976723359132961734
+    second: tileset_wasteland_32x32_80
+  - first:
+      213: -82174747215105767
+    second: tileset_wasteland_32x32_81
+  - first:
+      213: 6629729195398764521
+    second: tileset_wasteland_32x32_82
+  - first:
+      213: 5106138041986736367
+    second: tileset_wasteland_32x32_83
+  - first:
+      213: 7310320756491743501
+    second: tileset_wasteland_32x32_84
+  - first:
+      213: 8808553927991829691
+    second: tileset_wasteland_32x32_85
+  - first:
+      213: -5038914608593190479
+    second: tileset_wasteland_32x32_86
+  - first:
+      213: -8156614608939961926
+    second: tileset_wasteland_32x32_87
+  - first:
+      213: -101237915943502348
+    second: tileset_wasteland_32x32_88
+  - first:
+      213: -5358022814836899704
+    second: tileset_wasteland_32x32_89
+  - first:
+      213: -667199773284775963
+    second: tileset_wasteland_32x32_90
+  - first:
+      213: 1929431400974583223
+    second: tileset_wasteland_32x32_91
+  - first:
+      213: -336733194948938055
+    second: tileset_wasteland_32x32_92
+  - first:
+      213: -3736492005040187635
+    second: tileset_wasteland_32x32_93
+  - first:
+      213: -7618449614668496038
+    second: tileset_wasteland_32x32_94
+  - first:
+      213: 7593246556425905378
+    second: tileset_wasteland_32x32_95
+  - first:
+      213: -516467187991379377
+    second: tileset_wasteland_32x32_96
+  - first:
+      213: -4342341131004275865
+    second: tileset_wasteland_32x32_97
+  - first:
+      213: -2733237826447090431
+    second: tileset_wasteland_32x32_98
+  - first:
+      213: -2672910310449522204
+    second: tileset_wasteland_32x32_99
+  - first:
+      213: -8347576489997037956
+    second: tileset_wasteland_32x32_100
+  - first:
+      213: -2800675434487136211
+    second: tileset_wasteland_32x32_101
+  - first:
+      213: 3426903398442778143
+    second: tileset_wasteland_32x32_102
+  - first:
+      213: -920103635020182540
+    second: tileset_wasteland_32x32_103
+  - first:
+      213: -1001005347015632932
+    second: tileset_wasteland_32x32_104
+  - first:
+      213: -1947208593192600570
+    second: tileset_wasteland_32x32_105
+  - first:
+      213: 8480989448429588431
+    second: tileset_wasteland_32x32_106
+  - first:
+      213: -5165254223713632822
+    second: tileset_wasteland_32x32_107
+  - first:
+      213: -8542634949101807643
+    second: tileset_wasteland_32x32_108
+  - first:
+      213: -4157029329476506830
+    second: tileset_wasteland_32x32_109
+  - first:
+      213: 2083179633810389659
+    second: tileset_wasteland_32x32_110
+  - first:
+      213: -260151242253041444
+    second: tileset_wasteland_32x32_111
+  - first:
+      213: -248885276539302627
+    second: tileset_wasteland_32x32_112
+  - first:
+      213: 6887041781741890467
+    second: tileset_wasteland_32x32_113
+  - first:
+      213: -8814166325803889654
+    second: tileset_wasteland_32x32_114
+  - first:
+      213: 729909487902281205
+    second: tileset_wasteland_32x32_115
+  - first:
+      213: -4053368802716091575
+    second: tileset_wasteland_32x32_116
+  - first:
+      213: -6257736691677660093
+    second: tileset_wasteland_32x32_117
+  - first:
+      213: 7667325625017260952
+    second: tileset_wasteland_32x32_118
+  - first:
+      213: -776402350816550114
+    second: tileset_wasteland_32x32_119
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 671
+        width: 43
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b110314aef93e1d00800000000000000
+      internalID: 945256737631568155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 671
+        width: 42
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ea9e3074bc089d0800000000000000
+      internalID: -2773993864591462806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 671
+        width: 43
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf774c9898e605d0800000000000000
+      internalID: -3096531951616032824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 671
+        width: 42
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de19ba4f03c6c1a0800000000000000
+      internalID: -6789524917768872238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 671
+        width: 22
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a1c9a3c58a4b890800000000000000
+      internalID: -7443139170062820706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 671
+        width: 32
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29bdc269552b541c0800000000000000
+      internalID: -4520010570334938222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 735
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c059d51aa835ee0800000000000000
+      internalID: -1273521843951301628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 735
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71782222dde904f20800000000000000
+      internalID: 3404895990889744151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 735
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949605e40e47fe460800000000000000
+      internalID: 7273160429962029385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 676
+        width: 32
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d554fba2f0feec0800000000000000
+      internalID: -3535590506190512838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 671
+        width: 123
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442263733d60fda80800000000000000
+      internalID: -8440019672434859452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 737
+        width: 93
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1c7dd3d42692060800000000000000
+      internalID: 6929177585575772585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 671
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5b0cb07cd0f2bc0800000000000000
+      internalID: -3805808011557947986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 668
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0047c1e27d837e1e0800000000000000
+      internalID: -2168702198712863744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 703
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705f56835351d7e60800000000000000
+      internalID: 7961543034584560903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 671
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4072da605625281b0800000000000000
+      internalID: -5655867588166736124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 671
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a10f2cb12f0f0c0800000000000000
+      internalID: -4543865822968276460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 671
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e7a13df26c272b0800000000000000
+      internalID: -5588186278905872764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 610
+        width: 14
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404aa201fd7a5e2d0800000000000000
+      internalID: -3250006979587169276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 572
+        width: 40
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc107c7bebb6b180800000000000000
+      internalID: -9099879376976077572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 639
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889716f3a9959d3f0800000000000000
+      internalID: -875570133523662456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 639
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1b0147a2ea6ebb0800000000000000
+      internalID: -4907043246614466133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_22
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 639
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f8b8c26c780dcaa0800000000000000
+      internalID: -6139241386709829386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_23
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 639
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca492bf22d8d415e0800000000000000
+      internalID: -1939687142234876756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_24
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 639
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7472da418851640800000000000000
+      internalID: 5050092179551635427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_25
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 639
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955b7bc8724ee78c0800000000000000
+      internalID: -3999508560542714535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_26
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 639
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe3edfb861342780800000000000000
+      internalID: -8708781453462323524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_27
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 607
+        width: 161
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f244b434dc9a02d0800000000000000
+      internalID: -3311662140746349831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 607
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac161f16a879477d0800000000000000
+      internalID: -2921543637652119094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 607
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd956aae5d7fdeb80800000000000000
+      internalID: -8363756434820277796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_30
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 607
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3eaaad970a1f860800000000000000
+      internalID: 7562001694551892928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 607
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a93bae4a35392b0800000000000000
+      internalID: -5579023545604531679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_32
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 607
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68804193b96cd8470800000000000000
+      internalID: 8398587250095687814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_33
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 607
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884e9a9512282b4e0800000000000000
+      internalID: -1967367007457647480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_34
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 607
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a47991aa8c76500800000000000000
+      internalID: 389500525690178197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_35
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 607
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc7d811b5cb6ec40800000000000000
+      internalID: 5541323490848505020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_36
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 607
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291434e88cbb1c470800000000000000
+      internalID: 8413212048959422866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_37
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 607
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dcda3d2f7fa46640800000000000000
+      internalID: 5072372041080560849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_38
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 607
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe4b923e84da42d0800000000000000
+      internalID: -3293586470268612931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_39
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 607
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e77f681049289dc0800000000000000
+      internalID: -3632107744209700891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_40
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 574
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdaf1fd0a8e1ba000800000000000000
+      internalID: 48165799305804511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_41
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 570
+        width: 62
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15275e137b4ded390800000000000000
+      internalID: -7791556422023155119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_42
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 570
+        width: 64
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5213f9430b69d8f90800000000000000
+      internalID: -6949732966421548763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_43
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 571
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049371eeb8f83d2c0800000000000000
+      internalID: -4408021779107858112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_44
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 573
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ad13ac4ca8ffd20800000000000000
+      internalID: 3314520428578462286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_45
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 572
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f40a01955d5db1f0800000000000000
+      internalID: -1027562517883648778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_46
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 415
+        width: 326
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905c17c4368570120800000000000000
+      internalID: 2379968111596127497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_47
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 415
+        width: 71
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139da9c79d6cde840800000000000000
+      internalID: 5255074977611962673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_48
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 415
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f933fa936990f60800000000000000
+      internalID: 8001091387497095030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_49
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 415
+        width: 82
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48efeae66323da2e0800000000000000
+      internalID: -2112977440800309628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_50
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 447
+        width: 130
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a639b67f8c95f50800000000000000
+      internalID: 6870743671517702669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_51
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 447
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dcf5b77b17a703f0800000000000000
+      internalID: -934594661241717552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_52
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 511
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3aabac3d01aec360800000000000000
+      internalID: 7191862733181790780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_53
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 415
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af07286f655c9ab0800000000000000
+      internalID: -5000027549310971993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_54
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 412
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11410eb65660b6f90800000000000000
+      internalID: -6959461766499658735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_55
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 447
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3536a998f9a85d0800000000000000
+      internalID: -3059457583495294030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_56
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 447
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d897be665dff1440800000000000000
+      internalID: 4908920666523670736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_57
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 388
+        width: 194
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4cff9c2a6e009fa0800000000000000
+      internalID: -5796116871247823793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_58
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 287
+        width: 130
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b80351fbc2ccdc0800000000000000
+      internalID: -3617467201479472314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_59
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 287
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524ad76fcaaa9e790800000000000000
+      internalID: -7500276044562324443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_60
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 375
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f56961ba1440000800000000000000
+      internalID: 1198102981009190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_61
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 292
+        width: 54
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010960e5b29094d80800000000000000
+      internalID: -8266065559196102640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_62
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 255
+        width: 66
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f158b0539820d40800000000000000
+      internalID: 5549148551793417993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_63
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 292
+        width: 36
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98eb1ddc826771260800000000000000
+      internalID: 7068248057805127305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_64
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 292
+        width: 36
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25479975d502594f0800000000000000
+      internalID: -822715771651525550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_65
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 292
+        width: 36
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae31872bd2287ba0800000000000000
+      internalID: -6091080171362632018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_66
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 368
+        width: 88
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4155a820ae6b1b5d0800000000000000
+      internalID: -3048454356571892460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_67
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 351
+        width: 161
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be8d911cd134a950800000000000000
+      internalID: 6459342586814238385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_68
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 343
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6971cb63442addfe0800000000000000
+      internalID: -1162594714931947626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_69
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 311
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618ccbae3d5d60620800000000000000
+      internalID: 2740112529454581782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_70
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 287
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e99e3a6be779edf0800000000000000
+      internalID: -150457259556693530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_71
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 287
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7674fd5e5363fe2b0800000000000000
+      internalID: -5553160210406750361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_72
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 287
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4018a816ddd85d40800000000000000
+      internalID: 5573448450477396043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_73
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 287
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f28395a1a420f390800000000000000
+      internalID: -7786683479037345037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_74
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 304
+        width: 88
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9eb02aad7e182de0800000000000000
+      internalID: -1357801762578186596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_75
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 271
+        width: 66
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a81089dc3e63ae0800000000000000
+      internalID: -1569816947934000627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_76
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 255
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d2fc7f7f3436110800000000000000
+      internalID: 1252919853632662811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_77
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 240
+        width: 88
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c36d12c91142030800000000000000
+      internalID: 3468916975262383145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_78
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 210
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e0c2300172a5250800000000000000
+      internalID: 5934098408740228676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_79
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 0
+        width: 257
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952c51014c0599940800000000000000
+      internalID: 5303358839219143257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_80
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 174
+        width: 132
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34b54050ed80b6d0800000000000000
+      internalID: -2976723359132961734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_81
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 165
+        width: 8
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9117cb6b08e0cdef0800000000000000
+      internalID: -82174747215105767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_82
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 165
+        width: 25
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e797c0d397810c50800000000000000
+      internalID: 6629729195398764521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_83
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 174
+        width: 115
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe06ab6ee75acd640800000000000000
+      internalID: 5106138041986736367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_84
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 210
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01fadc0ff9737560800000000000000
+      internalID: 7310320756491743501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_85
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 212
+        width: 88
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb423d6b0254e3a70800000000000000
+      internalID: 8808553927991829691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_86
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 210
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1c64d5cdd221ab0800000000000000
+      internalID: -5038914608593190479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_87
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 31
+        width: 162
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab13f509a32edce80800000000000000
+      internalID: -8156614608939961926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_88
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 191
+        width: 98
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fdf26ed6a4589ef0800000000000000
+      internalID: -101237915943502348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_89
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 173
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880453f43aa74a5b0800000000000000
+      internalID: -5358022814836899704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_90
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 178
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7c3275751adb6f0800000000000000
+      internalID: -667199773284775963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_91
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 115
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b50399f2a7b6ca10800000000000000
+      internalID: 1929431400974583223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_92
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 115
+        width: 16
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b67cfa71fea35bf0800000000000000
+      internalID: -336733194948938055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_93
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 116
+        width: 16
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d071e757150552cc0800000000000000
+      internalID: -3736492005040187635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_94
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 127
+        width: 66
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5309729074d54690800000000000000
+      internalID: -7618449614668496038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_95
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 63
+        width: 130
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e469b72381a06960800000000000000
+      internalID: 7593246556425905378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_96
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 164
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4201a134d325d8f0800000000000000
+      internalID: -516467187991379377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_97
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 141
+        width: 34
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7631ce08fb7ecb3c0800000000000000
+      internalID: -4342341131004275865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_98
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 127
+        width: 6
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10dd5fb9da6911ad0800000000000000
+      internalID: -2733237826447090431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_99
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 143
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e95d2dfb3ae7ead0800000000000000
+      internalID: -2672910310449522204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_100
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 137
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e0352e863772c80800000000000000
+      internalID: -8347576489997037956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_101
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 135
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d204b3ce7800229d0800000000000000
+      internalID: -2800675434487136211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_102
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 72
+        width: 6
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1eb2cffb7ece8f20800000000000000
+      internalID: 3426903398442778143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_103
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 79
+        width: 6
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb831e6e922b33f0800000000000000
+      internalID: -920103635020182540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_104
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 45
+        width: 73
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7ddd0c0f6bb12f0800000000000000
+      internalID: -1001005347015632932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_105
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 0
+        width: 66
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60cba2be9102af4e0800000000000000
+      internalID: -1947208593192600570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_106
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 104
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf4b7918f682b570800000000000000
+      internalID: 8480989448429588431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_107
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 103
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd76f476a45158b0800000000000000
+      internalID: -5165254223713632822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_108
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 31
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e713fc46c6727980800000000000000
+      internalID: -8542634949101807643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_109
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 63
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b2ca789d34f46c0800000000000000
+      internalID: -4157029329476506830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_110
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 73
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ab89cf6d0f8ec10800000000000000
+      internalID: 2083179633810389659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_111
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 65
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd081a1d2d1c36cf0800000000000000
+      internalID: -260151242253041444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_112
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 31
+        width: 98
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1dcc0ed828cb8cf0800000000000000
+      internalID: -248885276539302627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_113
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abaff9e200b39f50800000000000000
+      internalID: 6887041781741890467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_114
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ccf371d6acda580800000000000000
+      internalID: -8814166325803889654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_115
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 31
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd4a90efc8212a00800000000000000
+      internalID: 729909487902281205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_116
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 0
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94bf472bc8a8fb7c0800000000000000
+      internalID: -4053368802716091575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_117
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 0
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34cff9242ad0829a0800000000000000
+      internalID: -6257736691677660093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_118
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 0
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b57606800d76a60800000000000000
+      internalID: 7667325625017260952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_wasteland_32x32_119
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e132dccec2aa935f0800000000000000
+      internalID: -776402350816550114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
