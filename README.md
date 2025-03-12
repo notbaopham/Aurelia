@@ -20,14 +20,15 @@ https://github.com/user-attachments/assets/da51ac65-44e3-47d0-9dfe-c17c2ce5b6fd
 
 Link: https://github.com/notbaopham/COSC-416-Proj/commit/9f100d48665aaefca371ba264e801bc36d57a635
 
-
 https://github.com/user-attachments/assets/d7f253a0-008a-4537-a0a0-9bd19cb3b63f
 
 Link: https://github.com/notbaopham/COSC-416-Proj/commit/58c46cc9c1a3998907adca61372c4731135d0cf6
 
-- Insects:
+- Flying Monster:
 
+https://github.com/user-attachments/assets/5385acd2-2b8a-4097-9687-bbae2a98d667
 
+Link: https://github.com/notbaopham/COSC-416-Proj/commit/6b71636519e68f0d88d946abdfcf9e9b01fa1622
 
 
 ### Toby Nguyen:
