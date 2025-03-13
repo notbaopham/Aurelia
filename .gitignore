@@ -74,3 +74,4 @@ crashlytics-build.properties
 # Ignore TestScene.unity in the Assets folder
 Assets/Scenes/TestScene.unity
 Assets/Scenes/TestScene.unity.meta
+.vscode/settings.json
