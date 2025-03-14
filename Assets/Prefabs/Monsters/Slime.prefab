@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6024386050337240474}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Right Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5291871700200419657}
   - component: {fileID: 4085544741000996474}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Slime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ Transform:
   m_GameObject: {fileID: 8375420587567801316}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.4, y: -4.06, z: 0.004941651}
+  m_LocalPosition: {x: -11.11, y: -4.06, z: 0.004941651}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 3443618067535764224}
   - component: {fileID: 8430351489572785177}
   - component: {fileID: 8729552526199082888}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -165,7 +165,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7642239210352435030, guid: 19135d11ad0af8243a997cb2b744bd7c, type: 3}
-  m_Color: {r: 0, g: 0.87647057, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.7264151, b: 0.15105498, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -287,7 +287,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7905150768975085078}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Left Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}

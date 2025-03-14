@@ -690,8 +690,8 @@ MonoBehaviour:
   consideredGround:
     serializedVersion: 2
     m_Bits: 8
-  dashSpeed: 20
-  dashDuration: 0.1
+  dashSpeed: 12
+  dashDuration: 0.3
   myAttackAreaObject: {fileID: 69557328}
   spriteObject: {fileID: 2065121553}
   softLandingForce: 5

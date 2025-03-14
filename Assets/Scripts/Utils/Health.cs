@@ -44,15 +44,6 @@ public class Health : MonoBehaviour
         {
             // Disable movement during hurt effect.
             canMove = false;
-
-            // Set sprite orientation based on the attack direction.
-            if (sr != null)
-            {
-                // If knockbackDirection.x > 0, the attacker is on the left, so face left (flipX = true).
-                // Otherwise, face right.
-                sr.flipX = (knockbackDirection.x > 0);
-            }
-
             // Trigger Hurt animation if available
             if (animator != null)
             {
@@ -64,14 +55,6 @@ public class Health : MonoBehaviour
         {
             // On death, disable movement permanently.
             canMove = false;
-
-            if (sr != null)
-            {
-                // If knockbackDirection.x > 0, the attacker is on the left, so face left (flipX = true).
-                // Otherwise, face right.
-                sr.flipX = (knockbackDirection.x > 0);
-            }
-
             // Trigger Death animation if available
             if (animator != null)
             {

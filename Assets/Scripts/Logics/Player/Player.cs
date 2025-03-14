@@ -5,10 +5,7 @@ using UnityEngine;
 
 // TODO:
 /*
-    Slide - on pressing Shift - lowering Collision box, and adds a temporary velocity boost
-    Dash - only applicable in the air - propels where the character is facing
     Attack - E/LeftClick, creates a cascading cone hitbox infront of player
-    Health System - player will be having a hp system
 */
 public class Player : MonoBehaviour
 {
@@ -19,6 +16,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float acceleration = 10f;
     [SerializeField] private float maxSpeed = 5f;
     [SerializeField] private float jumpForce = 3f;
+    private bool isMovementKeyOn;
 
     // Overlord variables
     [SerializeField] private LayerMask consideredGround;
@@ -38,9 +36,18 @@ public class Player : MonoBehaviour
     // Attack variable
     private bool isAttacking;
     private GameObject attackArea = default;
-    private float timeAttacking = 0.125f;
+    private float timeAttacking = 0.2f;
     private float attackTimer = 0f;
+    private bool inAttackSequence;
 
+    // Attack cooldown variables
+    [SerializeField] private float attackCooldown = 0.1f;  
+    private float lastAttackTime = 0f; // Time of the last attack
+    [SerializeField] private float attackRecovery = 1f;
+    private float attackRecoveryTimer = 0f;
+    private bool isInRecovery;
+
+    // Attack area variable
     [SerializeField] GameObject myAttackAreaObject;
 
     // Animation / Sprite Renderer
@@ -66,7 +73,26 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        {
+            isMovementKeyOn = true;
+        }
+        else
+        {
+            isMovementKeyOn = false;
+        }
+        spriteObject.GetComponent<Animator>().SetBool("isMovementKeyOn", isMovementKeyOn);
 
+        // Update the recovery timer
+        if (attackRecoveryTimer > 0)
+        {
+            attackRecoveryTimer -= Time.deltaTime;
+
+            if (attackRecoveryTimer <= 0)
+            {
+                isInRecovery = false; // Recovery has ended
+            }
+        }
     }
 
     void FixedUpdate()
@@ -117,6 +143,7 @@ public class Player : MonoBehaviour
 
         // Updating isJumping variable in Animator
         spriteObject.GetComponent<Animator>().SetBool("isJumping", !isOnGround);
+        spriteObject.GetComponent<Animator>().SetBool("isInRecovery", isInRecovery);
 
         // Attack management
         if (isAttacking) {
@@ -127,6 +154,7 @@ public class Player : MonoBehaviour
                 attackTimer = 0f;
                 isAttacking = false;
                 attackArea.SetActive(isAttacking);
+                isInRecovery = true;
             }
         }
         
@@ -142,6 +170,13 @@ public class Player : MonoBehaviour
         // Updating speed in Animator
         spriteObject.GetComponent<Animator>().SetFloat("xVelocity", Mathf.Abs(rb.linearVelocityX));
         spriteObject.GetComponent<Animator>().SetFloat("yVelocity", rb.linearVelocityY);
+
+        // Updating dash in Animator
+        spriteObject.GetComponent<Animator>().SetBool("isDashing", isDashing);
+        spriteObject.GetComponent<Animator>().SetBool("isAttacking", isAttacking);
+
+        // Updating attack sequence
+        spriteObject.GetComponent<Animator>().SetBool("isAttacking", isAttacking || isInRecovery);
     }
 
     void Jump() {
@@ -162,7 +197,12 @@ public class Player : MonoBehaviour
     }
 
     private void MovePlayer(Vector2 directionInput) {
-        rb.AddForce(directionInput * acceleration);
+        if (isInRecovery)
+        {
+            return; // Ignore movement during recovery
+        }
+        if (!isAttacking)
+            rb.AddForce(directionInput * acceleration);
     }
 
     [SerializeField] private float softLandingForce = 10f; // Small force to counteract the abrupt landing
@@ -172,7 +212,7 @@ public class Player : MonoBehaviour
         if (collision.collider.CompareTag("Ground") && rb.linearVelocity.y < 0) // Only apply on landing
         {
             // Slight upward force to smooth landing - bumping out the stops at the landing
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, Mathf.Lerp(rb.linearVelocity.y, 0, Time.deltaTime * softLandingForce));
+            rb.linearVelocity = new Vector2(0, Mathf.Lerp(rb.linearVelocity.y, 0, Time.deltaTime * softLandingForce));
         }
         if (collision.collider.CompareTag("Wall"))
         {
@@ -204,7 +244,7 @@ public class Player : MonoBehaviour
         else
         {
             isDashing = false; // End the dash after the duration
-            rb.linearVelocity = Vector2.zero; // Stop movement after dash ends
+            // rb.linearVelocity = Vector2.zero; // Stop movement after dash ends
 
             // Restore gravity after dash ends
             rb.gravityScale = 2f; // Restore original gravity scale
@@ -212,8 +252,26 @@ public class Player : MonoBehaviour
     }
 
     void Attack() {
+
+        // Break if in cooldown
+        if (Time.time - lastAttackTime < attackCooldown)
+        {
+            // Attack is on cooldown
+            return;
+        }
+
+        // Attack logics
+        isInRecovery = false;
+
         isAttacking = true;
+
         attackArea.SetActive(isAttacking);
+
+        lastAttackTime = Time.time; // Record time
+
+        attackTimer = 0f; // Reset time after
+
+        attackRecoveryTimer = attackRecovery;
     }
 }
        

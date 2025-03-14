@@ -77,9 +77,6 @@ public class Slime : MonoBehaviour
         lastDirection = moveDirection;
         Vector2 hopVector = new Vector2(moveDirection * moveSpeed, hopForce);
         rb.AddForce(hopVector, ForceMode2D.Impulse);
-
-        //Change the hop interval to a random value between 2 and 4.
-        hopInterval = Random.Range(1.5f, 3.5f);
     }
 
     // Randomly choose a new horizontal direction, forcing it inward if at boundaries.
