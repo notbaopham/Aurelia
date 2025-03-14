@@ -54,6 +54,11 @@ public class Player : MonoBehaviour
     // Animation / Sprite Renderer
     [SerializeField] GameObject spriteObject;
 
+    // After image variables (exclusively for After Images effects when dashing)
+    public float distanceBetweenImages;
+    private float dashTimeLeft;
+    private float lastImageXpos;
+
     // Start of the player object
     private void Awake()
     {
@@ -164,11 +169,17 @@ public class Player : MonoBehaviour
         
         // Adjusting the Area to be left and right, as rotation
         if (currentlyFacing == Vector2.left) {
+            transform.rotation = Quaternion.Euler(0, 180, 0); // Rotate 180° around the Y-axis
+            /*
             myAttackAreaObject.transform.rotation = Quaternion.Euler(0, 0, 180);
             spriteObject.GetComponent<SpriteRenderer>().flipX = true;
+            */
         } else {
+            transform.rotation = Quaternion.Euler(0, 0, 0); // Rotate 180° around the Y-axis
+            /*
             myAttackAreaObject.transform.rotation = Quaternion.Euler(0, 0, 0);
             spriteObject.GetComponent<SpriteRenderer>().flipX = false;
+            */
         }
 
         // Updating speed in Animator
@@ -235,6 +246,8 @@ public class Player : MonoBehaviour
         // Disable gravity during dash
         rb.gravityScale = 0f; // Disable gravity
 
+        lastImageXpos = transform.position.x;
+
     }
 
     void DashMovement()
@@ -245,6 +258,11 @@ public class Player : MonoBehaviour
         if (dashTime < dashDuration)
         {
             rb.linearVelocity = currentlyFacing * dashSpeed; // Move in dash direction
+
+            if (Mathf.Abs(transform.position.x - lastImageXpos) > distanceBetweenImages) {
+                PlayerAfterImagesPool.Instance.GetFromPool();
+                lastImageXpos = transform.position.x;
+            }
         }
         else
         {
