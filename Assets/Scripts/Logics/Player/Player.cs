@@ -36,12 +36,16 @@ public class Player : MonoBehaviour
     // Attack variable
     private bool isAttacking;
     private GameObject attackArea = default;
-    private float timeAttacking = 0.4f;
+    private float timeAttacking = 0.2f;
     private float attackTimer = 0f;
+    private bool inAttackSequence;
 
     // Attack cooldown variables
-    [SerializeField] private float attackCooldown = 1f;  // 1 second cooldown before another attack
+    [SerializeField] private float attackCooldown = 0.1f;  
     private float lastAttackTime = 0f; // Time of the last attack
+    [SerializeField] private float attackRecovery = 1f;
+    private float attackRecoveryTimer = 0f;
+    private bool isInRecovery;
 
     // Attack area variable
     [SerializeField] GameObject myAttackAreaObject;
@@ -78,6 +82,17 @@ public class Player : MonoBehaviour
             isMovementKeyOn = false;
         }
         spriteObject.GetComponent<Animator>().SetBool("isMovementKeyOn", isMovementKeyOn);
+
+        // Update the recovery timer
+        if (attackRecoveryTimer > 0)
+        {
+            attackRecoveryTimer -= Time.deltaTime;
+
+            if (attackRecoveryTimer <= 0)
+            {
+                isInRecovery = false; // Recovery has ended
+            }
+        }
     }
 
     void FixedUpdate()
@@ -128,6 +143,7 @@ public class Player : MonoBehaviour
 
         // Updating isJumping variable in Animator
         spriteObject.GetComponent<Animator>().SetBool("isJumping", !isOnGround);
+        spriteObject.GetComponent<Animator>().SetBool("isInRecovery", isInRecovery);
 
         // Attack management
         if (isAttacking) {
@@ -138,6 +154,7 @@ public class Player : MonoBehaviour
                 attackTimer = 0f;
                 isAttacking = false;
                 attackArea.SetActive(isAttacking);
+                isInRecovery = true;
             }
         }
         
@@ -157,6 +174,9 @@ public class Player : MonoBehaviour
         // Updating dash in Animator
         spriteObject.GetComponent<Animator>().SetBool("isDashing", isDashing);
         spriteObject.GetComponent<Animator>().SetBool("isAttacking", isAttacking);
+
+        // Updating attack sequence
+        spriteObject.GetComponent<Animator>().SetBool("isAttacking", isAttacking || isInRecovery);
     }
 
     void Jump() {
@@ -177,7 +197,12 @@ public class Player : MonoBehaviour
     }
 
     private void MovePlayer(Vector2 directionInput) {
-        rb.AddForce(directionInput * acceleration);
+        if (isInRecovery)
+        {
+            return; // Ignore movement during recovery
+        }
+        if (!isAttacking)
+            rb.AddForce(directionInput * acceleration);
     }
 
     [SerializeField] private float softLandingForce = 10f; // Small force to counteract the abrupt landing
@@ -236,12 +261,17 @@ public class Player : MonoBehaviour
         }
 
         // Attack logics
+        isInRecovery = false;
+
         isAttacking = true;
+
         attackArea.SetActive(isAttacking);
 
         lastAttackTime = Time.time; // Record time
 
         attackTimer = 0f; // Reset time after
+
+        attackRecoveryTimer = attackRecovery;
     }
 }
        
