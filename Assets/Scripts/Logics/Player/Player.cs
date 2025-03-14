@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float acceleration = 10f;
     [SerializeField] private float maxSpeed = 5f;
     [SerializeField] private float jumpForce = 3f;
+    private bool isMovementKeyHeld;
 
     // Overlord variables
     [SerializeField] private LayerMask consideredGround;
@@ -38,9 +39,14 @@ public class Player : MonoBehaviour
     // Attack variable
     private bool isAttacking;
     private GameObject attackArea = default;
-    private float timeAttacking = 0.125f;
+    private float timeAttacking = 0.4f;
     private float attackTimer = 0f;
 
+    // Attack cooldown variables
+    [SerializeField] private float attackCooldown = 1f;  // 1 second cooldown before another attack
+    private float lastAttackTime = 0f; // Time of the last attack
+
+    // Attack area variable
     [SerializeField] GameObject myAttackAreaObject;
 
     // Animation / Sprite Renderer
@@ -145,6 +151,7 @@ public class Player : MonoBehaviour
 
         // Updating dash in Animator
         spriteObject.GetComponent<Animator>().SetBool("isDashing", isDashing);
+        spriteObject.GetComponent<Animator>().SetBool("isAttacking", isAttacking);
     }
 
     void Jump() {
@@ -175,7 +182,7 @@ public class Player : MonoBehaviour
         if (collision.collider.CompareTag("Ground") && rb.linearVelocity.y < 0) // Only apply on landing
         {
             // Slight upward force to smooth landing - bumping out the stops at the landing
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, Mathf.Lerp(rb.linearVelocity.y, 0, Time.deltaTime * softLandingForce));
+            rb.linearVelocity = new Vector2(0, Mathf.Lerp(rb.linearVelocity.y, 0, Time.deltaTime * softLandingForce));
         }
         if (collision.collider.CompareTag("Wall"))
         {
@@ -215,8 +222,21 @@ public class Player : MonoBehaviour
     }
 
     void Attack() {
+
+        // Break if in cooldown
+        if (Time.time - lastAttackTime < attackCooldown)
+        {
+            // Attack is on cooldown
+            return;
+        }
+
+        // Attack logics
         isAttacking = true;
         attackArea.SetActive(isAttacking);
+
+        lastAttackTime = Time.time; // Record time
+
+        attackTimer = 0f; // Reset time after
     }
 }
        
