@@ -5,10 +5,7 @@ using UnityEngine;
 
 // TODO:
 /*
-    Slide - on pressing Shift - lowering Collision box, and adds a temporary velocity boost
-    Dash - only applicable in the air - propels where the character is facing
     Attack - E/LeftClick, creates a cascading cone hitbox infront of player
-    Health System - player will be having a hp system
 */
 public class Player : MonoBehaviour
 {
@@ -19,7 +16,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float acceleration = 10f;
     [SerializeField] private float maxSpeed = 5f;
     [SerializeField] private float jumpForce = 3f;
-    private bool isMovementKeyHeld;
+    private bool isMovementKeyOn;
 
     // Overlord variables
     [SerializeField] private LayerMask consideredGround;
@@ -72,7 +69,15 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        {
+            isMovementKeyOn = true;
+        }
+        else
+        {
+            isMovementKeyOn = false;
+        }
+        spriteObject.GetComponent<Animator>().SetBool("isMovementKeyOn", isMovementKeyOn);
     }
 
     void FixedUpdate()
@@ -214,7 +219,7 @@ public class Player : MonoBehaviour
         else
         {
             isDashing = false; // End the dash after the duration
-            rb.linearVelocity = Vector2.zero; // Stop movement after dash ends
+            // rb.linearVelocity = Vector2.zero; // Stop movement after dash ends
 
             // Restore gravity after dash ends
             rb.gravityScale = 2f; // Restore original gravity scale
