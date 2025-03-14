@@ -692,6 +692,8 @@ MonoBehaviour:
     m_Bits: 8
   dashSpeed: 12
   dashDuration: 0.3
+  attackCooldown: 0.1
+  attackRecovery: 0.7
   myAttackAreaObject: {fileID: 69557328}
   spriteObject: {fileID: 2065121553}
   softLandingForce: 5
