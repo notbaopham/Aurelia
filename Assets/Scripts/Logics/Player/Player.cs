@@ -43,9 +43,10 @@ public class Player : MonoBehaviour
     // Attack cooldown variables
     [SerializeField] private float attackCooldown = 0.1f;  
     private float lastAttackTime = 0f; // Time of the last attack
-    [SerializeField] private float attackRecovery = 1f;
+    [SerializeField] private float attackRecovery = 0.7f;
     private float attackRecoveryTimer = 0f;
     private bool isInRecovery;
+    private bool isAttackingInAir;
 
     // Attack area variable
     [SerializeField] GameObject myAttackAreaObject;
@@ -91,6 +92,9 @@ public class Player : MonoBehaviour
             if (attackRecoveryTimer <= 0)
             {
                 isInRecovery = false; // Recovery has ended
+                if (isAttackingInAir) {
+                    isAttackingInAir = !isAttackingInAir;
+                }
             }
         }
     }
@@ -176,7 +180,8 @@ public class Player : MonoBehaviour
         spriteObject.GetComponent<Animator>().SetBool("isAttacking", isAttacking);
 
         // Updating attack sequence
-        spriteObject.GetComponent<Animator>().SetBool("isAttacking", isAttacking || isInRecovery);
+        spriteObject.GetComponent<Animator>().SetBool("isInAttackSequence", isAttacking || isInRecovery);
+        spriteObject.GetComponent<Animator>().SetBool("isAttackingInAir", isAttackingInAir);
     }
 
     void Jump() {
@@ -253,8 +258,8 @@ public class Player : MonoBehaviour
 
     void Attack() {
 
-        // Break if in cooldown
-        if (Time.time - lastAttackTime < attackCooldown)
+        // Break if in cooldown, or currently dashing
+        if ((Time.time - lastAttackTime < attackCooldown) || isDashing)
         {
             // Attack is on cooldown
             return;
@@ -264,6 +269,10 @@ public class Player : MonoBehaviour
         isInRecovery = false;
 
         isAttacking = true;
+
+        if (!isOnGround) {
+            isAttackingInAir = true;
+        }
 
         attackArea.SetActive(isAttacking);
 
