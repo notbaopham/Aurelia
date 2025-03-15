@@ -16216,7 +16216,7 @@ GameObject:
   - component: {fileID: 353049924}
   - component: {fileID: 353049923}
   m_Layer: 0
-  m_Name: Decaration Top Grid (1)
+  m_Name: Decoration Top Grid (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26799,7 +26799,7 @@ GameObject:
   - component: {fileID: 663693479}
   - component: {fileID: 663693478}
   m_Layer: 0
-  m_Name: Backgroud grid
+  m_Name: Background grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37051,7 +37051,7 @@ GameObject:
   - component: {fileID: 1069123020}
   - component: {fileID: 1069123019}
   m_Layer: 0
-  m_Name: Decaration Top Grid
+  m_Name: Decoration Top Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -85517,7 +85517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aecf084e1a3b8e7408cbb675f019699a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tilemap: {fileID: 0}
+  tilemap: {fileID: 338165346}
   fadeDuration: 0.7
 --- !u!1 &1763512635
 GameObject:
@@ -86903,7 +86903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aecf084e1a3b8e7408cbb675f019699a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tilemap: {fileID: 0}
+  tilemap: {fileID: 1176905348}
   fadeDuration: 0.7
 --- !u!4 &1988348343
 Transform:
