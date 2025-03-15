@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float maxSpeed = 5f;
     [SerializeField] private float jumpForce = 3f;
     private bool isMovementKeyOn;
+    [SerializeField] private float gravityScale = 2f;
 
     // Overlord variables
     [SerializeField] private LayerMask consideredGround;
@@ -68,6 +69,7 @@ public class Player : MonoBehaviour
         inputManager.OnAttack.AddListener(Attack);
         rb = GetComponent<Rigidbody2D>();
         currentlyFacing = Vector2.right;
+        rb.gravityScale = gravityScale;
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -120,19 +122,19 @@ public class Player : MonoBehaviour
         if (Math.Abs(rb.linearVelocityX) > maxSpeed) {
             if (rb.linearVelocityX < 0) {
                 rb.linearVelocityX = -maxSpeed;
-                currentlyFacing = Vector2.left;
             } else if (rb.linearVelocityX > 0) {
                 rb.linearVelocityX = maxSpeed;
-                currentlyFacing = Vector2.right;
             }
         } 
 
-        
+        float turnThreshhold = 0.1f;
         // Rotator
-        if (rb.linearVelocityX < 0) {
-            currentlyFacing = Vector2.left;
-        } else if (rb.linearVelocityX > 0) {
-            currentlyFacing = Vector2.right;
+        if (Math.Abs(rb.linearVelocityX) > turnThreshhold && isMovementKeyOn) {
+            if (rb.linearVelocityX < 0) {
+                currentlyFacing = Vector2.left;
+            } else if (rb.linearVelocityX > 0) {
+                currentlyFacing = Vector2.right;
+            }
         }
     
 
@@ -174,7 +176,7 @@ public class Player : MonoBehaviour
             myAttackAreaObject.transform.rotation = Quaternion.Euler(0, 0, 180);
             spriteObject.GetComponent<SpriteRenderer>().flipX = true;
             */
-        } else {
+        } else if (currentlyFacing == Vector2.right) {
             transform.rotation = Quaternion.Euler(0, 0, 0); // Rotate 180° around the Y-axis
             /*
             myAttackAreaObject.transform.rotation = Quaternion.Euler(0, 0, 0);
@@ -270,7 +272,7 @@ public class Player : MonoBehaviour
             // rb.linearVelocity = Vector2.zero; // Stop movement after dash ends
 
             // Restore gravity after dash ends
-            rb.gravityScale = 2f; // Restore original gravity scale
+            rb.gravityScale = gravityScale; // Restore original gravity scale
         }
     }
 
