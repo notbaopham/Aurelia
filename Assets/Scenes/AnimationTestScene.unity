@@ -218,6 +218,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 3
   knockbackForce: 5
+--- !u!1 &541173341
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 541173343}
+  - component: {fileID: 541173342}
+  m_Layer: 0
+  m_Name: Player After Image Pool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &541173342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541173341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf1397b0fa65a3419588ee74e19c3bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  afterImagePrefab: {fileID: 2757480797578246243, guid: 099011ad0f945194c945621b36bbd3e6, type: 3}
+--- !u!4 &541173343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541173341}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &914181483
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,7 +621,7 @@ GameObject:
   - component: {fileID: 1708158287}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -690,10 +735,13 @@ MonoBehaviour:
   consideredGround:
     serializedVersion: 2
     m_Bits: 8
-  dashSpeed: 20
-  dashDuration: 0.1
+  dashSpeed: 12
+  dashDuration: 0.3
+  attackCooldown: 0.1
+  attackRecovery: 0.7
   myAttackAreaObject: {fileID: 69557328}
   spriteObject: {fileID: 2065121553}
+  distanceBetweenImages: 0.3
   softLandingForce: 5
 --- !u!114 &1708158287
 MonoBehaviour:
@@ -831,3 +879,4 @@ SceneRoots:
   - {fileID: 1636780458}
   - {fileID: 1708158283}
   - {fileID: 914181486}
+  - {fileID: 541173343}

@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,12 +116,12 @@ TextureImporter:
       name: Warrior_Attack_6_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 0
-        width: 50
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 10
+        y: 1
+        width: 52
+        height: 41
+      alignment: 9
+      pivot: {x: 0.3496529, y: 0.0037228912}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ff2c04cefe6b271438fc4684702f9c39
     internalID: 0
     vertices: []
     indices: 
