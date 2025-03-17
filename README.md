@@ -1,4 +1,4 @@
-# COSC 416 Project
+# COSC 416 Project - Aurelia
 
 ## Contributors: 
 ### Hoc Nguyen:
