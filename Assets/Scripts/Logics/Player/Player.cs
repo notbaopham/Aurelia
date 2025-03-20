@@ -9,6 +9,7 @@ using UnityEngine;
 */
 public class Player : MonoBehaviour
 {
+    public static Player Instance;
     // Managers - top objects to refer to
     [SerializeField] private InputManager inputManager;
 
@@ -32,7 +33,10 @@ public class Player : MonoBehaviour
     [SerializeField] private float dashDuration = 0.1f;
 
     // Double Jump variables
-    private bool canDoubleJump;
+    public bool canDoubleJump;
+    // Dash variables
+    public bool canDash;
+
 
     // Attack variable
     private bool isAttacking;
@@ -63,6 +67,10 @@ public class Player : MonoBehaviour
     // Start of the player object
     private void Awake()
     {
+        if (Instance == null)
+            Instance = this;
+        else
+            Destroy(gameObject);
         inputManager.OnMove.AddListener(MovePlayer);
         inputManager.OnJump.AddListener(Jump);
         inputManager.OnDash.AddListener(StartDash);
@@ -148,6 +156,7 @@ public class Player : MonoBehaviour
         if (hit) {
             isOnGround = true;
             canDoubleJump = true;
+            canDash = true;
         } else {
             isOnGround = false;
         }
@@ -240,6 +249,9 @@ public class Player : MonoBehaviour
 
     void StartDash()
     {
+        if (!canDash) {
+            return;
+        }
         // Initiate dash and record the time
         isDashing = true;
         dashTime = 0f; // Reset dash duration
@@ -249,6 +261,7 @@ public class Player : MonoBehaviour
         rb.gravityScale = 0f; // Disable gravity
 
         lastImageXpos = transform.position.x;
+        canDash = false;
 
     }
 
