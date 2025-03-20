@@ -1,0 +1,2922 @@
+fileFormatVersion: 2
+guid: 68a7e9d9cca6e2541b9d6a68f4400308
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6072437328602859643
+    second: Deco All 4_0
+  - first:
+      213: 6639295433383229038
+    second: Deco All 4_1
+  - first:
+      213: -6150507846025495634
+    second: Deco All 4_2
+  - first:
+      213: 1073957184210802331
+    second: Deco All 4_3
+  - first:
+      213: 1779930877392565369
+    second: Deco All 4_4
+  - first:
+      213: -3962030697359531811
+    second: Deco All 4_5
+  - first:
+      213: -2774259604288872773
+    second: Deco All 4_6
+  - first:
+      213: 7263092850857972310
+    second: Deco All 4_7
+  - first:
+      213: -3799121913800067404
+    second: Deco All 4_8
+  - first:
+      213: -2374409493015810115
+    second: Deco All 4_9
+  - first:
+      213: -2165111860901568428
+    second: Deco All 4_10
+  - first:
+      213: -655927513512703267
+    second: Deco All 4_11
+  - first:
+      213: 774704145291870201
+    second: Deco All 4_12
+  - first:
+      213: 3545580957019769044
+    second: Deco All 4_13
+  - first:
+      213: -7655954778307360099
+    second: Deco All 4_14
+  - first:
+      213: -1366522977840623359
+    second: Deco All 4_15
+  - first:
+      213: 9001134755746141506
+    second: Deco All 4_16
+  - first:
+      213: -3316107873924266856
+    second: Deco All 4_17
+  - first:
+      213: 3831615718777304412
+    second: Deco All 4_18
+  - first:
+      213: 9202854653810710529
+    second: Deco All 4_19
+  - first:
+      213: 3377639171247259082
+    second: Deco All 4_20
+  - first:
+      213: 4297172937108251297
+    second: Deco All 4_21
+  - first:
+      213: -8630555718427455852
+    second: Deco All 4_22
+  - first:
+      213: 36293240087345699
+    second: Deco All 4_23
+  - first:
+      213: -6867438152112881104
+    second: Deco All 4_24
+  - first:
+      213: -1755169440996904970
+    second: Deco All 4_25
+  - first:
+      213: 5747526051041499569
+    second: Deco All 4_26
+  - first:
+      213: 1836899264081318487
+    second: Deco All 4_27
+  - first:
+      213: -1126401374753476309
+    second: Deco All 4_28
+  - first:
+      213: 3138880631231791249
+    second: Deco All 4_29
+  - first:
+      213: -1391912001963730719
+    second: Deco All 4_30
+  - first:
+      213: -3898841967665907162
+    second: Deco All 4_31
+  - first:
+      213: 928763764278962896
+    second: Deco All 4_32
+  - first:
+      213: -3503663027769383492
+    second: Deco All 4_33
+  - first:
+      213: -2036577040987575022
+    second: Deco All 4_34
+  - first:
+      213: -3161334019256964063
+    second: Deco All 4_35
+  - first:
+      213: -6616165606453827627
+    second: Deco All 4_36
+  - first:
+      213: 3983913006122280182
+    second: Deco All 4_37
+  - first:
+      213: -3426351662613743406
+    second: Deco All 4_38
+  - first:
+      213: -5794872161474883888
+    second: Deco All 4_39
+  - first:
+      213: 6368533784158508897
+    second: Deco All 4_40
+  - first:
+      213: 2671803245173079813
+    second: Deco All 4_41
+  - first:
+      213: -475952527611281053
+    second: Deco All 4_42
+  - first:
+      213: 4914229560103564092
+    second: Deco All 4_43
+  - first:
+      213: -7626322564930138996
+    second: Deco All 4_44
+  - first:
+      213: -1234900670664718530
+    second: Deco All 4_45
+  - first:
+      213: -5793922642022281739
+    second: Deco All 4_46
+  - first:
+      213: -2441589895998806192
+    second: Deco All 4_47
+  - first:
+      213: -7357697481884576931
+    second: Deco All 4_48
+  - first:
+      213: 2474423191225157962
+    second: Deco All 4_49
+  - first:
+      213: -5091233948030619659
+    second: Deco All 4_50
+  - first:
+      213: 6625208237012565342
+    second: Deco All 4_51
+  - first:
+      213: 9085306821954151645
+    second: Deco All 4_52
+  - first:
+      213: -5089016609730010620
+    second: Deco All 4_53
+  - first:
+      213: -2643833381948577688
+    second: Deco All 4_54
+  - first:
+      213: -3141631833025682812
+    second: Deco All 4_55
+  - first:
+      213: 8124146836855630201
+    second: Deco All 4_56
+  - first:
+      213: -5069276310911036774
+    second: Deco All 4_57
+  - first:
+      213: -4550165929339831065
+    second: Deco All 4_58
+  - first:
+      213: -2039800293614279043
+    second: Deco All 4_59
+  - first:
+      213: -3253712841387649956
+    second: Deco All 4_60
+  - first:
+      213: 499527544728813936
+    second: Deco All 4_61
+  - first:
+      213: -5401342119198431691
+    second: Deco All 4_62
+  - first:
+      213: -7114787459682839424
+    second: Deco All 4_63
+  - first:
+      213: -8451970584727951157
+    second: Deco All 4_64
+  - first:
+      213: -8755539455182263966
+    second: Deco All 4_65
+  - first:
+      213: 4897490141560414639
+    second: Deco All 4_66
+  - first:
+      213: 2418699164399232373
+    second: Deco All 4_67
+  - first:
+      213: 3610160064555279428
+    second: Deco All 4_68
+  - first:
+      213: 3447686099531980331
+    second: Deco All 4_69
+  - first:
+      213: 1668395080916770634
+    second: Deco All 4_70
+  - first:
+      213: 345493196224277193
+    second: Deco All 4_71
+  - first:
+      213: -1392066853329371519
+    second: Deco All 4_72
+  - first:
+      213: -6332738504553369218
+    second: Deco All 4_73
+  - first:
+      213: -5554098619865320275
+    second: Deco All 4_74
+  - first:
+      213: -9125558419386727106
+    second: Deco All 4_75
+  - first:
+      213: -5212796913528323516
+    second: Deco All 4_76
+  - first:
+      213: -4417788116122274422
+    second: Deco All 4_77
+  - first:
+      213: -6483522061166391748
+    second: Deco All 4_78
+  - first:
+      213: 5635852776036730583
+    second: Deco All 4_79
+  - first:
+      213: 4591726435950414388
+    second: Deco All 4_80
+  - first:
+      213: 7475480694124741597
+    second: Deco All 4_81
+  - first:
+      213: -7269694706785950302
+    second: Deco All 4_82
+  - first:
+      213: -5281114395397693529
+    second: Deco All 4_83
+  - first:
+      213: 305747730647051684
+    second: Deco All 4_84
+  - first:
+      213: 7853749536505150111
+    second: Deco All 4_85
+  - first:
+      213: 8341999731740476452
+    second: Deco All 4_86
+  - first:
+      213: 5885819888199195448
+    second: Deco All 4_87
+  - first:
+      213: 7256224198857443711
+    second: Deco All 4_88
+  - first:
+      213: 1650374371398838172
+    second: Deco All 4_89
+  - first:
+      213: -4417000981332931250
+    second: Deco All 4_90
+  - first:
+      213: -6771909878574891147
+    second: Deco All 4_91
+  - first:
+      213: 8514537961180751860
+    second: Deco All 4_92
+  - first:
+      213: 168546323211636
+    second: Deco All 4_93
+  - first:
+      213: 4856738380074212186
+    second: Deco All 4_94
+  - first:
+      213: 7422812257160278469
+    second: Deco All 4_95
+  - first:
+      213: -5133568485521048895
+    second: Deco All 4_96
+  - first:
+      213: -3347910269497755339
+    second: Deco All 4_97
+  - first:
+      213: -5074218827245149382
+    second: Deco All 4_98
+  - first:
+      213: 5537466359491034834
+    second: Deco All 4_99
+  - first:
+      213: -5974980051864747417
+    second: Deco All 4_100
+  - first:
+      213: 6312798925839859991
+    second: Deco All 4_101
+  - first:
+      213: -5155021023413772070
+    second: Deco All 4_102
+  - first:
+      213: 3683690830508056400
+    second: Deco All 4_103
+  - first:
+      213: -3605419383232871389
+    second: Deco All 4_104
+  - first:
+      213: -3461548230136465246
+    second: Deco All 4_105
+  - first:
+      213: 5113818326351117951
+    second: Deco All 4_106
+  - first:
+      213: 3300975751725590055
+    second: Deco All 4_107
+  - first:
+      213: -7709001535073169149
+    second: Deco All 4_108
+  - first:
+      213: 5999041491130570376
+    second: Deco All 4_109
+  - first:
+      213: -2391175239394138224
+    second: Deco All 4_110
+  - first:
+      213: -4742270910021000201
+    second: Deco All 4_111
+  - first:
+      213: -1476326552167130960
+    second: Deco All 4_112
+  - first:
+      213: -9146001746393393998
+    second: Deco All 4_113
+  - first:
+      213: -2989994425760066429
+    second: Deco All 4_114
+  - first:
+      213: 5825590674230562566
+    second: Deco All 4_115
+  - first:
+      213: -9196225574884856184
+    second: Deco All 4_116
+  - first:
+      213: -5871169037643813264
+    second: Deco All 4_117
+  - first:
+      213: -5105127280292674484
+    second: Deco All 4_118
+  - first:
+      213: 4836649492729867614
+    second: Deco All 4_119
+  - first:
+      213: -9038793522231544493
+    second: Deco All 4_120
+  - first:
+      213: 1485482446050205242
+    second: Deco All 4_121
+  - first:
+      213: 5373987987945443709
+    second: Deco All 4_122
+  - first:
+      213: -423579198565005359
+    second: Deco All 4_123
+  - first:
+      213: -7330898928034694098
+    second: Deco All 4_124
+  - first:
+      213: 1327992976079751175
+    second: Deco All 4_125
+  - first:
+      213: 7701636065204990979
+    second: Deco All 4_126
+  - first:
+      213: -8007331576916881157
+    second: Deco All 4_127
+  - first:
+      213: 112485916440731161
+    second: Deco All 4_128
+  - first:
+      213: -5375072395277454694
+    second: Deco All 4_129
+  - first:
+      213: -4437048821273998784
+    second: Deco All 4_130
+  - first:
+      213: 4371957548992996830
+    second: Deco All 4_131
+  - first:
+      213: -8191624643544820459
+    second: Deco All 4_132
+  - first:
+      213: 6941570066383265392
+    second: Deco All 4_133
+  - first:
+      213: -2403150631151368938
+    second: Deco All 4_134
+  - first:
+      213: -2712098678419643543
+    second: Deco All 4_135
+  - first:
+      213: -5100596131489484003
+    second: Deco All 4_136
+  - first:
+      213: -5804149630274074048
+    second: Deco All 4_137
+  - first:
+      213: -1941221119351438490
+    second: Deco All 4_138
+  - first:
+      213: -7444149222752939570
+    second: Deco All 4_139
+  - first:
+      213: -2744405347722976419
+    second: Deco All 4_140
+  - first:
+      213: -5459354084756759157
+    second: Deco All 4_141
+  - first:
+      213: 8283470581975578578
+    second: Deco All 4_142
+  - first:
+      213: -8750283947171669767
+    second: Deco All 4_143
+  - first:
+      213: -2456707119489731015
+    second: Deco All 4_144
+  - first:
+      213: -1585070669983453769
+    second: Deco All 4_145
+  - first:
+      213: 4388047807668503326
+    second: Deco All 4_146
+  - first:
+      213: -9000794217313397842
+    second: Deco All 4_147
+  - first:
+      213: 1212947122487125119
+    second: Deco All 4_148
+  - first:
+      213: 5444541617029147621
+    second: Deco All 4_149
+  - first:
+      213: -5626671371349925721
+    second: Deco All 4_150
+  - first:
+      213: -2537944046436089676
+    second: Deco All 4_151
+  - first:
+      213: 5188519339535636697
+    second: Deco All 4_152
+  - first:
+      213: 3385013779876734492
+    second: Deco All 4_153
+  - first:
+      213: 3628771669153633398
+    second: Deco All 4_154
+  - first:
+      213: 4229016999049909815
+    second: Deco All 4_155
+  - first:
+      213: 9179955634139729746
+    second: Deco All 4_156
+  - first:
+      213: 1388545868560116343
+    second: Deco All 4_157
+  - first:
+      213: 3598809140430665276
+    second: Deco All 4_158
+  - first:
+      213: -6666531779010181059
+    second: Deco All 4_159
+  - first:
+      213: -3699892839844482464
+    second: Deco All 4_160
+  - first:
+      213: 1961444127186633553
+    second: Deco All 4_161
+  - first:
+      213: -4268961395832402200
+    second: Deco All 4_162
+  - first:
+      213: -6177649859041611752
+    second: Deco All 4_163
+  - first:
+      213: 4603529866359551255
+    second: Deco All 4_164
+  - first:
+      213: -5343887983767530264
+    second: Deco All 4_165
+  - first:
+      213: -3209594738989235201
+    second: Deco All 4_166
+  - first:
+      213: -5211264682410003053
+    second: Deco All 4_167
+  - first:
+      213: 2106585085989991117
+    second: Deco All 4_168
+  - first:
+      213: -7349988267897415302
+    second: Deco All 4_169
+  - first:
+      213: 2328056610889336627
+    second: Deco All 4_170
+  - first:
+      213: -8169197109930384968
+    second: Deco All 4_171
+  - first:
+      213: -3847975630523387749
+    second: Deco All 4_172
+  - first:
+      213: 6466539507571405837
+    second: Deco All 4_173
+  - first:
+      213: 460037459574270663
+    second: Deco All 4_174
+  - first:
+      213: 5442710066085315695
+    second: Deco All 4_175
+  - first:
+      213: 1802742285968441010
+    second: Deco All 4_176
+  - first:
+      213: 5338442574487956940
+    second: Deco All 4_177
+  - first:
+      213: -1495843280638400772
+    second: Deco All 4_178
+  - first:
+      213: 264883935760072761
+    second: Deco All 4_179
+  - first:
+      213: -2701374387197703046
+    second: Deco All 4_180
+  - first:
+      213: 2207856143296874155
+    second: Deco All 4_181
+  - first:
+      213: -5921327202651206440
+    second: Deco All 4_182
+  - first:
+      213: -658589755103710352
+    second: Deco All 4_183
+  - first:
+      213: 227101692517880995
+    second: Deco All 4_184
+  - first:
+      213: 214918178104168957
+    second: Deco All 4_185
+  - first:
+      213: -4103307022105836642
+    second: Deco All 4_186
+  - first:
+      213: 850154185129766902
+    second: Deco All 4_187
+  - first:
+      213: 9103847565655107726
+    second: Deco All 4_188
+  - first:
+      213: -5114130590183683940
+    second: Deco All 4_189
+  - first:
+      213: -1716314042004060673
+    second: Deco All 4_190
+  - first:
+      213: 4835332041049855112
+    second: Deco All 4_191
+  - first:
+      213: -7987443709214037310
+    second: Deco All 4_192
+  - first:
+      213: 7160994968515098990
+    second: Deco All 4_193
+  - first:
+      213: 7090463690337303810
+    second: Deco All 4_194
+  - first:
+      213: 1139285102610940971
+    second: Deco All 4_195
+  - first:
+      213: 6342849926113357431
+    second: Deco All 4_196
+  - first:
+      213: 3560795921061581397
+    second: Deco All 4_197
+  - first:
+      213: -2974418208046116278
+    second: Deco All 4_198
+  - first:
+      213: -340019738856423643
+    second: Deco All 4_199
+  - first:
+      213: 6659655339186532541
+    second: Deco All 4_200
+  - first:
+      213: -3287871805804062848
+    second: Deco All 4_201
+  - first:
+      213: 1586553152763318935
+    second: Deco All 4_202
+  - first:
+      213: -4313820518240945135
+    second: Deco All 4_203
+  - first:
+      213: 5780498408862534715
+    second: Deco All 4_204
+  - first:
+      213: 3172893789845727581
+    second: Deco All 4_205
+  - first:
+      213: -7429588258515913143
+    second: Deco All 4_206
+  - first:
+      213: 7356333782186339756
+    second: Deco All 4_207
+  - first:
+      213: 6546765814842726274
+    second: Deco All 4_208
+  - first:
+      213: -1974697074101188146
+    second: Deco All 4_209
+  - first:
+      213: 1874813183504223999
+    second: Deco All 4_210
+  - first:
+      213: -6496914127914197909
+    second: Deco All 4_211
+  - first:
+      213: -545672564581884139
+    second: Deco All 4_212
+  - first:
+      213: -8385556182909606047
+    second: Deco All 4_213
+  - first:
+      213: -398962355312391179
+    second: Deco All 4_214
+  - first:
+      213: -9004413919220308267
+    second: Deco All 4_215
+  - first:
+      213: -2980064680108452212
+    second: Deco All 4_216
+  - first:
+      213: -976403222259770929
+    second: Deco All 4_217
+  - first:
+      213: 8917970301137993186
+    second: Deco All 4_218
+  - first:
+      213: -4989797252113913627
+    second: Deco All 4_219
+  - first:
+      213: -6204761607165034823
+    second: Deco All 4_220
+  - first:
+      213: -2376457597412732893
+    second: Deco All 4_221
+  - first:
+      213: 3965227147717306192
+    second: Deco All 4_222
+  - first:
+      213: -6751306600003542369
+    second: Deco All 4_223
+  - first:
+      213: 935074044721393090
+    second: Deco All 4_224
+  - first:
+      213: 6069295260467745188
+    second: Deco All 4_225
+  - first:
+      213: -3347988269777672221
+    second: Deco All 4_226
+  - first:
+      213: 2095085506339721580
+    second: Deco All 4_227
+  - first:
+      213: 2620487479243493817
+    second: Deco All 4_228
+  - first:
+      213: -4870208634868093394
+    second: Deco All 4_229
+  - first:
+      213: 5217870918349420921
+    second: Deco All 4_230
+  - first:
+      213: -2193952567391802658
+    second: Deco All 4_231
+  - first:
+      213: -4533591875586613519
+    second: Deco All 4_232
+  - first:
+      213: 6273596103726577821
+    second: Deco All 4_233
+  - first:
+      213: -6827575554988940926
+    second: Deco All 4_234
+  - first:
+      213: 9113195840504106510
+    second: Deco All 4_235
+  - first:
+      213: 3185585707443498689
+    second: Deco All 4_236
+  - first:
+      213: 5678913690712019525
+    second: Deco All 4_237
+  - first:
+      213: -7601385350359498194
+    second: Deco All 4_238
+  - first:
+      213: -1418042772984976678
+    second: Deco All 4_239
+  - first:
+      213: 21168548655857544
+    second: Deco All 4_240
+  - first:
+      213: -6685959414547859135
+    second: Deco All 4_241
+  - first:
+      213: -6505170898849363307
+    second: Deco All 4_242
+  - first:
+      213: -3452071468151695583
+    second: Deco All 4_243
+  - first:
+      213: -8274938758230997930
+    second: Deco All 4_244
+  - first:
+      213: -4050258402945952555
+    second: Deco All 4_245
+  - first:
+      213: -8899375705258106932
+    second: Deco All 4_246
+  - first:
+      213: 3392832079553626111
+    second: Deco All 4_247
+  - first:
+      213: -4246840577551491396
+    second: Deco All 4_248
+  - first:
+      213: -3543519835339589782
+    second: Deco All 4_249
+  - first:
+      213: -9207572291734860088
+    second: Deco All 4_250
+  - first:
+      213: -6268512340659153679
+    second: Deco All 4_251
+  - first:
+      213: 3699166700881953852
+    second: Deco All 4_252
+  - first:
+      213: -354848469121912597
+    second: Deco All 4_253
+  - first:
+      213: -1694542650074550164
+    second: Deco All 4_254
+  - first:
+      213: -8292186337497964561
+    second: Deco All 4_255
+  - first:
+      213: -198496560096392476
+    second: Deco All 4_256
+  - first:
+      213: 6574334853664322910
+    second: Deco All 4_257
+  - first:
+      213: -6224291345241522892
+    second: Deco All 4_258
+  - first:
+      213: 8425491971282192361
+    second: Deco All 4_259
+  - first:
+      213: 3986887109428613492
+    second: Deco All 4_260
+  - first:
+      213: 7132197450026362823
+    second: Deco All 4_261
+  - first:
+      213: -7237420947604805353
+    second: Deco All 4_262
+  - first:
+      213: 2335943339906559400
+    second: Deco All 4_263
+  - first:
+      213: -3136422772199485395
+    second: Deco All 4_264
+  - first:
+      213: 2512589174685146965
+    second: Deco All 4_265
+  - first:
+      213: 2601766890109833663
+    second: Deco All 4_266
+  - first:
+      213: 5134369073800823277
+    second: Deco All 4_267
+  - first:
+      213: -5201633025790943525
+    second: Deco All 4_268
+  - first:
+      213: -4707604902946873294
+    second: Deco All 4_269
+  - first:
+      213: 6513007095078638867
+    second: Deco All 4_270
+  - first:
+      213: 702430079790936529
+    second: Deco All 4_271
+  - first:
+      213: 6386169040352004770
+    second: Deco All 4_272
+  - first:
+      213: -1365556163350841127
+    second: Deco All 4_273
+  - first:
+      213: -2357816658230753786
+    second: Deco All 4_274
+  - first:
+      213: -854129127459085118
+    second: Deco All 4_275
+  - first:
+      213: 5184093935594514211
+    second: Deco All 4_276
+  - first:
+      213: -2355531619883906098
+    second: Deco All 4_277
+  - first:
+      213: -6533609373892452611
+    second: Deco All 4_278
+  - first:
+      213: 2643150410637989111
+    second: Deco All 4_279
+  - first:
+      213: 7635840720553487852
+    second: Deco All 4_280
+  - first:
+      213: 5055062675310793960
+    second: Deco All 4_281
+  - first:
+      213: -8368823133634287936
+    second: Deco All 4_282
+  - first:
+      213: 4494384282394173763
+    second: Deco All 4_283
+  - first:
+      213: -4150855597580232146
+    second: Deco All 4_284
+  - first:
+      213: 6323646570475140914
+    second: Deco All 4_285
+  - first:
+      213: 6501824539228125101
+    second: Deco All 4_286
+  - first:
+      213: -1653534838914910615
+    second: Deco All 4_287
+  - first:
+      213: -609825675664303789
+    second: Deco All 4_288
+  - first:
+      213: 411384022360182889
+    second: Deco All 4_289
+  - first:
+      213: -3312477427887632435
+    second: Deco All 4_290
+  - first:
+      213: 7968173322768909718
+    second: Deco All 4_291
+  - first:
+      213: -7239998545033829827
+    second: Deco All 4_292
+  - first:
+      213: -1292132384907304584
+    second: Deco All 4_293
+  - first:
+      213: -6055145729841470493
+    second: Deco All 4_294
+  - first:
+      213: 7222797456867229595
+    second: Deco All 4_295
+  - first:
+      213: 5992233557386551078
+    second: Deco All 4_296
+  - first:
+      213: -4932568208127844459
+    second: Deco All 4_297
+  - first:
+      213: -4837279295218103925
+    second: Deco All 4_298
+  - first:
+      213: -3281526450358664293
+    second: Deco All 4_299
+  - first:
+      213: -1623339279013061034
+    second: Deco All 4_300
+  - first:
+      213: 8597453687448165832
+    second: Deco All 4_301
+  - first:
+      213: -5588420199239986729
+    second: Deco All 4_302
+  - first:
+      213: -4412304994503088937
+    second: Deco All 4_303
+  - first:
+      213: -3150159071111614934
+    second: Deco All 4_304
+  - first:
+      213: -3261498928767233416
+    second: Deco All 4_305
+  - first:
+      213: 3237826370395069405
+    second: Deco All 4_306
+  - first:
+      213: 4391907808176108076
+    second: Deco All 4_307
+  - first:
+      213: 6806988393313252145
+    second: Deco All 4_308
+  - first:
+      213: -8197743581102831742
+    second: Deco All 4_309
+  - first:
+      213: 7573477040812863987
+    second: Deco All 4_310
+  - first:
+      213: -6855433289353446962
+    second: Deco All 4_311
+  - first:
+      213: -3194165148430159429
+    second: Deco All 4_312
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Deco All 4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b780234c391a54450800000000000000
+      internalID: 6072437328602859643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e663ea92504832c50800000000000000
+      internalID: 6639295433383229038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eabb56963b105aaa0800000000000000
+      internalID: -6150507846025495634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b961dd47e5677ee00800000000000000
+      internalID: 1073957184210802331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974bbb7d3b593b810800000000000000
+      internalID: 1779930877392565369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd021be821a0409c0800000000000000
+      internalID: -3962030697359531811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe55aba699df79d0800000000000000
+      internalID: -2774259604288872773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65291126770bbc460800000000000000
+      internalID: 7263092850857972310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b67b8d7fbec64bc0800000000000000
+      internalID: -3799121913800067404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf2a7175276c0fd0800000000000000
+      internalID: -2374409493015810115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4502af7db3af3f1e0800000000000000
+      internalID: -2165111860901568428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda8ba6d66da5e6f0800000000000000
+      internalID: -655927513512703267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fff42ac05d40ca00800000000000000
+      internalID: 774704145291870201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d88d89581f643130800000000000000
+      internalID: 3545580957019769044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a098e21b590c590800000000000000
+      internalID: -7655954778307360099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10196608792290de0800000000000000
+      internalID: -1366522977840623359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245dbabce547aec70800000000000000
+      internalID: 9001134755746141506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_17
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8944ed94571daf1d0800000000000000
+      internalID: -3316107873924266856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_18
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5536890232ac2530800000000000000
+      internalID: 3831615718777304412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_19
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10810ff7c8b17bf70800000000000000
+      internalID: 9202854653810710529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd33a54ee8cfde20800000000000000
+      internalID: 3377639171247259082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a262c6d400a2ab30800000000000000
+      internalID: 4297172937108251297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e4aecfc4b1a3880800000000000000
+      internalID: -8630555718427455852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a77237280f08000800000000000000
+      internalID: 36293240087345699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032c85ac265f1b0a0800000000000000
+      internalID: -6867438152112881104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff22c451b264a7e0800000000000000
+      internalID: -1755169440996904970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9d1a1ed7053cf40800000000000000
+      internalID: 5747526051041499569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_27
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7525ebbf52afd7910800000000000000
+      internalID: 1836899264081318487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21be47eae73e50f0800000000000000
+      internalID: -1126401374753476309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_29
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190cce8bd4b8f8b20800000000000000
+      internalID: 3138880631231791249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8595ca86feeace0800000000000000
+      internalID: -1391912001963730719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a73e923e784e9c0800000000000000
+      internalID: -3898841967665907162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da2a1a09b1a3ec00800000000000000
+      internalID: 928763764278962896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5e2291a0d706fc0800000000000000
+      internalID: -3503663027769383492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d2832b8ff9cb3e0800000000000000
+      internalID: -2036577040987575022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_35
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ca4dd757fa024d0800000000000000
+      internalID: -3161334019256964063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7a9245f68ae24a0800000000000000
+      internalID: -6616165606453827627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_37
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f42af975c3b94730800000000000000
+      internalID: 3983913006122280182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_38
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8b65201572370d0800000000000000
+      internalID: -3426351662613743406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_39
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de4d70c87a749fa0800000000000000
+      internalID: -5794872161474883888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16797d81cb3916850800000000000000
+      internalID: 6368533784158508897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_41
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ff64a45e6241520800000000000000
+      internalID: 2671803245173079813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361c7c5a2b31569f0800000000000000
+      internalID: -475952527611281053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3372ba8fb9d23440800000000000000
+      internalID: 4914229560103564092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c0bce780cd92690800000000000000
+      internalID: -7626322564930138996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_45
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3743200260ccdee0800000000000000
+      internalID: -1234900670664718530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_46
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd4b2afd0ad79fa0800000000000000
+      internalID: -5793922642022281739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_47
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057eec9fceabd1ed0800000000000000
+      internalID: -2441589895998806192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_48
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53db7b7f1534e990800000000000000
+      internalID: -7357697481884576931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_49
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49c6f848cae65220800000000000000
+      internalID: 2474423191225157962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ffa933e2bd4859b0800000000000000
+      internalID: -5091233948030619659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_51
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d302a2ac771fb50800000000000000
+      internalID: 6625208237012565342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4a2062b6e751e70800000000000000
+      internalID: 9085306821954151645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_53
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402eaf03b5e2069b0800000000000000
+      internalID: -5089016609730010620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_54
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868a2a7fb873f4bd0800000000000000
+      internalID: -2643833381948577688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_55
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482e1713e7ea664d0800000000000000
+      internalID: -3141631833025682812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_56
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979a4e92184ceb070800000000000000
+      internalID: 8124146836855630201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_57
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9258dbad0056a9b0800000000000000
+      internalID: -5069276310911036774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_58
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec3d90f1309ad0c0800000000000000
+      internalID: -4550165929339831065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_59
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d762266b07c21b3e0800000000000000
+      internalID: -2039800293614279043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5456ffd86d78d2d0800000000000000
+      internalID: -3253712841387649956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0718513c7adaee600800000000000000
+      internalID: 499527544728813936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53662dac5f39a05b0800000000000000
+      internalID: -5401342119198431691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084533d4082334d90800000000000000
+      internalID: -7114787459682839424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc86d3d988194ba80800000000000000
+      internalID: -8451970584727951157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_65
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269a1fc11431e7680800000000000000
+      internalID: -8755539455182263966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1afa2f55167f340800000000000000
+      internalID: 4897490141560414639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_67
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575ec804312f09120800000000000000
+      internalID: 2418699164399232373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4446e16837dd91230800000000000000
+      internalID: 3610160064555279428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_69
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ed7abad34a8df20800000000000000
+      internalID: 3447686099531980331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f9d0f8c74572710800000000000000
+      internalID: 1668395080916770634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_71
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca23414b307bc400800000000000000
+      internalID: 345493196224277193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_72
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ef4b782926eace0800000000000000
+      internalID: -1392066853329371519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_73
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7178a4e1e79d18a0800000000000000
+      internalID: -6332738504553369218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_74
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4b07b6bb0ebe2b0800000000000000
+      internalID: -5554098619865320275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_75
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35016387f08b5180800000000000000
+      internalID: -9125558419386727106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44244e263dc68a7b0800000000000000
+      internalID: -5212796913528323516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_77
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85f6956d1dd0b2c0800000000000000
+      internalID: -4417788116122274422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_78
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ec4ca5907e506a0800000000000000
+      internalID: -6483522061166391748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deco All 4_79
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d681126d32963e40800000000000000
+      internalID: 5635852776036730583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b3d8ddc3855d6184aad687b4dec89ae5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Deco All 4_0: 6072437328602859643
+      Deco All 4_1: 6639295433383229038
+      Deco All 4_10: -2165111860901568428
+      Deco All 4_11: -655927513512703267
+      Deco All 4_12: 774704145291870201
+      Deco All 4_13: 3545580957019769044
+      Deco All 4_14: -7655954778307360099
+      Deco All 4_15: -1366522977840623359
+      Deco All 4_16: 9001134755746141506
+      Deco All 4_17: -3316107873924266856
+      Deco All 4_18: 3831615718777304412
+      Deco All 4_19: 9202854653810710529
+      Deco All 4_2: -6150507846025495634
+      Deco All 4_20: 3377639171247259082
+      Deco All 4_21: 4297172937108251297
+      Deco All 4_22: -8630555718427455852
+      Deco All 4_23: 36293240087345699
+      Deco All 4_24: -6867438152112881104
+      Deco All 4_25: -1755169440996904970
+      Deco All 4_26: 5747526051041499569
+      Deco All 4_27: 1836899264081318487
+      Deco All 4_28: -1126401374753476309
+      Deco All 4_29: 3138880631231791249
+      Deco All 4_3: 1073957184210802331
+      Deco All 4_30: -1391912001963730719
+      Deco All 4_31: -3898841967665907162
+      Deco All 4_32: 928763764278962896
+      Deco All 4_33: -3503663027769383492
+      Deco All 4_34: -2036577040987575022
+      Deco All 4_35: -3161334019256964063
+      Deco All 4_36: -6616165606453827627
+      Deco All 4_37: 3983913006122280182
+      Deco All 4_38: -3426351662613743406
+      Deco All 4_39: -5794872161474883888
+      Deco All 4_4: 1779930877392565369
+      Deco All 4_40: 6368533784158508897
+      Deco All 4_41: 2671803245173079813
+      Deco All 4_42: -475952527611281053
+      Deco All 4_43: 4914229560103564092
+      Deco All 4_44: -7626322564930138996
+      Deco All 4_45: -1234900670664718530
+      Deco All 4_46: -5793922642022281739
+      Deco All 4_47: -2441589895998806192
+      Deco All 4_48: -7357697481884576931
+      Deco All 4_49: 2474423191225157962
+      Deco All 4_5: -3962030697359531811
+      Deco All 4_50: -5091233948030619659
+      Deco All 4_51: 6625208237012565342
+      Deco All 4_52: 9085306821954151645
+      Deco All 4_53: -5089016609730010620
+      Deco All 4_54: -2643833381948577688
+      Deco All 4_55: -3141631833025682812
+      Deco All 4_56: 8124146836855630201
+      Deco All 4_57: -5069276310911036774
+      Deco All 4_58: -4550165929339831065
+      Deco All 4_59: -2039800293614279043
+      Deco All 4_6: -2774259604288872773
+      Deco All 4_60: -3253712841387649956
+      Deco All 4_61: 499527544728813936
+      Deco All 4_62: -5401342119198431691
+      Deco All 4_63: -7114787459682839424
+      Deco All 4_64: -8451970584727951157
+      Deco All 4_65: -8755539455182263966
+      Deco All 4_66: 4897490141560414639
+      Deco All 4_67: 2418699164399232373
+      Deco All 4_68: 3610160064555279428
+      Deco All 4_69: 3447686099531980331
+      Deco All 4_7: 7263092850857972310
+      Deco All 4_70: 1668395080916770634
+      Deco All 4_71: 345493196224277193
+      Deco All 4_72: -1392066853329371519
+      Deco All 4_73: -6332738504553369218
+      Deco All 4_74: -5554098619865320275
+      Deco All 4_75: -9125558419386727106
+      Deco All 4_76: -5212796913528323516
+      Deco All 4_77: -4417788116122274422
+      Deco All 4_78: -6483522061166391748
+      Deco All 4_79: 5635852776036730583
+      Deco All 4_8: -3799121913800067404
+      Deco All 4_9: -2374409493015810115
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
