@@ -9,6 +9,7 @@ using UnityEngine;
 */
 public class Player : MonoBehaviour
 {
+
     public static Player Instance;
     // Managers - top objects to refer to
     [SerializeField] private InputManager inputManager;
@@ -320,6 +321,10 @@ public class Player : MonoBehaviour
 
     public bool DoubleJumpCheck() {
         return canDoubleJump;
+    }
+
+    public void Hurt() {
+        Debug.Log("Ouch!");
     }
 }
        
