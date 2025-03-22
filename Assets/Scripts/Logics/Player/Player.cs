@@ -290,7 +290,7 @@ public class Player : MonoBehaviour
     void Attack() {
 
         // Break if in cooldown, or currently dashing
-        if ((Time.time - lastAttackTime < attackCooldown) || isDashing)
+        if ((Time.time - lastAttackTime < (attackCooldown + attackRecovery)) || isDashing)
         {
             // Attack is on cooldown
             return;
