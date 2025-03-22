@@ -31,12 +31,10 @@ public class Player : MonoBehaviour
     [SerializeField] private float dashSpeed = 20f;
     private float dashTime, lastDashTime;
     [SerializeField] private float dashDuration = 0.1f;
+    [SerializeField] private float dashCooldown = 5f;
 
     // Double Jump variables
-    public bool canDoubleJump;
-    // Dash variables
-    public bool canDash;
-
+    private bool canDoubleJump;
 
     // Attack variable
     private bool isAttacking;
@@ -156,7 +154,6 @@ public class Player : MonoBehaviour
         if (hit) {
             isOnGround = true;
             canDoubleJump = true;
-            canDash = true;
         } else {
             isOnGround = false;
         }
@@ -249,9 +246,11 @@ public class Player : MonoBehaviour
 
     void StartDash()
     {
-        if (!canDash) {
-            return;
+        if (Time.time - lastDashTime < dashCooldown)
+        {
+            return; // Prevent dashing if cooldown has not expired
         }
+
         // Initiate dash and record the time
         isDashing = true;
         dashTime = 0f; // Reset dash duration
@@ -261,7 +260,6 @@ public class Player : MonoBehaviour
         rb.gravityScale = 0f; // Disable gravity
 
         lastImageXpos = transform.position.x;
-        canDash = false;
 
     }
 
@@ -314,6 +312,14 @@ public class Player : MonoBehaviour
         attackTimer = 0f; // Reset time after
 
         attackRecoveryTimer = attackRecovery;
+    }
+
+    public bool DashCheck() {
+        return !(Time.time - lastDashTime < dashCooldown);
+    }
+
+    public bool DoubleJumpCheck() {
+        return canDoubleJump;
     }
 }
        
