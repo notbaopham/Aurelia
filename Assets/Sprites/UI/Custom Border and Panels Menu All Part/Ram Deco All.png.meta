@@ -1,0 +1,2946 @@
+fileFormatVersion: 2
+guid: f985f08ef247a034abd364e1525af25a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6441502781696630167
+    second: Ram Deco All_0
+  - first:
+      213: -7011210745395807547
+    second: Ram Deco All_1
+  - first:
+      213: -3087969486030620606
+    second: Ram Deco All_2
+  - first:
+      213: -8277939758691429537
+    second: Ram Deco All_3
+  - first:
+      213: 1558236760791215522
+    second: Ram Deco All_4
+  - first:
+      213: 1655794949514536762
+    second: Ram Deco All_5
+  - first:
+      213: -3314652804816113539
+    second: Ram Deco All_6
+  - first:
+      213: 6693140514750407998
+    second: Ram Deco All_7
+  - first:
+      213: -6198000526097882870
+    second: Ram Deco All_8
+  - first:
+      213: -6884608173957988614
+    second: Ram Deco All_9
+  - first:
+      213: 1407387232000069036
+    second: Ram Deco All_10
+  - first:
+      213: -6655934725174241136
+    second: Ram Deco All_11
+  - first:
+      213: -1127778909197325755
+    second: Ram Deco All_12
+  - first:
+      213: 1979437984869872629
+    second: Ram Deco All_13
+  - first:
+      213: -5418808808763912775
+    second: Ram Deco All_14
+  - first:
+      213: 2858080037467388807
+    second: Ram Deco All_15
+  - first:
+      213: -715261294306239437
+    second: Ram Deco All_16
+  - first:
+      213: -6135546414227198012
+    second: Ram Deco All_17
+  - first:
+      213: -9201228853734617263
+    second: Ram Deco All_18
+  - first:
+      213: -5319281768833864535
+    second: Ram Deco All_19
+  - first:
+      213: 1751232494904673614
+    second: Ram Deco All_20
+  - first:
+      213: 3567788845607538631
+    second: Ram Deco All_21
+  - first:
+      213: 405803660240609082
+    second: Ram Deco All_22
+  - first:
+      213: -7981140170563383628
+    second: Ram Deco All_23
+  - first:
+      213: 5169301148739473656
+    second: Ram Deco All_24
+  - first:
+      213: 5235963249009350993
+    second: Ram Deco All_25
+  - first:
+      213: 824315461271668518
+    second: Ram Deco All_26
+  - first:
+      213: 2116696234397463959
+    second: Ram Deco All_27
+  - first:
+      213: 4210017939956816024
+    second: Ram Deco All_28
+  - first:
+      213: 5051525444505336806
+    second: Ram Deco All_29
+  - first:
+      213: 2462527635962024119
+    second: Ram Deco All_30
+  - first:
+      213: -3673305022977928273
+    second: Ram Deco All_31
+  - first:
+      213: 4288162745905417949
+    second: Ram Deco All_32
+  - first:
+      213: 4028328024951796227
+    second: Ram Deco All_33
+  - first:
+      213: 3250093362060252747
+    second: Ram Deco All_34
+  - first:
+      213: -3353554870933562628
+    second: Ram Deco All_35
+  - first:
+      213: 507639597030710653
+    second: Ram Deco All_36
+  - first:
+      213: -3189032385451438659
+    second: Ram Deco All_37
+  - first:
+      213: -2031258678978313848
+    second: Ram Deco All_38
+  - first:
+      213: -7348150715538552917
+    second: Ram Deco All_39
+  - first:
+      213: -27748396489846842
+    second: Ram Deco All_40
+  - first:
+      213: -4712399700622922063
+    second: Ram Deco All_41
+  - first:
+      213: 8319224848826864839
+    second: Ram Deco All_42
+  - first:
+      213: -6744435890094329380
+    second: Ram Deco All_43
+  - first:
+      213: -6010452375216325376
+    second: Ram Deco All_44
+  - first:
+      213: -219030599106262526
+    second: Ram Deco All_45
+  - first:
+      213: -6636120453916778682
+    second: Ram Deco All_46
+  - first:
+      213: 6048794151130220381
+    second: Ram Deco All_47
+  - first:
+      213: -9147983890914921182
+    second: Ram Deco All_48
+  - first:
+      213: 6303312675104799800
+    second: Ram Deco All_49
+  - first:
+      213: 6041173094036955370
+    second: Ram Deco All_50
+  - first:
+      213: -9129553822816460545
+    second: Ram Deco All_51
+  - first:
+      213: -3823403038171255372
+    second: Ram Deco All_52
+  - first:
+      213: 5566170339114695491
+    second: Ram Deco All_53
+  - first:
+      213: -7276784583329171283
+    second: Ram Deco All_54
+  - first:
+      213: 5603891155409778094
+    second: Ram Deco All_55
+  - first:
+      213: -5256128771191260730
+    second: Ram Deco All_56
+  - first:
+      213: 8864922762743944952
+    second: Ram Deco All_57
+  - first:
+      213: 2859353839643973621
+    second: Ram Deco All_58
+  - first:
+      213: -2886675537935779196
+    second: Ram Deco All_59
+  - first:
+      213: -695623587954915386
+    second: Ram Deco All_60
+  - first:
+      213: 1271103700596947948
+    second: Ram Deco All_61
+  - first:
+      213: -4102005998536132914
+    second: Ram Deco All_62
+  - first:
+      213: 7720593707454665823
+    second: Ram Deco All_63
+  - first:
+      213: -3585191655207187172
+    second: Ram Deco All_64
+  - first:
+      213: -3949034274295537523
+    second: Ram Deco All_65
+  - first:
+      213: 1792954578521202747
+    second: Ram Deco All_66
+  - first:
+      213: -7574248608828777993
+    second: Ram Deco All_67
+  - first:
+      213: 8129481995855738910
+    second: Ram Deco All_68
+  - first:
+      213: 3973185150699643914
+    second: Ram Deco All_69
+  - first:
+      213: 535354801320228260
+    second: Ram Deco All_70
+  - first:
+      213: -1098937475829584399
+    second: Ram Deco All_71
+  - first:
+      213: 5660045862876319085
+    second: Ram Deco All_72
+  - first:
+      213: 512859443417879025
+    second: Ram Deco All_73
+  - first:
+      213: 7543030434893261233
+    second: Ram Deco All_74
+  - first:
+      213: 3163740021199236147
+    second: Ram Deco All_75
+  - first:
+      213: -2052845322343010983
+    second: Ram Deco All_76
+  - first:
+      213: -2466432547712079676
+    second: Ram Deco All_77
+  - first:
+      213: -6086982634850947880
+    second: Ram Deco All_78
+  - first:
+      213: -3494663432983304307
+    second: Ram Deco All_79
+  - first:
+      213: -2988144767840810852
+    second: Ram Deco All_80
+  - first:
+      213: 1369736601111807798
+    second: Ram Deco All_81
+  - first:
+      213: -1337912570533996594
+    second: Ram Deco All_82
+  - first:
+      213: -6118892563163014264
+    second: Ram Deco All_83
+  - first:
+      213: -6908318563658334503
+    second: Ram Deco All_84
+  - first:
+      213: -2301724003054864420
+    second: Ram Deco All_85
+  - first:
+      213: -8280656024041159420
+    second: Ram Deco All_86
+  - first:
+      213: 890445261644196764
+    second: Ram Deco All_87
+  - first:
+      213: -4004913943339270960
+    second: Ram Deco All_88
+  - first:
+      213: 3511431141446232690
+    second: Ram Deco All_89
+  - first:
+      213: 4618177001223457554
+    second: Ram Deco All_90
+  - first:
+      213: -6464791944356338105
+    second: Ram Deco All_91
+  - first:
+      213: 7571286063027677306
+    second: Ram Deco All_92
+  - first:
+      213: 5687590996951410923
+    second: Ram Deco All_93
+  - first:
+      213: -847551135582370949
+    second: Ram Deco All_94
+  - first:
+      213: -8467810144051830722
+    second: Ram Deco All_95
+  - first:
+      213: -2506562110295842838
+    second: Ram Deco All_96
+  - first:
+      213: -7264321830099009713
+    second: Ram Deco All_97
+  - first:
+      213: 8679598675698121372
+    second: Ram Deco All_98
+  - first:
+      213: 2021503947804517824
+    second: Ram Deco All_99
+  - first:
+      213: -838670796159305672
+    second: Ram Deco All_100
+  - first:
+      213: 7367145878610873304
+    second: Ram Deco All_101
+  - first:
+      213: 9150581082321399507
+    second: Ram Deco All_102
+  - first:
+      213: -2312088247251097522
+    second: Ram Deco All_103
+  - first:
+      213: 274801125669560517
+    second: Ram Deco All_104
+  - first:
+      213: -4031121985728659396
+    second: Ram Deco All_105
+  - first:
+      213: 5490617065493882570
+    second: Ram Deco All_106
+  - first:
+      213: 3164819251969605861
+    second: Ram Deco All_107
+  - first:
+      213: 8860092458065466194
+    second: Ram Deco All_108
+  - first:
+      213: -3052626348741267811
+    second: Ram Deco All_109
+  - first:
+      213: 1250793353737769648
+    second: Ram Deco All_110
+  - first:
+      213: -3119953227803381586
+    second: Ram Deco All_111
+  - first:
+      213: -3592028829438142219
+    second: Ram Deco All_112
+  - first:
+      213: 5076689457822172122
+    second: Ram Deco All_113
+  - first:
+      213: 4440709273854407044
+    second: Ram Deco All_114
+  - first:
+      213: -2325099209421464080
+    second: Ram Deco All_115
+  - first:
+      213: 1360500842188798167
+    second: Ram Deco All_116
+  - first:
+      213: 2365478310020804167
+    second: Ram Deco All_117
+  - first:
+      213: -6677174525959863541
+    second: Ram Deco All_118
+  - first:
+      213: -7168149069035263604
+    second: Ram Deco All_119
+  - first:
+      213: -840141633533787859
+    second: Ram Deco All_120
+  - first:
+      213: -5708477820437531652
+    second: Ram Deco All_121
+  - first:
+      213: 4334869593642316103
+    second: Ram Deco All_122
+  - first:
+      213: 3796134098912654154
+    second: Ram Deco All_123
+  - first:
+      213: -2659534892756299122
+    second: Ram Deco All_124
+  - first:
+      213: -899877000505427165
+    second: Ram Deco All_125
+  - first:
+      213: -7253414922165417587
+    second: Ram Deco All_126
+  - first:
+      213: -8645510541361748821
+    second: Ram Deco All_127
+  - first:
+      213: 4007160771572727552
+    second: Ram Deco All_128
+  - first:
+      213: -8484991114376791045
+    second: Ram Deco All_129
+  - first:
+      213: -7834692849353208943
+    second: Ram Deco All_130
+  - first:
+      213: 3321207454310150271
+    second: Ram Deco All_131
+  - first:
+      213: -1248549966625688101
+    second: Ram Deco All_132
+  - first:
+      213: 331331371737763605
+    second: Ram Deco All_133
+  - first:
+      213: 3567488478528175006
+    second: Ram Deco All_134
+  - first:
+      213: 2644623250582436380
+    second: Ram Deco All_135
+  - first:
+      213: 2758381762699244596
+    second: Ram Deco All_136
+  - first:
+      213: 6551870442972302407
+    second: Ram Deco All_137
+  - first:
+      213: -3745543037265206776
+    second: Ram Deco All_138
+  - first:
+      213: 7694892275364464826
+    second: Ram Deco All_139
+  - first:
+      213: 5355597473972808287
+    second: Ram Deco All_140
+  - first:
+      213: -5830418629362911583
+    second: Ram Deco All_141
+  - first:
+      213: -4540649534289948856
+    second: Ram Deco All_142
+  - first:
+      213: 1663661179405657918
+    second: Ram Deco All_143
+  - first:
+      213: 3538818996506946981
+    second: Ram Deco All_144
+  - first:
+      213: -5690185437637047201
+    second: Ram Deco All_145
+  - first:
+      213: -930567757264298410
+    second: Ram Deco All_146
+  - first:
+      213: -1872893538798919278
+    second: Ram Deco All_147
+  - first:
+      213: 2975147985263523572
+    second: Ram Deco All_148
+  - first:
+      213: -1026775358945959173
+    second: Ram Deco All_149
+  - first:
+      213: 2510068197843918459
+    second: Ram Deco All_150
+  - first:
+      213: 2219755433695199688
+    second: Ram Deco All_151
+  - first:
+      213: 974452151947116545
+    second: Ram Deco All_152
+  - first:
+      213: 969403894106170073
+    second: Ram Deco All_153
+  - first:
+      213: -1840550635974033791
+    second: Ram Deco All_154
+  - first:
+      213: 2182419030136557781
+    second: Ram Deco All_155
+  - first:
+      213: -6713250163273513348
+    second: Ram Deco All_156
+  - first:
+      213: 2193519528193148622
+    second: Ram Deco All_157
+  - first:
+      213: 7132427231365872936
+    second: Ram Deco All_158
+  - first:
+      213: 2052070199266344139
+    second: Ram Deco All_159
+  - first:
+      213: 222221913421897379
+    second: Ram Deco All_160
+  - first:
+      213: 7358724732506523428
+    second: Ram Deco All_161
+  - first:
+      213: 4245389198499732794
+    second: Ram Deco All_162
+  - first:
+      213: 5578320900904043646
+    second: Ram Deco All_163
+  - first:
+      213: 2116904316782095660
+    second: Ram Deco All_164
+  - first:
+      213: -5568073684882982672
+    second: Ram Deco All_165
+  - first:
+      213: 3452191781766113086
+    second: Ram Deco All_166
+  - first:
+      213: -2797222725863467104
+    second: Ram Deco All_167
+  - first:
+      213: -6907579414571446271
+    second: Ram Deco All_168
+  - first:
+      213: 5860085651802595200
+    second: Ram Deco All_169
+  - first:
+      213: 5438777334973279807
+    second: Ram Deco All_170
+  - first:
+      213: 8153748468947789587
+    second: Ram Deco All_171
+  - first:
+      213: 2806583241599537026
+    second: Ram Deco All_172
+  - first:
+      213: -7405422750297515521
+    second: Ram Deco All_173
+  - first:
+      213: 48594377209216018
+    second: Ram Deco All_174
+  - first:
+      213: -6853747123111953331
+    second: Ram Deco All_175
+  - first:
+      213: 6324768940529432547
+    second: Ram Deco All_176
+  - first:
+      213: 8626654372473758457
+    second: Ram Deco All_177
+  - first:
+      213: 4888811965035850403
+    second: Ram Deco All_178
+  - first:
+      213: 520163637105863039
+    second: Ram Deco All_179
+  - first:
+      213: 7232122804754507316
+    second: Ram Deco All_180
+  - first:
+      213: 7274278904277927931
+    second: Ram Deco All_181
+  - first:
+      213: 8803598568801974508
+    second: Ram Deco All_182
+  - first:
+      213: 4063967385505143267
+    second: Ram Deco All_183
+  - first:
+      213: -8488416897701538174
+    second: Ram Deco All_184
+  - first:
+      213: -1681874986425633793
+    second: Ram Deco All_185
+  - first:
+      213: -2989464059080837494
+    second: Ram Deco All_186
+  - first:
+      213: -759685787281476135
+    second: Ram Deco All_187
+  - first:
+      213: -7615701020506001414
+    second: Ram Deco All_188
+  - first:
+      213: 6086989744438196304
+    second: Ram Deco All_189
+  - first:
+      213: 4414581478758611744
+    second: Ram Deco All_190
+  - first:
+      213: -7588884718341974338
+    second: Ram Deco All_191
+  - first:
+      213: -9180924375699354867
+    second: Ram Deco All_192
+  - first:
+      213: -7892654948730374405
+    second: Ram Deco All_193
+  - first:
+      213: -7120194623207273362
+    second: Ram Deco All_194
+  - first:
+      213: -4344939329342095428
+    second: Ram Deco All_195
+  - first:
+      213: 4990638780799007586
+    second: Ram Deco All_196
+  - first:
+      213: 8151107299254749586
+    second: Ram Deco All_197
+  - first:
+      213: 1024651551429663174
+    second: Ram Deco All_198
+  - first:
+      213: -8301734320637722298
+    second: Ram Deco All_199
+  - first:
+      213: -2140295168309905132
+    second: Ram Deco All_200
+  - first:
+      213: -6863458014023768970
+    second: Ram Deco All_201
+  - first:
+      213: 3511810127957012651
+    second: Ram Deco All_202
+  - first:
+      213: 5125162708351755849
+    second: Ram Deco All_203
+  - first:
+      213: 8084472241959300734
+    second: Ram Deco All_204
+  - first:
+      213: 1816947470998673137
+    second: Ram Deco All_205
+  - first:
+      213: -4522001230042109722
+    second: Ram Deco All_206
+  - first:
+      213: -8161779967085712785
+    second: Ram Deco All_207
+  - first:
+      213: -395445422858980818
+    second: Ram Deco All_208
+  - first:
+      213: -8531988064679739638
+    second: Ram Deco All_209
+  - first:
+      213: -5769149866372045015
+    second: Ram Deco All_210
+  - first:
+      213: 4998093330703252930
+    second: Ram Deco All_211
+  - first:
+      213: -7794815572844944685
+    second: Ram Deco All_212
+  - first:
+      213: 8211415056916555138
+    second: Ram Deco All_213
+  - first:
+      213: 7598472231061745339
+    second: Ram Deco All_214
+  - first:
+      213: -1715409544389809582
+    second: Ram Deco All_215
+  - first:
+      213: 66467542309002079
+    second: Ram Deco All_216
+  - first:
+      213: 35925138283472229
+    second: Ram Deco All_217
+  - first:
+      213: -9182718023037605457
+    second: Ram Deco All_218
+  - first:
+      213: -596259050953037386
+    second: Ram Deco All_219
+  - first:
+      213: -3242091161475873271
+    second: Ram Deco All_220
+  - first:
+      213: 6905173647808601595
+    second: Ram Deco All_221
+  - first:
+      213: 257825278957918832
+    second: Ram Deco All_222
+  - first:
+      213: -1667616324252127487
+    second: Ram Deco All_223
+  - first:
+      213: 1645466018717746923
+    second: Ram Deco All_224
+  - first:
+      213: -1560841748259071567
+    second: Ram Deco All_225
+  - first:
+      213: 7834475815382336224
+    second: Ram Deco All_226
+  - first:
+      213: 1217591518583092402
+    second: Ram Deco All_227
+  - first:
+      213: -1546524155786696391
+    second: Ram Deco All_228
+  - first:
+      213: 8376891681363258940
+    second: Ram Deco All_229
+  - first:
+      213: -3920735421790346415
+    second: Ram Deco All_230
+  - first:
+      213: 4973649058790136380
+    second: Ram Deco All_231
+  - first:
+      213: 4644688654961848053
+    second: Ram Deco All_232
+  - first:
+      213: 8182895026487130662
+    second: Ram Deco All_233
+  - first:
+      213: -6931505864517992642
+    second: Ram Deco All_234
+  - first:
+      213: -7160563737225932193
+    second: Ram Deco All_235
+  - first:
+      213: -4561904305259738552
+    second: Ram Deco All_236
+  - first:
+      213: -4104750498196549487
+    second: Ram Deco All_237
+  - first:
+      213: 6003081902023246063
+    second: Ram Deco All_238
+  - first:
+      213: -7341748512387494761
+    second: Ram Deco All_239
+  - first:
+      213: 5160607592270119970
+    second: Ram Deco All_240
+  - first:
+      213: 6927242097648804581
+    second: Ram Deco All_241
+  - first:
+      213: 4029087736594289746
+    second: Ram Deco All_242
+  - first:
+      213: 1430208393896060468
+    second: Ram Deco All_243
+  - first:
+      213: 6126032996132599583
+    second: Ram Deco All_244
+  - first:
+      213: 2858217313530613361
+    second: Ram Deco All_245
+  - first:
+      213: -8300842965755853625
+    second: Ram Deco All_246
+  - first:
+      213: 6552738789508974724
+    second: Ram Deco All_247
+  - first:
+      213: -2638029722443162382
+    second: Ram Deco All_248
+  - first:
+      213: 92013605759466355
+    second: Ram Deco All_249
+  - first:
+      213: -6581831910710179248
+    second: Ram Deco All_250
+  - first:
+      213: 5399485325272273934
+    second: Ram Deco All_251
+  - first:
+      213: -1442598710947095167
+    second: Ram Deco All_252
+  - first:
+      213: 2790601084365331946
+    second: Ram Deco All_253
+  - first:
+      213: 6145765987149966261
+    second: Ram Deco All_254
+  - first:
+      213: -4542664280028646406
+    second: Ram Deco All_255
+  - first:
+      213: -5399978138240965190
+    second: Ram Deco All_256
+  - first:
+      213: -3506400017575054674
+    second: Ram Deco All_257
+  - first:
+      213: -4472752712392510704
+    second: Ram Deco All_258
+  - first:
+      213: 6820711516311063453
+    second: Ram Deco All_259
+  - first:
+      213: -5343402530141263964
+    second: Ram Deco All_260
+  - first:
+      213: 7703218172184033354
+    second: Ram Deco All_261
+  - first:
+      213: 4358154375824891516
+    second: Ram Deco All_262
+  - first:
+      213: 6110275995037855186
+    second: Ram Deco All_263
+  - first:
+      213: -3391718777892298811
+    second: Ram Deco All_264
+  - first:
+      213: 6870927065135845529
+    second: Ram Deco All_265
+  - first:
+      213: 6339628456247701000
+    second: Ram Deco All_266
+  - first:
+      213: 1686234637548078441
+    second: Ram Deco All_267
+  - first:
+      213: -4156712965939050521
+    second: Ram Deco All_268
+  - first:
+      213: 588202554633571457
+    second: Ram Deco All_269
+  - first:
+      213: 4827579313654952668
+    second: Ram Deco All_270
+  - first:
+      213: -4215152617490330100
+    second: Ram Deco All_271
+  - first:
+      213: 8081795657682400531
+    second: Ram Deco All_272
+  - first:
+      213: 4577977293548252368
+    second: Ram Deco All_273
+  - first:
+      213: 6504757535997565260
+    second: Ram Deco All_274
+  - first:
+      213: 4094166222978118559
+    second: Ram Deco All_275
+  - first:
+      213: -6520477701893870720
+    second: Ram Deco All_276
+  - first:
+      213: -4031392784320038467
+    second: Ram Deco All_277
+  - first:
+      213: -66006614289363592
+    second: Ram Deco All_278
+  - first:
+      213: -2155909086298419786
+    second: Ram Deco All_279
+  - first:
+      213: 3560136327551121236
+    second: Ram Deco All_280
+  - first:
+      213: 1773662727777472817
+    second: Ram Deco All_281
+  - first:
+      213: -5184019799051766599
+    second: Ram Deco All_282
+  - first:
+      213: 806048350904603971
+    second: Ram Deco All_283
+  - first:
+      213: 304564884806403502
+    second: Ram Deco All_284
+  - first:
+      213: 6362875343762869035
+    second: Ram Deco All_285
+  - first:
+      213: 3251458528546600480
+    second: Ram Deco All_286
+  - first:
+      213: -58825848859790292
+    second: Ram Deco All_287
+  - first:
+      213: 2604139912621219076
+    second: Ram Deco All_288
+  - first:
+      213: -6345359357445368849
+    second: Ram Deco All_289
+  - first:
+      213: 7902169255647845181
+    second: Ram Deco All_290
+  - first:
+      213: 9102411389762760747
+    second: Ram Deco All_291
+  - first:
+      213: 3181585425263401739
+    second: Ram Deco All_292
+  - first:
+      213: -554377615238354532
+    second: Ram Deco All_293
+  - first:
+      213: 7140381799049913503
+    second: Ram Deco All_294
+  - first:
+      213: 7353985243081375428
+    second: Ram Deco All_295
+  - first:
+      213: 539167859684696099
+    second: Ram Deco All_296
+  - first:
+      213: 7526080942785945086
+    second: Ram Deco All_297
+  - first:
+      213: -7515937718461797533
+    second: Ram Deco All_298
+  - first:
+      213: -2143727972068467058
+    second: Ram Deco All_299
+  - first:
+      213: -3978694460793138540
+    second: Ram Deco All_300
+  - first:
+      213: 1581269608617601186
+    second: Ram Deco All_301
+  - first:
+      213: -5060410262772026164
+    second: Ram Deco All_302
+  - first:
+      213: 4011833859011626926
+    second: Ram Deco All_303
+  - first:
+      213: 3851105274038986360
+    second: Ram Deco All_304
+  - first:
+      213: 4290652544034204174
+    second: Ram Deco All_305
+  - first:
+      213: 5576779382799307250
+    second: Ram Deco All_306
+  - first:
+      213: -4426598039191409608
+    second: Ram Deco All_307
+  - first:
+      213: 1373400246075919159
+    second: Ram Deco All_308
+  - first:
+      213: 6202059863306555819
+    second: Ram Deco All_309
+  - first:
+      213: 3586019678116633324
+    second: Ram Deco All_310
+  - first:
+      213: 1834601388683439188
+    second: Ram Deco All_311
+  - first:
+      213: 985579157433644028
+    second: Ram Deco All_312
+  - first:
+      213: -7484758187734064986
+    second: Ram Deco All_313
+  - first:
+      213: -2255110051698507142
+    second: Ram Deco All_314
+  - first:
+      213: -2848588308376375917
+    second: Ram Deco All_315
+  - first:
+      213: 4467940255060289524
+    second: Ram Deco All_316
+  - first:
+      213: 1464591735982390414
+    second: Ram Deco All_317
+  - first:
+      213: -8900897423246712686
+    second: Ram Deco All_318
+  - first:
+      213: -5948916850640381353
+    second: Ram Deco All_319
+  - first:
+      213: -8544299024906628444
+    second: Ram Deco All_320
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ram Deco All_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962284d395f2b96a0800000000000000
+      internalID: -6441502781696630167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5caf74b59fc23be90800000000000000
+      internalID: -7011210745395807547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24836ebfc145525d0800000000000000
+      internalID: -3087969486030620606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f535d1bd5a9de1d80800000000000000
+      internalID: -8277939758691429537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad6aeaf318ff9510800000000000000
+      internalID: 1558236760791215522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3723badbb09af610800000000000000
+      internalID: 1655794949514536762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70fe27f5dcfff1d0800000000000000
+      internalID: -3314652804816113539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35297d16dfc2ec50800000000000000
+      internalID: 6693140514750407998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0160442c574cf9a0800000000000000
+      internalID: -6198000526097882870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afebb7d8755f470a0800000000000000
+      internalID: -6884608173957988614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cadc8c81b3b088310800000000000000
+      internalID: 1407387232000069036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0985dc1d1ae51a3a0800000000000000
+      internalID: -6655934725174241136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54aad1cae035950f0800000000000000
+      internalID: -1127778909197325755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f375171c50687b10800000000000000
+      internalID: 1979437984869872629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd8ed739168cc4b0800000000000000
+      internalID: -5418808808763912775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78bf0ecb6a0f9a720800000000000000
+      internalID: 2858080037467388807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c5a4774a1e216f0800000000000000
+      internalID: -715261294306239437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_17
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cfe0153b092adaa0800000000000000
+      internalID: -6135546414227198012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_18
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15fc2149b1bae4080800000000000000
+      internalID: -9201228853734617263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_19
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac227cf96d1e26b0800000000000000
+      internalID: -5319281768833864535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e450ae9fca0ad4810800000000000000
+      internalID: 1751232494904673614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cfc9085d05538130800000000000000
+      internalID: 3567788845607538631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3fd1396744b1a500800000000000000
+      internalID: 405803660240609082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be08fefc4b4d3190800000000000000
+      internalID: -7981140170563383628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f092a3b10c0db740800000000000000
+      internalID: 5169301148739473656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159d33a65d0e9a840800000000000000
+      internalID: 5235963249009350993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627c5fb6b8e807b00800000000000000
+      internalID: 824315461271668518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_27
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795faaca204006d10800000000000000
+      internalID: 2116696234397463959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898d521c20dfc6a30800000000000000
+      internalID: 4210017939956816024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_29
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb769da0af9a1640800000000000000
+      internalID: 5051525444505336806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0591f76d7ac2220800000000000000
+      internalID: 2462527635962024119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa31eb92b8cc50dc0800000000000000
+      internalID: -3673305022977928273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde81c83c4d928b30800000000000000
+      internalID: 4288162745905417949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302b006eefe77e730800000000000000
+      internalID: 4028328024951796227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46d47c61b6aa1d20800000000000000
+      internalID: 3250093362060252747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_35
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa593fdc97c571d0800000000000000
+      internalID: -3353554870933562628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d10fe168f7b0700800000000000000
+      internalID: 507639597030710653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_37
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd43ff01f74eb3d0800000000000000
+      internalID: -3189032385451438659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_38
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88181985ef48fc3e0800000000000000
+      internalID: -2031258678978313848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_39
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7ca4c3bdf160a90800000000000000
+      internalID: -7348150715538552917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfc22cfafa6d9ff0800000000000000
+      internalID: -27748396489846842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_41
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bea6bc80713a9eb0800000000000000
+      internalID: -4712399700622922063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c49de04ce2d37370800000000000000
+      internalID: 8319224848826864839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd13880aa43f662a0800000000000000
+      internalID: -6744435890094329380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00df3d3d865969ca0800000000000000
+      internalID: -6010452375216325376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_45
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a8451a4d8d5fcf0800000000000000
+      internalID: -219030599106262526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_46
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f16995b93c7e3a0800000000000000
+      internalID: -6636120453916778682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_47
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57c3998b32a1f350800000000000000
+      internalID: 6048794151130220381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_48
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 225350b8e15db0180800000000000000
+      internalID: -9147983890914921182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_49
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83cb6db4b7dd97750800000000000000
+      internalID: 6303312675104799800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae068b8ebee86d350800000000000000
+      internalID: 6041173094036955370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_51
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff027392b2f4d4180800000000000000
+      internalID: -9129553822816460545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd27aca13b80fac0800000000000000
+      internalID: -3823403038171255372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_53
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b3f3ebe620f3d40800000000000000
+      internalID: 5566170339114695491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_54
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da830abb9faa30b90800000000000000
+      internalID: -7276784583329171283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_55
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5372ea05505cd40800000000000000
+      internalID: 5603891155409778094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_56
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c93f631bba7e07b0800000000000000
+      internalID: -5256128771191260730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_57
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f690aac848860b70800000000000000
+      internalID: 8864922762743944952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_58
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7d02bea277ea720800000000000000
+      internalID: 2859353839643973621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_59
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a378b74e770f7d0800000000000000
+      internalID: -2886675537935779196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c780964806a856f0800000000000000
+      internalID: -695623587954915386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cebf3c2c41ed3a110800000000000000
+      internalID: 1271103700596947948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec67bb6174fb217c0800000000000000
+      internalID: -4102005998536132914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5493fb421f052b60800000000000000
+      internalID: 7720593707454665823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d4eab4f27de3ec0800000000000000
+      internalID: -3585191655207187172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_65
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80a5ca10463239c0800000000000000
+      internalID: -3949034274295537523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30aa2f80bad1e810800000000000000
+      internalID: 1792954578521202747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_67
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f99346350dd2e690800000000000000
+      internalID: -7574248608828777993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e183aeaadc8b1d070800000000000000
+      internalID: 8129481995855738910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_69
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a042f4ef7d6932730800000000000000
+      internalID: 3973185150699643914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5fd79fa56fd6700800000000000000
+      internalID: 535354801320228260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_71
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd20da203acfb0f0800000000000000
+      internalID: -1098937475829584399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_72
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d892d59b58c8e40800000000000000
+      internalID: 5660045862876319085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_73
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f190a052fa0e1700800000000000000
+      internalID: 512859443417879025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_74
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9e5c1473a3ea860800000000000000
+      internalID: 7543030434893261233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_75
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c644d79ccd7eb20800000000000000
+      internalID: 3163740021199236147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d2ce64e04d283e0800000000000000
+      internalID: -2052845322343010983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_77
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8e8236aa875cdd0800000000000000
+      internalID: -2466432547712079676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_78
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcecb73b81b68ba0800000000000000
+      internalID: -6086982634850947880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ram Deco All_79
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87ab7b8f16708fc0800000000000000
+      internalID: -3494663432983304307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b5389ac829ed76644ac64e83feaf14a4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ram Deco All_0: -6441502781696630167
+      Ram Deco All_1: -7011210745395807547
+      Ram Deco All_10: 1407387232000069036
+      Ram Deco All_11: -6655934725174241136
+      Ram Deco All_12: -1127778909197325755
+      Ram Deco All_13: 1979437984869872629
+      Ram Deco All_14: -5418808808763912775
+      Ram Deco All_15: 2858080037467388807
+      Ram Deco All_16: -715261294306239437
+      Ram Deco All_17: -6135546414227198012
+      Ram Deco All_18: -9201228853734617263
+      Ram Deco All_19: -5319281768833864535
+      Ram Deco All_2: -3087969486030620606
+      Ram Deco All_20: 1751232494904673614
+      Ram Deco All_21: 3567788845607538631
+      Ram Deco All_22: 405803660240609082
+      Ram Deco All_23: -7981140170563383628
+      Ram Deco All_24: 5169301148739473656
+      Ram Deco All_25: 5235963249009350993
+      Ram Deco All_26: 824315461271668518
+      Ram Deco All_27: 2116696234397463959
+      Ram Deco All_28: 4210017939956816024
+      Ram Deco All_29: 5051525444505336806
+      Ram Deco All_3: -8277939758691429537
+      Ram Deco All_30: 2462527635962024119
+      Ram Deco All_31: -3673305022977928273
+      Ram Deco All_32: 4288162745905417949
+      Ram Deco All_33: 4028328024951796227
+      Ram Deco All_34: 3250093362060252747
+      Ram Deco All_35: -3353554870933562628
+      Ram Deco All_36: 507639597030710653
+      Ram Deco All_37: -3189032385451438659
+      Ram Deco All_38: -2031258678978313848
+      Ram Deco All_39: -7348150715538552917
+      Ram Deco All_4: 1558236760791215522
+      Ram Deco All_40: -27748396489846842
+      Ram Deco All_41: -4712399700622922063
+      Ram Deco All_42: 8319224848826864839
+      Ram Deco All_43: -6744435890094329380
+      Ram Deco All_44: -6010452375216325376
+      Ram Deco All_45: -219030599106262526
+      Ram Deco All_46: -6636120453916778682
+      Ram Deco All_47: 6048794151130220381
+      Ram Deco All_48: -9147983890914921182
+      Ram Deco All_49: 6303312675104799800
+      Ram Deco All_5: 1655794949514536762
+      Ram Deco All_50: 6041173094036955370
+      Ram Deco All_51: -9129553822816460545
+      Ram Deco All_52: -3823403038171255372
+      Ram Deco All_53: 5566170339114695491
+      Ram Deco All_54: -7276784583329171283
+      Ram Deco All_55: 5603891155409778094
+      Ram Deco All_56: -5256128771191260730
+      Ram Deco All_57: 8864922762743944952
+      Ram Deco All_58: 2859353839643973621
+      Ram Deco All_59: -2886675537935779196
+      Ram Deco All_6: -3314652804816113539
+      Ram Deco All_60: -695623587954915386
+      Ram Deco All_61: 1271103700596947948
+      Ram Deco All_62: -4102005998536132914
+      Ram Deco All_63: 7720593707454665823
+      Ram Deco All_64: -3585191655207187172
+      Ram Deco All_65: -3949034274295537523
+      Ram Deco All_66: 1792954578521202747
+      Ram Deco All_67: -7574248608828777993
+      Ram Deco All_68: 8129481995855738910
+      Ram Deco All_69: 3973185150699643914
+      Ram Deco All_7: 6693140514750407998
+      Ram Deco All_70: 535354801320228260
+      Ram Deco All_71: -1098937475829584399
+      Ram Deco All_72: 5660045862876319085
+      Ram Deco All_73: 512859443417879025
+      Ram Deco All_74: 7543030434893261233
+      Ram Deco All_75: 3163740021199236147
+      Ram Deco All_76: -2052845322343010983
+      Ram Deco All_77: -2466432547712079676
+      Ram Deco All_78: -6086982634850947880
+      Ram Deco All_79: -3494663432983304307
+      Ram Deco All_8: -6198000526097882870
+      Ram Deco All_9: -6884608173957988614
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
