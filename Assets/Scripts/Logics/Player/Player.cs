@@ -64,6 +64,13 @@ public class Player : MonoBehaviour
     private float dashTimeLeft;
     private float lastImageXpos;
 
+    // Slippery adjustment variables for Map2 twist
+    private bool isSlippery = false;
+    private float originalAcceleration;
+    private float originalMaxSpeed;
+    [SerializeField] private float slipperyAcceleration = 3f;
+    [SerializeField] private float slipperyMaxSpeed = 7f;
+
     // Start of the player object
     private void Awake()
     {
@@ -314,6 +321,29 @@ public class Player : MonoBehaviour
         attackTimer = 0f; // Reset time after
 
         attackRecoveryTimer = attackRecovery;
+    }
+
+    //This function makes movement feel more slippery and less responsive on ice.
+    public void SetSlippery(bool slippery)
+    {
+        if (slippery && !isSlippery)
+        {
+            isSlippery = true;
+            originalAcceleration = acceleration;
+            originalMaxSpeed = maxSpeed;
+            acceleration = slipperyAcceleration;
+            maxSpeed = slipperyMaxSpeed;
+            rb.linearDamping = 0.5f; // Less friction, player glides
+
+        }
+        else if (!slippery && isSlippery)
+        {
+            isSlippery = false;
+            acceleration = originalAcceleration;
+            maxSpeed = originalMaxSpeed;
+            rb.linearDamping = 3f; // More friction, player stops quickly
+
+        }
     }
 }
        
