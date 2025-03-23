@@ -3,13 +3,13 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    [SerializeField] private int playerHealth;
-    [SerializeField] private Player player;
+    [SerializeField] private int playerHealth = 5;
+    private Player player;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        player = player = GetComponent<Player>();
     }
 
     // Update is called once per frame
@@ -19,7 +19,7 @@ public class PlayerHealth : MonoBehaviour
     }
 
     // Destroy and hopefully recreates a new character
-    void TakeDamage(int damageTaken) {
+    public void TakeDamage(int damageTaken) {
 
         if (playerHealth - damageTaken <= 0) {
 
@@ -35,7 +35,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Death() {
 
-        Destroy(this);
+        Destroy(gameObject);
 
     }
 }

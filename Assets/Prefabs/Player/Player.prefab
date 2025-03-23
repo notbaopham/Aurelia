@@ -91,7 +91,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7efc61e624cabfe4da82c90afa0878e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 790477021634807113}
 --- !u!1 &5434097434067128954
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,7 +312,6 @@ GameObject:
   - component: {fileID: 83338053668784980}
   - component: {fileID: 3703396918736312431}
   - component: {fileID: 790477021634807113}
-  - component: {fileID: 8530014622508287394}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -441,15 +439,3 @@ MonoBehaviour:
   spriteObject: {fileID: 7098955305705291462}
   distanceBetweenImages: 0.5
   softLandingForce: 5
---- !u!114 &8530014622508287394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7295399986023051146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a41c8420d00c6245abb02e513304f9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
