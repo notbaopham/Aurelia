@@ -19816,41 +19816,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1050752436}
   m_CullTransparentMesh: 1
---- !u!1 &1078283474 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7295399986023051146, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
-  m_PrefabInstance: {fileID: 1235671342}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1078283476 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 790477021634807113, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
-  m_PrefabInstance: {fileID: 1235671342}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1078283474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9fdbcd9b20c9d1469540a2e0f8dce34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1078283479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1078283474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 389b955a6b12779429ddeabcf4bf79c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  groundTilemaps:
-  - {fileID: 1462434968}
-  iceTiles:
-  - {fileID: 11400000, guid: 02c89c1065cbc0e4990ee6982cacfba5, type: 2}
-  - {fileID: 11400000, guid: bb0584e365a6a304b859af8673ddfbde, type: 2}
-  - {fileID: 11400000, guid: 58dcb429eb7605c46b9cb81bfa13437e, type: 2}
-  player: {fileID: 1078283476}
 --- !u!1 &1085303994
 GameObject:
   m_ObjectHideFlags: 0
@@ -20438,10 +20403,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7295399986023051146, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1078283479}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
 --- !u!1 &1320315463
 GameObject:
