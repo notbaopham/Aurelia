@@ -1,6 +1,5 @@
 using System;
-using System.Threading;
-using NUnit.Framework;
+using System.Collections;
 using UnityEngine;
 
 // TODO:
@@ -9,6 +8,7 @@ using UnityEngine;
 */
 public class Player : MonoBehaviour
 {
+
     public static Player Instance;
     // Managers - top objects to refer to
     [SerializeField] private InputManager inputManager;
@@ -31,12 +31,10 @@ public class Player : MonoBehaviour
     [SerializeField] private float dashSpeed = 20f;
     private float dashTime, lastDashTime;
     [SerializeField] private float dashDuration = 0.1f;
+    [SerializeField] private float dashCooldown = 5f;
 
     // Double Jump variables
-    public bool canDoubleJump;
-    // Dash variables
-    public bool canDash;
-
+    private bool canDoubleJump;
 
     // Attack variable
     private bool isAttacking;
@@ -64,6 +62,13 @@ public class Player : MonoBehaviour
     private float dashTimeLeft;
     private float lastImageXpos;
 
+    // Player's Health and Hurtbox variables
+    [SerializeField] int playerHealth = 5;
+    private GameObject playerHurtbox;
+    private float hurtDuration = 0.6f;
+    private float hurtKnockBack = 5f;
+    private bool isHurting;
+
     // Start of the player object
     private void Awake()
     {
@@ -84,6 +89,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         attackArea = transform.GetChild(0).gameObject;
+        playerHurtbox = transform.GetChild(2).gameObject;
     }
 
     // Update is called once per frame
@@ -137,7 +143,7 @@ public class Player : MonoBehaviour
 
         float turnThreshhold = 0.1f;
         // Rotator
-        if (Math.Abs(rb.linearVelocityX) > turnThreshhold && isMovementKeyOn) {
+        if (Math.Abs(rb.linearVelocityX) > turnThreshhold && isMovementKeyOn && !isHurting) {
             if (rb.linearVelocityX < 0) {
                 currentlyFacing = Vector2.left;
             } else if (rb.linearVelocityX > 0) {
@@ -156,7 +162,6 @@ public class Player : MonoBehaviour
         if (hit) {
             isOnGround = true;
             canDoubleJump = true;
-            canDash = true;
         } else {
             isOnGround = false;
         }
@@ -204,12 +209,20 @@ public class Player : MonoBehaviour
         // Updating attack sequence
         spriteObject.GetComponent<Animator>().SetBool("isInAttackSequence", isAttacking || isInRecovery);
         spriteObject.GetComponent<Animator>().SetBool("isAttackingInAir", isAttackingInAir);
+
+        // Updating hurt sequence
+        spriteObject.GetComponent<Animator>().SetBool("isHurting", isHurting);
     }
+
+    // ---------- Player's Jump, Movement and Dash
 
     void Jump() {
         // Debug.Log("Jumping");
         // Debug.Log(isOnGround);
-        
+        if (isHurting) {
+            return;
+        }
+
         if (isOnGround) {
             Vector2 jumpDir = Vector2.up;
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
@@ -224,7 +237,7 @@ public class Player : MonoBehaviour
     }
 
     private void MovePlayer(Vector2 directionInput) {
-        if (isInRecovery)
+        if (isInRecovery || isHurting)
         {
             return; // Ignore movement during recovery
         }
@@ -249,9 +262,11 @@ public class Player : MonoBehaviour
 
     void StartDash()
     {
-        if (!canDash) {
-            return;
+        if (Time.time - lastDashTime < dashCooldown || isHurting)
+        {
+            return; // Prevent dashing if cooldown has not expired
         }
+
         // Initiate dash and record the time
         isDashing = true;
         dashTime = 0f; // Reset dash duration
@@ -261,7 +276,6 @@ public class Player : MonoBehaviour
         rb.gravityScale = 0f; // Disable gravity
 
         lastImageXpos = transform.position.x;
-        canDash = false;
 
     }
 
@@ -289,10 +303,12 @@ public class Player : MonoBehaviour
         }
     }
 
+    // ---------- Player's Attacks and Sequencer ----------
+
     void Attack() {
 
         // Break if in cooldown, or currently dashing
-        if ((Time.time - lastAttackTime < attackCooldown) || isDashing)
+        if ((Time.time - lastAttackTime < (attackCooldown + attackRecovery)) || isDashing || isHurting)
         {
             // Attack is on cooldown
             return;
@@ -315,5 +331,65 @@ public class Player : MonoBehaviour
 
         attackRecoveryTimer = attackRecovery;
     }
+
+    // ---------- Getters, Setters and Status Checkers ----------
+
+    public bool DashCheck() {
+        return !(Time.time - lastDashTime < dashCooldown);
+    }
+
+    public bool DoubleJumpCheck() {
+        return canDoubleJump;
+    }
+
+    public int GetHealth() {
+        return playerHealth;
+    }
+
+    // ---------- Player's Heath, TakeDamage and Death ----------
+
+    public void TakeDamage(int damageTaken) {
+        if (!isHurting)
+        {
+            StartCoroutine(HurtSequence());
+
+            if (playerHealth - damageTaken <= 0) 
+            {
+                Death();
+            } 
+            else 
+            {
+                playerHealth -= damageTaken;    
+            }
+        }
+    }
+
+    public void Hurt() {
+        if (isDashing) {
+            return;
+        }
+        TakeDamage(0);
+    }
+
+    private void Death() {
+        Destroy(gameObject);
+    }
+
+    private IEnumerator HurtSequence() {
+
+        isHurting = true;
+
+        // Kills velocity, and knockback by 45* facing
+        rb.linearVelocity = Vector2.zero;
+        float knockbackSide = (currentlyFacing == Vector2.right) ? -1 : 1;
+        Vector2 knockbackDirection = new Vector2(knockbackSide, 1).normalized;
+        rb.AddForce(knockbackDirection * hurtKnockBack, ForceMode2D.Impulse);
+        
+        yield return new WaitForSeconds(hurtDuration);
+
+        isHurting = false;
+        if (isOnGround) {
+            rb.linearVelocity = Vector2.zero;
+        }
+    }
 }
-       
