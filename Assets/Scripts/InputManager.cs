@@ -8,7 +8,7 @@ public class InputManager : MonoBehaviour
     public UnityEvent OnDash = new();
     public UnityEvent OnAttack = new();
     public UnityEvent OnSettingsMenu = new();
-    
+
     void Start()
     {
         
@@ -37,6 +37,14 @@ public class InputManager : MonoBehaviour
         {
             OnAttack?.Invoke();
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            OnSettingsMenu?.Invoke();
+            Debug.Log("Escape pressed");
+        }
+        // we can access the game manager through the singleton instance
+        // and then access the public read-only bool
+        // which reflects the state of the game
         OnMove?.Invoke(input.normalized);
     }
 }
