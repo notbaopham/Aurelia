@@ -14,8 +14,8 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        UpdateSkillImage(Player.Instance.canDoubleJump, doubleJumpImage);
-        UpdateSkillImage(Player.Instance.canDash, dashImage);
+        UpdateSkillImage(Player.Instance.DoubleJumpCheck(), doubleJumpImage);
+        UpdateSkillImage(Player.Instance.DashCheck(), dashImage);
         // if (Player.Instance != null)
         // {
         //     Color imageColor = dashImage.color;
