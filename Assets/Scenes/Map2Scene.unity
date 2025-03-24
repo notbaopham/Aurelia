@@ -16243,7 +16243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parallaxFactorX: 0.4
-  parallaxFactorY: 0.3
+  parallaxFactorY: 0.4
 --- !u!4 &346195520 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4423790062290724278, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
@@ -18400,7 +18400,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 12
-      m_TileSpriteIndex: 112
+      m_TileSpriteIndex: 125
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -25657,8 +25657,8 @@ Tilemap:
     m_Data: {fileID: 198240604, guid: 5a93d0e6afefb744f926ecaf06e6cf1f, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 1597355733, guid: 5a93d0e6afefb744f926ecaf06e6cf1f, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -909264263, guid: 5a93d0e6afefb744f926ecaf06e6cf1f, type: 3}
   - m_RefCount: 1
@@ -25683,8 +25683,8 @@ Tilemap:
     m_Data: {fileID: -1234473963, guid: 5a93d0e6afefb744f926ecaf06e6cf1f, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -1291863879, guid: 5a93d0e6afefb744f926ecaf06e6cf1f, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 1597355733, guid: 5a93d0e6afefb744f926ecaf06e6cf1f, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -1272199878, guid: 5a93d0e6afefb744f926ecaf06e6cf1f, type: 3}
   m_TileMatrixArray:
