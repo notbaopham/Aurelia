@@ -64,6 +64,7 @@ public class Player : MonoBehaviour
 
     // Player's Health and Hurtbox variables
     [SerializeField] int playerHealth = 5;
+    private int playerMaxHealth = 5;
     private GameObject playerHurtbox;
     private float hurtDuration = 0.6f;
     private float hurtKnockBack = 5f;
@@ -76,6 +77,7 @@ public class Player : MonoBehaviour
     // Start of the player object
     private void Awake()
     {
+        playerMaxHealth = playerHealth;
         if (Instance == null)
             Instance = this;
         else
@@ -349,6 +351,9 @@ public class Player : MonoBehaviour
     public int GetHealth() {
         return playerHealth;
     }
+    public int GetMaxHealth() {
+        return playerMaxHealth;
+    }   
 
     // ---------- Player's Heath, TakeDamage and Death ----------
 
@@ -366,6 +371,10 @@ public class Player : MonoBehaviour
                 playerHealth -= damageTaken;    
             }
         }
+    }
+    public void AddBonusHealth(int healthBonus) {
+        playerMaxHealth += healthBonus;
+        playerHealth += healthBonus;
     }
 
     public void Hurt(int damage, bool existsKnockback) {

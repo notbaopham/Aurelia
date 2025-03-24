@@ -10,7 +10,7 @@ public class TeleportOnTouch : MonoBehaviour
         // Check if the object that touched is the player
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Player touched the portal!");
+            Debug.Log("Player touched the border");
 
             // Teleport the player to the teleport target
             if (teleportTarget != null)
