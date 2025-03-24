@@ -8,6 +8,7 @@ public class InputManager : MonoBehaviour
     public UnityEvent OnDash = new();
     public UnityEvent OnAttack = new();
     public UnityEvent OnSettingsMenu = new();
+    public bool isMovementDisabled = false; // Flag to disable movement
 
     void Start()
     {
@@ -16,6 +17,8 @@ public class InputManager : MonoBehaviour
 
     void Update()
     {
+        if (isMovementDisabled) return;
+        
         Vector2 input = Vector2.zero;
         if (Input.GetKey(KeyCode.A))
         {
