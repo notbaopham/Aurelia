@@ -69,6 +69,10 @@ public class Player : MonoBehaviour
     private float hurtKnockBack = 5f;
     private bool isHurting;
 
+    // Player's Death variables
+    private bool isDying;
+    private float dieDuration;
+
     // Start of the player object
     private void Awake()
     {
@@ -348,10 +352,10 @@ public class Player : MonoBehaviour
 
     // ---------- Player's Heath, TakeDamage and Death ----------
 
-    public void TakeDamage(int damageTaken) {
+    public void TakeDamage(int damageTaken, bool existsKnockback) {
         if (!isHurting)
         {
-            StartCoroutine(HurtSequence());
+            StartCoroutine(HurtSequence(existsKnockback));
 
             if (playerHealth - damageTaken <= 0) 
             {
@@ -364,26 +368,28 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void Hurt() {
+    public void Hurt(int damage, bool existsKnockback) {
         if (isDashing) {
             return;
         }
-        TakeDamage(0);
+        TakeDamage(damage, existsKnockback);
     }
 
     private void Death() {
         Destroy(gameObject);
     }
 
-    private IEnumerator HurtSequence() {
+    private IEnumerator HurtSequence(bool existsKnockback) {
 
         isHurting = true;
 
-        // Kills velocity, and knockback by 45* facing
-        rb.linearVelocity = Vector2.zero;
-        float knockbackSide = (currentlyFacing == Vector2.right) ? -1 : 1;
-        Vector2 knockbackDirection = new Vector2(knockbackSide, 1).normalized;
-        rb.AddForce(knockbackDirection * hurtKnockBack, ForceMode2D.Impulse);
+        if (existsKnockback) {
+            // Kills velocity, and knockback by 45* facing
+            rb.linearVelocity = Vector2.zero;
+            float knockbackSide = (currentlyFacing == Vector2.right) ? -1 : 1;
+            Vector2 knockbackDirection = new Vector2(knockbackSide, 1).normalized;
+            rb.AddForce(knockbackDirection * hurtKnockBack, ForceMode2D.Impulse);
+        }
         
         yield return new WaitForSeconds(hurtDuration);
 

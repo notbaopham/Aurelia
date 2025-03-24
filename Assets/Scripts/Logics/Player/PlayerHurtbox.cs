@@ -20,7 +20,10 @@ public class PlayerHurtbox : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Monster") {
-            player.Hurt();
+            player.Hurt(1, true);
+        }
+        if (collision.gameObject.tag == "Spike") {
+            player.Hurt(1, false);
         }
     }
 }
