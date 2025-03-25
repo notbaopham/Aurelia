@@ -30,13 +30,13 @@ public class UiManager : MonoBehaviour
         UpdateHealthUI(player.GetHealth());
         UpdateMaxHealthUI(player.GetMaxHealth());
        
-        if(!player.isDoubleJumpUnlocked)
+        if(!player.checkUnlocks("doubleJump"))
         {
             doubleJumpImage.enabled = false;
             doubleJumpBorder.enabled = false;
         }
 
-         if(!player.isDashUnlocked)
+         if(!player.checkUnlocks("dash"))
         {
             dashImage.enabled = false;
             dashBorder.enabled = false;
@@ -46,7 +46,7 @@ public class UiManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!player.isDoubleJumpUnlocked)
+        if(!player.checkUnlocks("doubleJump"))
         {
             doubleJumpImage.enabled = false;
             doubleJumpBorder.enabled = false;
@@ -57,7 +57,7 @@ public class UiManager : MonoBehaviour
             doubleJumpBorder.enabled = true;
         }
 
-        if(!player.isDashUnlocked)
+        if(!player.checkUnlocks("dash"))
         {
             dashImage.enabled = false;
             dashBorder.enabled = false;
@@ -134,7 +134,7 @@ public class UiManager : MonoBehaviour
         }
     }
 
-    //-------------------------Canvas Fading--------------------------------------------
+    // --------------------------------------------- Canvas Fading --------------------------------------------
     private IEnumerator GameOver()
     {
 
@@ -148,7 +148,7 @@ public class UiManager : MonoBehaviour
         yield return new WaitForSeconds(fadeDuration + 0.5f);
         SwitchScene("MainMenu");
     }
-    //----------------------------Scene Changer---------------------------------------------
+    // --------------------------------------------- Scene Changer ---------------------------------------------
     private void SwitchScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);

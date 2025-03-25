@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
     private Vector2 currentlyFacing;
 
     // Dashing variables
-    public bool isDashUnlocked = false;
+    private bool isDashUnlocked = false;
     private bool isDashing = false;
     [SerializeField] private float dashSpeed = 20f;
     private float dashTime, lastDashTime;
@@ -35,7 +35,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float dashCooldown = 5f;
 
     // Double Jump variables
-    public bool isDoubleJumpUnlocked = false;
+    private bool isDoubleJumpUnlocked = false;
     private bool canDoubleJump;
 
     // Attack variable
@@ -420,6 +420,25 @@ public class Player : MonoBehaviour
         isHurting = false;
         if (isOnGround) {
             rb.linearVelocity = Vector2.zero;
+        }
+    }
+
+    public void unlockDoubleJump() {
+        isDoubleJumpUnlocked = true;
+    }
+
+    public void unlockDash() {
+        isDashUnlocked = true;
+    }
+
+    public bool checkUnlocks(string ability) {
+        switch (ability) {
+            case "doubleJump":
+                return isDoubleJumpUnlocked;
+            case "dash":
+                return isDashUnlocked;
+            default:
+                return false;
         }
     }
 }

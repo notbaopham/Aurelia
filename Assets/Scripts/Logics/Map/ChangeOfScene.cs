@@ -11,6 +11,13 @@ public class ChangeOfScene : MonoBehaviour
     [SerializeField] CanvasGroup endScreen; // Reference to the end screen
 
     [SerializeField] float fadeDuration = 1f;
+    private Player player;
+
+    private void Start()
+    {
+        DontDestroyOnLoad(this);
+        player = FindFirstObjectByType<Player>();
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -69,5 +76,18 @@ public class ChangeOfScene : MonoBehaviour
     private void SwitchScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+        switch (sceneName) {
+            case "MainMenu":
+                break;
+            case "Map1Scene":
+                player.unlockDoubleJump();                
+                break;
+            case "Map2Scene":
+                player.unlockDoubleJump();
+                player.unlockDash();
+                break;
+            default:
+                return;
+        }
     }
 }
