@@ -17,11 +17,11 @@ public class ChangeOfScene : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Player touched trigger — disabling movement.");
-            StartCoroutine(DisableMovementForSeconds(disableDuration));
+            StartCoroutine(ChangingScene(disableDuration));
         }
     }
 
-    private IEnumerator DisableMovementForSeconds(float duration)
+    private IEnumerator ChangingScene(float duration)
     {
         inputManager.isMovementDisabled = true;
         Debug.Log("Movement Disabled");

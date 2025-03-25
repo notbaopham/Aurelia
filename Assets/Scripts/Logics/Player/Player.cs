@@ -364,6 +364,7 @@ public class Player : MonoBehaviour
 
             if (playerHealth - damageTaken <= 0) 
             {
+                playerHealth -= damageTaken; 
                 Death();
             } 
             else 
@@ -385,7 +386,7 @@ public class Player : MonoBehaviour
     }
 
     private void Death() {
-        Destroy(gameObject);
+        // Destroy(gameObject);
     }
 
     private IEnumerator HurtSequence(bool existsKnockback) {

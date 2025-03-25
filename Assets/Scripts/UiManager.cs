@@ -1,4 +1,6 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class UiManager : MonoBehaviour
 {
@@ -8,6 +10,12 @@ public class UiManager : MonoBehaviour
     [SerializeField] private Image[] maxHearts;
     [SerializeField] private Player player;
 
+    [SerializeField] ChangeOfScene changeOfScene; // Reference to the ChangeOfScene script
+    [SerializeField] CanvasGroup blackScreen; // Reference to the black screen
+    [SerializeField] CanvasGroup endScreen; // Reference to the end screen
+
+    [SerializeField] float fadeDuration = 0.5f;
+    private bool isSceneChanging = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -28,6 +36,11 @@ public class UiManager : MonoBehaviour
         // }
         UpdateHealthUI(player.GetHealth());
         UpdateMaxHealthUI(player.GetMaxHealth());
+        if (player.GetHealth() <= 0 && !isSceneChanging)
+        {
+            isSceneChanging = true;
+            StartCoroutine(GameOver());
+        }
     }  
     
     void UpdateSkillImage(bool skill, Image image)
@@ -68,4 +81,25 @@ public class UiManager : MonoBehaviour
             }
         }
     }
+
+    //-------------------------Canvas Fading--------------------------------------------
+    private IEnumerator GameOver()
+    {
+
+        changeOfScene.FadeIn(blackScreen);
+        
+        yield return new WaitForSeconds(2f);
+
+        changeOfScene.FadeIn(endScreen);
+        yield return new WaitForSeconds(4f);
+        changeOfScene.FadeOut(endScreen);
+        yield return new WaitForSeconds(fadeDuration + 0.5f);
+        SwitchScene("MainMenu");
+    }
+    //----------------------------Scene Changer---------------------------------------------
+    private void SwitchScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
 }
+
