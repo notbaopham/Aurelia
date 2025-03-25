@@ -386,7 +386,7 @@ public class Player : MonoBehaviour
     }
 
     private void Death() {
-        // Destroy(gameObject);
+        Destroy(gameObject);
     }
 
     private IEnumerator HurtSequence(bool existsKnockback) {
