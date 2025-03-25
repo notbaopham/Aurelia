@@ -27,6 +27,7 @@ public class Player : MonoBehaviour
     private Vector2 currentlyFacing;
 
     // Dashing variables
+    public bool isDashUnlocked = false;
     private bool isDashing = false;
     [SerializeField] private float dashSpeed = 20f;
     private float dashTime, lastDashTime;
@@ -34,6 +35,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float dashCooldown = 5f;
 
     // Double Jump variables
+    public bool isDoubleJumpUnlocked = false;
     private bool canDoubleJump;
 
     // Attack variable
@@ -64,14 +66,20 @@ public class Player : MonoBehaviour
 
     // Player's Health and Hurtbox variables
     [SerializeField] int playerHealth = 5;
+    private int playerMaxHealth = 5;
     private GameObject playerHurtbox;
     private float hurtDuration = 0.6f;
     private float hurtKnockBack = 5f;
     private bool isHurting;
 
+    // Player's Death variables
+    private bool isDying;
+    private float dieDuration;
+
     // Start of the player object
     private void Awake()
     {
+        playerMaxHealth = playerHealth;
         if (Instance == null)
             Instance = this;
         else
@@ -228,6 +236,9 @@ public class Player : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
             rb.AddForce(jumpDir * jumpForce, ForceMode2D.Impulse);
         } else if (canDoubleJump) {
+            if (!isDoubleJumpUnlocked) {
+                return; // Ignore double jump if not unlocked
+            }
             Vector2 jumpDir = Vector2.up;
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
             rb.AddForce(jumpDir * jumpForce, ForceMode2D.Impulse);
@@ -262,6 +273,10 @@ public class Player : MonoBehaviour
 
     void StartDash()
     {
+        if (!isDashUnlocked)
+        {
+            return; // Ignore dashing if not unlocked
+        }
         if (Time.time - lastDashTime < dashCooldown || isHurting)
         {
             return; // Prevent dashing if cooldown has not expired
@@ -345,16 +360,20 @@ public class Player : MonoBehaviour
     public int GetHealth() {
         return playerHealth;
     }
+    public int GetMaxHealth() {
+        return playerMaxHealth;
+    }   
 
     // ---------- Player's Heath, TakeDamage and Death ----------
 
-    public void TakeDamage(int damageTaken) {
+    public void TakeDamage(int damageTaken, bool existsKnockback) {
         if (!isHurting)
         {
-            StartCoroutine(HurtSequence());
+            StartCoroutine(HurtSequence(existsKnockback));
 
             if (playerHealth - damageTaken <= 0) 
             {
+                playerHealth -= damageTaken; 
                 Death();
             } 
             else 
@@ -363,27 +382,38 @@ public class Player : MonoBehaviour
             }
         }
     }
+    public void AddBonusHealth(int healthBonus) {
+        playerMaxHealth += healthBonus;
+    }
+    public void Heal(int heal){
+        playerHealth += heal;
+        if (playerHealth > playerMaxHealth) {
+            playerHealth = playerMaxHealth;
+        }
+    }
 
-    public void Hurt() {
+    public void Hurt(int damage, bool existsKnockback) {
         if (isDashing) {
             return;
         }
-        TakeDamage(0);
+        TakeDamage(damage, existsKnockback);
     }
 
     private void Death() {
         Destroy(gameObject);
     }
 
-    private IEnumerator HurtSequence() {
+    private IEnumerator HurtSequence(bool existsKnockback) {
 
         isHurting = true;
 
-        // Kills velocity, and knockback by 45* facing
-        rb.linearVelocity = Vector2.zero;
-        float knockbackSide = (currentlyFacing == Vector2.right) ? -1 : 1;
-        Vector2 knockbackDirection = new Vector2(knockbackSide, 1).normalized;
-        rb.AddForce(knockbackDirection * hurtKnockBack, ForceMode2D.Impulse);
+        if (existsKnockback) {
+            // Kills velocity, and knockback by 45* facing
+            rb.linearVelocity = Vector2.zero;
+            float knockbackSide = (currentlyFacing == Vector2.right) ? -1 : 1;
+            Vector2 knockbackDirection = new Vector2(knockbackSide, 1).normalized;
+            rb.AddForce(knockbackDirection * hurtKnockBack, ForceMode2D.Impulse);
+        }
         
         yield return new WaitForSeconds(hurtDuration);
 
