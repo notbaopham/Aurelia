@@ -39889,6 +39889,10 @@ PrefabInstance:
       value: Dash unlocked
       objectReference: {fileID: 0}
     - target: {fileID: 3496501892690884184, guid: 6444ab18a372c83488c018446ec5095b, type: 3}
+      propertyPath: sceneName
+      value: Map3Scene
+      objectReference: {fileID: 0}
+    - target: {fileID: 3496501892690884184, guid: 6444ab18a372c83488c018446ec5095b, type: 3}
       propertyPath: inputManager
       value: 
       objectReference: {fileID: 1475435740}
