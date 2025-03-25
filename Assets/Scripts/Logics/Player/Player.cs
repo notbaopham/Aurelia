@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     public static Player Instance;
     // Managers - top objects to refer to
     [SerializeField] private InputManager inputManager;
+    [SerializeField] private AudioManager audioManager;
 
     // Movement values
     [SerializeField] private float acceleration = 10f;
@@ -69,9 +70,7 @@ public class Player : MonoBehaviour
     private float hurtKnockBack = 5f;
     private bool isHurting;
 
-    // Player's Death variables
-    private bool isDying;
-    private float dieDuration;
+    // Player's Particles
 
     // Start of the player object
     private void Awake()
@@ -94,6 +93,7 @@ public class Player : MonoBehaviour
     {
         attackArea = transform.GetChild(0).gameObject;
         playerHurtbox = transform.GetChild(2).gameObject;
+
     }
 
     // Update is called once per frame
@@ -163,7 +163,11 @@ public class Player : MonoBehaviour
 
         // Ground collision check
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.55f, consideredGround);
-        if (hit) {
+        Vector2 positionEdge = new Vector2(transform.position.x - (currentlyFacing.x * 0.5f), transform.position.y);
+        Debug.DrawLine(transform.position, positionEdge, Color.red);
+        RaycastHit2D edgeHit = Physics2D.Raycast(positionEdge, Vector2.down, 0.55f, consideredGround);
+
+        if (hit || edgeHit) {
             isOnGround = true;
             canDoubleJump = true;
         } else {
@@ -218,7 +222,7 @@ public class Player : MonoBehaviour
         spriteObject.GetComponent<Animator>().SetBool("isHurting", isHurting);
     }
 
-    // ---------- Player's Jump, Movement and Dash
+    // ---------- Player's Jump, Movement and Dash ----------
 
     void Jump() {
         // Debug.Log("Jumping");
