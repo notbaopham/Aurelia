@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 6308112941301106559}
   - component: {fileID: 7436842413946327995}
   - component: {fileID: 9044380091925041398}
+  - component: {fileID: 5893745474669247392}
+  - component: {fileID: 8051473139356911814}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -54,9 +56,13 @@ MonoBehaviour:
   OnDash:
     m_PersistentCalls:
       m_Calls: []
+  OnAttack:
+    m_PersistentCalls:
+      m_Calls: []
   OnSettingsMenu:
     m_PersistentCalls:
       m_Calls: []
+  isMovementDisabled: 0
 --- !u!114 &9044380091925041398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,3 +75,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f002fc50d2f2f54abcbd8a4ff0382d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5893745474669247392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484029916972643653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 542e2b8bb51655d4ea51e077dbbd37e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputManager: {fileID: 7436842413946327995}
+  settingsMenu: {fileID: 0}
+--- !u!114 &8051473139356911814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484029916972643653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdbe209659c6ff94d805654971a9041c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doubleJumpImage: {fileID: 0}
+  dashImage: {fileID: 0}
+  hearts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  maxHearts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  player: {fileID: 0}
+  changeOfScene: {fileID: 0}
+  blackScreen: {fileID: 0}
+  endScreen: {fileID: 0}
+  fadeDuration: 1
