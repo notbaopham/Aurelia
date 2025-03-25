@@ -20,6 +20,7 @@ public class SecretItem : MonoBehaviour
         {
             Destroy(gameObject); // Destroys this object (Object A)
             player.AddBonusHealth(1); // Bonus the player's health
+            player.Heal(1); // Heals the player
         }
     }
 }

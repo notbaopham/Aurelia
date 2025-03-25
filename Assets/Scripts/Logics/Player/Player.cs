@@ -384,7 +384,12 @@ public class Player : MonoBehaviour
     }
     public void AddBonusHealth(int healthBonus) {
         playerMaxHealth += healthBonus;
-        playerHealth += healthBonus;
+    }
+    public void Heal(int heal){
+        playerHealth += heal;
+        if (playerHealth > playerMaxHealth) {
+            playerHealth = playerMaxHealth;
+        }
     }
 
     public void Hurt(int damage, bool existsKnockback) {
