@@ -5,28 +5,70 @@ using UnityEngine.UI;
 public class UiManager : MonoBehaviour
 {
     [SerializeField] private Image doubleJumpImage;
+    [SerializeField] private Image doubleJumpBorder;
+    
     [SerializeField] private Image dashImage;
+    [SerializeField] private Image dashBorder;
+
     [SerializeField] private Image[] hearts;
     [SerializeField] private Image[] maxHearts;
+    private int previousHealth;
+    private int previousMaxHealth;
     [SerializeField] private Player player;
 
     [SerializeField] ChangeOfScene changeOfScene; // Reference to the ChangeOfScene script
     [SerializeField] CanvasGroup blackScreen; // Reference to the black screen
     [SerializeField] CanvasGroup endScreen; // Reference to the end screen
 
-    [SerializeField] float fadeDuration = 0.5f;
+    [SerializeField] float fadeDuration = 1f;
     private bool isSceneChanging = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        previousHealth = player.GetHealth();
+        previousMaxHealth = player.GetMaxHealth();
+        UpdateHealthUI(player.GetHealth());
+        UpdateMaxHealthUI(player.GetMaxHealth());
+       
+        if(!player.isDoubleJumpUnlocked)
+        {
+            doubleJumpImage.enabled = false;
+            doubleJumpBorder.enabled = false;
+        }
 
+         if(!player.isDashUnlocked)
+        {
+            dashImage.enabled = false;
+            dashBorder.enabled = false;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        UpdateSkillImage(Player.Instance.DoubleJumpCheck(), doubleJumpImage);
-        UpdateSkillImage(Player.Instance.DashCheck(), dashImage);
+        if(!player.isDoubleJumpUnlocked)
+        {
+            doubleJumpImage.enabled = false;
+            doubleJumpBorder.enabled = false;
+        }
+        else
+        {
+            doubleJumpImage.enabled = true;
+            doubleJumpBorder.enabled = true;
+        }
+
+        if(!player.isDashUnlocked)
+        {
+            dashImage.enabled = false;
+            dashBorder.enabled = false;
+        }
+        else
+        {
+            dashImage.enabled = true;
+            dashBorder.enabled = true;
+        }
+        UpdateSkillImage(player.DoubleJumpCheck(), doubleJumpImage);
+        UpdateSkillImage(player.DashCheck(), dashImage);
         // if (Player.Instance != null)
         // {
         //     Color imageColor = dashImage.color;
@@ -34,8 +76,18 @@ public class UiManager : MonoBehaviour
         //     dashImage.color = imageColor;
             
         // }
-        UpdateHealthUI(player.GetHealth());
-        UpdateMaxHealthUI(player.GetMaxHealth());
+        if (previousHealth != player.GetHealth())
+        {
+            UpdateHealthUI(player.GetHealth());
+            previousHealth = player.GetHealth();
+        }
+
+        if (previousMaxHealth != player.GetMaxHealth())
+        {
+            UpdateMaxHealthUI(player.GetMaxHealth());
+            previousMaxHealth = player.GetMaxHealth();
+        }
+
         if (player.GetHealth() <= 0 && !isSceneChanging)
         {
             isSceneChanging = true;
