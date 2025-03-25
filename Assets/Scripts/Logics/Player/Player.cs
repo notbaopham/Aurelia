@@ -359,7 +359,7 @@ public class Player : MonoBehaviour
 
             if (playerHealth - damageTaken <= 0) 
             {
-                Death();
+                StartCoroutine(DieAfterDelay());
             } 
             else 
             {
@@ -397,5 +397,11 @@ public class Player : MonoBehaviour
         if (isOnGround) {
             rb.linearVelocity = Vector2.zero;
         }
+    }
+
+    private IEnumerator DieAfterDelay() {
+        yield return new WaitForSeconds(0.6f);
+        
+        Death();
     }
 }
