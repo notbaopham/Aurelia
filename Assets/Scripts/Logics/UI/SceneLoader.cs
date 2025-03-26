@@ -1,13 +1,11 @@
 using UnityEngine;
-using UnityEngine.UI;
 
-public class GameManager : MonoBehaviour
+public class SceneLoader : MonoBehaviour
 {
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
-        if (FindObjectsByType<GameManager>(FindObjectsSortMode.None).Length > 1)
+        if (FindObjectsByType<SceneLoader>(FindObjectsSortMode.None).Length > 1)
         {
             Destroy(gameObject);
             return; 
@@ -19,6 +17,5 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
-    }  
-    
+    }
 }

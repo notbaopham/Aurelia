@@ -410,6 +410,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 701537878451799189}
+  - component: {fileID: 8962210817392224939}
   m_Layer: 0
   m_Name: Change Of Scene
   m_TagString: Untagged
@@ -436,6 +437,18 @@ Transform:
   - {fileID: 8417759478851241674}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8962210817392224939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5953311846999670838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0175778915e29a46b9bf1b4b93cd530, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6709265703297754990
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,24 +1,23 @@
 using UnityEngine;
-using UnityEngine.UI;
 
-public class GameManager : MonoBehaviour
+public class SettingsCanvas : MonoBehaviour
 {
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
-        if (FindObjectsByType<GameManager>(FindObjectsSortMode.None).Length > 1)
+        gameObject.SetActive(true);
+        if (FindObjectsByType<SettingsCanvas>(FindObjectsSortMode.None).Length > 1)
         {
             Destroy(gameObject);
             return; 
         }
         DontDestroyOnLoad(gameObject);
+        gameObject.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
         
-    }  
-    
+    }
 }
