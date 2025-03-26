@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
 // TODO:
@@ -12,6 +13,7 @@ public class Player : MonoBehaviour
     public static Player Instance;
     // Managers - top objects to refer to
     [SerializeField] private InputManager inputManager;
+    private PlayerAudio playerAudio;
 
     // Movement values
     [SerializeField] private float acceleration = 10f;
@@ -91,6 +93,7 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         currentlyFacing = Vector2.right;
         rb.gravityScale = gravityScale;
+        playerAudio = GetComponentInChildren<PlayerAudio>();
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -435,5 +438,17 @@ public class Player : MonoBehaviour
     private IEnumerator DieWithDelay(float time) {
         yield return new WaitForSeconds(hurtDuration);
         Death();
+    }
+
+    public bool getGroundedState() {
+        return isOnGround;
+    }
+
+    public bool getDashingState() {
+        return isDashing;
+    }
+
+    public bool getAttackingState() {
+        return isAttacking || isInRecovery;
     }
 }

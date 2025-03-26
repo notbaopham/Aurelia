@@ -621,7 +621,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7295399986023051146, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
       propertyPath: m_Name
-      value: Player 1
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8530014622508287394, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
       propertyPath: player
@@ -630,6 +630,14 @@ PrefabInstance:
     - target: {fileID: 8530014622508287394, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
       propertyPath: playerHealth
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8945899315893889695, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
+      propertyPath: runSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84ca8135b624c1545a6b6a123f004729, type: 3}
+    - target: {fileID: 8945899315893889695, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
+      propertyPath: runSoundInterval
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 8988970940935042907, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
       propertyPath: m_Size.x
@@ -2144,11 +2152,11 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 2090362354}
   - {fileID: 1031227096}
   - {fileID: 1636780458}
   - {fileID: 2050227112478730217}
   - {fileID: 1481466821}
-  - {fileID: 2090362354}
   - {fileID: 1566611078}
   - {fileID: 2095353240}
   - {fileID: 1340755349}
