@@ -4,6 +4,7 @@ public class PlayerAudio : MonoBehaviour
 {
     public AudioSource audioSource;
     public AudioClip jumpSound, dashSound, healPotionPop, healSoothingVoice, attackSound, runSound;
+    private AudioClip[] runSounds;
     private Player player;
 
     public void PlayWalkSound() => audioSource.PlayOneShot(runSound);
@@ -11,7 +12,10 @@ public class PlayerAudio : MonoBehaviour
     public float runSoundInterval = 2f;  // Time interval between each sound play
     private float timeSinceLastRunSound = 0f;  // Timer to track intervals
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Awake()
+    {
+        runSounds = Resources.LoadAll<AudioClip>("Audio/Run/Grass");
+    }
     void Start()
     {
         player = GetComponentInParent<Player>();
@@ -27,7 +31,11 @@ public class PlayerAudio : MonoBehaviour
 
             if (timeSinceLastRunSound >= runSoundInterval)
             {
-                audioSource.PlayOneShot(runSound);
+                if (runSounds.Length > 0)
+                {
+                    int randomIndex = Random.Range(0, runSounds.Length);
+                    audioSource.PlayOneShot(runSounds[randomIndex]);
+                }
                 timeSinceLastRunSound = 0f;
             }
         }
