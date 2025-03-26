@@ -382,6 +382,7 @@ public class Player : MonoBehaviour
 
             if (playerHealth - damageTaken <= 0) 
             {
+                playerHealth = 0;
                 StartCoroutine(DieWithDelay(0.6f));
             } 
             else 
