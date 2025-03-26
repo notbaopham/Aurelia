@@ -12,9 +12,9 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private float minZoom = 2f;
     [SerializeField] private float maxZoom = 10f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
-        
+        target = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     // Update is called once per frame

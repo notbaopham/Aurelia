@@ -15,6 +15,12 @@ public class PlayerAfterImagesPool : MonoBehaviour
     {
         Instance = this;
         GrowPool();
+        if (FindObjectsByType<PlayerAfterImagesPool>(FindObjectsSortMode.None).Length > 1)
+        {
+            Destroy(gameObject);
+            return; 
+        }
+        DontDestroyOnLoad(gameObject);
     }
 
     private void GrowPool() {
