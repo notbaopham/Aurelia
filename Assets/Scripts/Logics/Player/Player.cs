@@ -167,7 +167,16 @@ public class Player : MonoBehaviour
 
         // Ground collision check
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.55f, consideredGround);
-        if (hit) {
+        Vector2 backRayPos = new Vector2(transform.position.x - (currentlyFacing.x * 0.35f), transform.position.y);
+        Vector2 frontRayPos = new Vector2(transform.position.x - (currentlyFacing.x * -0.35f), transform.position.y);
+
+        // Extra RayCasting, to prevent player dangling
+        RaycastHit2D backRay = Physics2D.Raycast(backRayPos, Vector2.down, 0.55f, consideredGround);
+        RaycastHit2D frontRay = Physics2D.Raycast(frontRayPos, Vector2.down, 0.55f, consideredGround);
+        Debug.DrawLine(backRayPos, transform.position, Color.blue);
+        Debug.DrawLine(frontRayPos, transform.position, Color.blue);
+
+        if (hit || backRay || frontRay) {
             isOnGround = true;
             canDoubleJump = true;
         } else {
