@@ -76,6 +76,13 @@ public class Player : MonoBehaviour
     private bool isDying;
     private float dieDuration;
 
+    // Wind variables
+    private bool windActive = false;
+    private WindManager.WindDirection windDirection;
+    private float windForce = 0.00001f;
+    private float horizontalInput;
+
+
     // Start of the player object
     private void Awake()
     {
@@ -235,6 +242,40 @@ public class Player : MonoBehaviour
 
         // Updating hurt sequence
         spriteObject.GetComponent<Animator>().SetBool("isHurting", isHurting);
+
+        // Updating wind sequence
+        if (windActive)
+        {
+            Vector2 windDir = (windDirection == WindManager.WindDirection.Left) ? Vector2.left : Vector2.right;
+
+            // Check player current speed
+            float currentSpeed = rb.linearVelocity.x;
+
+            // Player state: idle
+            if (Mathf.Abs(horizontalInput) < 0.1f)
+            {
+                rb.linearVelocity = new Vector2(windDir.x * windForce, rb.linearVelocity.y);
+            }
+
+            // Player state: moving along the wind
+            else if ((horizontalInput > 0 && windDirection == WindManager.WindDirection.Right) ||
+             (horizontalInput < 0 && windDirection == WindManager.WindDirection.Left))
+            {
+                // Add windForce additively to current velocity
+                float boostedSpeed = Mathf.Clamp(rb.linearVelocity.x + windDir.x * windForce, -maxSpeed - windForce, maxSpeed + windForce);
+                rb.linearVelocity = new Vector2(boostedSpeed, rb.linearVelocity.y);
+            }
+
+            // Player state: moving against the wind
+            else
+            {
+                // Subtract windForce in the opposite direction
+                float reducedSpeed = Mathf.Clamp(rb.linearVelocity.x - windDir.x * windForce, -maxSpeed, maxSpeed);
+                rb.linearVelocity = new Vector2(reducedSpeed, rb.linearVelocity.y);
+            }
+
+        }
+
     }
 
     // ---------- Player's Jump, Movement and Dash
@@ -437,6 +478,18 @@ public class Player : MonoBehaviour
             rb.linearVelocity = Vector2.zero;
         }
     }
+    public void EnableWindEffect(WindManager.WindDirection dir, float force)
+    {
+        windActive = true;
+        windDirection = dir;
+        windForce = force;
+    }
+
+    public void DisableWindEffect()
+    {
+        windActive = false;
+    }
+
 
     private IEnumerator DieWithDelay(float time) {
         yield return new WaitForSeconds(hurtDuration);
