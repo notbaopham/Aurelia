@@ -12955,7 +12955,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 790477021634807113, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
       propertyPath: isDashUnlocked
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 790477021634807113, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
       propertyPath: isDoubleJumpUnlocked
