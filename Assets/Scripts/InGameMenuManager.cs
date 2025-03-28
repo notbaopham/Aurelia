@@ -20,7 +20,7 @@ public class InGameMenuManager : MonoBehaviour
 
     void Awake()
     {
-        settingsMenu.SetActive(false);
+        // settingsMenu.SetActive(false);
 
         inputManager.OnSettingsMenu.AddListener(ToggleSettingsMenu);
         // if (audioSource != null)

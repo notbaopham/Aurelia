@@ -78,6 +78,12 @@ public class Player : MonoBehaviour
     // Start of the player object
     private void Awake()
     {
+        if (FindObjectsByType<Player>(FindObjectsSortMode.None).Length > 1)
+        {
+            Destroy(gameObject);
+            return; 
+        }
+        DontDestroyOnLoad(gameObject);
         playerMaxHealth = playerHealth;
         if (Instance == null)
             Instance = this;

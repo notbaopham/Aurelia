@@ -12,16 +12,27 @@ public class ChangeOfScene : MonoBehaviour
 
     [SerializeField] float fadeDuration = 1f;
 
+    private void Start()
+    {
+        // if (FindObjectsByType<ChangeOfScene>(FindObjectsSortMode.None).Length > 1)
+        // {
+        //     Destroy(gameObject);
+        //     return; 
+        // }
+        // DontDestroyOnLoad(gameObject);
+        // inputManager = FindObjectsByType<InputManager>(FindObjectsSortMode.None)
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             Debug.Log("Player touched trigger — disabling movement.");
-            StartCoroutine(ChangingScene(disableDuration));
+            StartCoroutine(ChangingScene(disableDuration, other));
         }
+        
     }
 
-    private IEnumerator ChangingScene(float duration)
+    private IEnumerator ChangingScene(float duration, Collider2D other)
     {
         inputManager.isMovementDisabled = true;
         Debug.Log("Movement Disabled");
@@ -30,11 +41,14 @@ public class ChangeOfScene : MonoBehaviour
         yield return new WaitForSeconds(duration);
         
         inputManager.isMovementDisabled = false;
+        
         Debug.Log("Movement Enabled");
         FadeIn(endScreen);
         yield return new WaitForSeconds(4f);
         FadeOut(endScreen);
         yield return new WaitForSeconds(fadeDuration + 0.5f);
+        FadeOut(blackScreen);
+        other.transform.position = new Vector3(0, 0, 0);
         SwitchScene(sceneName);
     }
     public void FadeIn(CanvasGroup canvasGroup)
