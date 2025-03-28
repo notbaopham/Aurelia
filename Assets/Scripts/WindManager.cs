@@ -17,8 +17,17 @@ public class WindManager : MonoBehaviour
     public Player player; // reference to your player script
     public UiManager uiManager; // reference to your UI manager
 
+    [SerializeField] private ParticleSystem windParticleLeft;
+    [SerializeField] private ParticleSystem windParticleRight;
+
     void Start()
     {
+        // Stop the particle effect
+
+        windParticleLeft.Stop();
+        windParticleLeft.Clear();
+        windParticleRight.Stop();
+        windParticleRight.Clear();
         StartCoroutine(WindCycle());
     }
 
@@ -50,6 +59,18 @@ public class WindManager : MonoBehaviour
 
             Wind.Instance.EnableWind(windDir, windForce);
 
+            // Enable the corresponding particle effect
+            if (currentDirection == WindDirection.Left)
+            {
+                windParticleLeft.Play();
+                windParticleRight.Stop(); // Just in case the other one is still playing
+            }
+            else
+            {
+                windParticleRight.Play();
+                windParticleLeft.Stop();
+            }
+
             float windDuration = Random.Range(windMinTime, windMaxTime);
             yield return new WaitForSeconds(windDuration);
             uiManager.ShowWindDuration(windDuration);
@@ -58,6 +79,10 @@ public class WindManager : MonoBehaviour
             // End wind
             Wind.Instance.DisableWind();
             windActive = false;
+
+            // Stop the particle effect
+            windParticleLeft.Stop();
+            windParticleRight.Stop();
         }
     }
 }
