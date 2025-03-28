@@ -142,6 +142,10 @@ public class Player : MonoBehaviour
         return isMovementKeyOn;
     }
 
+    public float getKeyReleasedTime() {
+        return releaseTimer;
+    }
+
     private IEnumerator CountDownTimer()
     {
         while (releaseTimer > 0f)

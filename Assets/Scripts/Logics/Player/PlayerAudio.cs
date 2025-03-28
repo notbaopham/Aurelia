@@ -42,7 +42,7 @@ public class PlayerAudio : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Mathf.Abs(player.GetComponent<Rigidbody2D>().linearVelocity.x) > 1.5f && player.getGroundedState() && !player.getDashingState() && !player.getAttackingState() && player.keyPressingState())
+        if (Mathf.Abs(player.GetComponent<Rigidbody2D>().linearVelocity.x) > 1.5f && player.getGroundedState() && !player.getDashingState() && !player.getAttackingState() && (player.getKeyReleasedTime() > 0))
         {
             timeSinceLastRunSound += Time.deltaTime;
 
