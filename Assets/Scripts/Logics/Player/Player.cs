@@ -3,10 +3,6 @@ using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 
-// TODO:
-/*
-    Attack - E/LeftClick, creates a cascading cone hitbox infront of player
-*/
 public class Player : MonoBehaviour
 {
 
@@ -21,6 +17,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float jumpForce = 3f;
     private bool isMovementKeyOn;
     [SerializeField] private float gravityScale = 2f;
+    private float releaseTimer = 0.5f;
 
     // Overlord variables
     [SerializeField] private LayerMask consideredGround;
@@ -101,6 +98,7 @@ public class Player : MonoBehaviour
     {
         attackArea = transform.GetChild(0).gameObject;
         playerHurtbox = transform.GetChild(2).gameObject;
+        StartCoroutine(DampenVelocity(0.2f));
     }
 
     // Update is called once per frame
@@ -109,12 +107,15 @@ public class Player : MonoBehaviour
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
         {
             isMovementKeyOn = true;
+            releaseTimer = 20f;
         }
         else
         {
             isMovementKeyOn = false;
+            StartCoroutine(CountDownTimer());
         }
         spriteObject.GetComponent<Animator>().SetBool("isMovementKeyOn", isMovementKeyOn);
+        spriteObject.GetComponent<Animator>().SetFloat("keyReleasedTimer", releaseTimer);
 
         // Update the recovery timer
         if (attackRecoveryTimer > 0)
@@ -127,6 +128,38 @@ public class Player : MonoBehaviour
                 if (isAttackingInAir) {
                     isAttackingInAir = !isAttackingInAir;
                 }
+            }
+        }
+    }
+
+    public bool keyPressingState() {
+        return isMovementKeyOn;
+    }
+
+    private IEnumerator CountDownTimer()
+    {
+        while (releaseTimer > 0f)
+        {
+            yield return new WaitForSeconds(0.05f); 
+            releaseTimer -= 0.05f;
+        }
+        releaseTimer = 0f; // Ensure it stops at 0
+    }
+
+    private IEnumerator DampenVelocity(float dampAmount)
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(0.05f);
+
+            Vector2 newVelocity = rb.linearVelocity;
+
+            if (!isOnGround && !isMovementKeyOn) {
+                if (newVelocity.x > 0)
+                    newVelocity.x = Mathf.Max(0, newVelocity.x - dampAmount);
+                else if (newVelocity.x < 0)
+                    newVelocity.x = Mathf.Min(0, newVelocity.x + dampAmount);
+                rb.linearVelocity = newVelocity;
             }
         }
     }
@@ -252,6 +285,7 @@ public class Player : MonoBehaviour
             if (!isDoubleJumpUnlocked) {
                 return; // Ignore double jump if not unlocked
             }
+            playerAudio.PlayDoubleJumpStart();
             Vector2 jumpDir = Vector2.up;
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
             rb.AddForce(jumpDir * jumpForce, ForceMode2D.Impulse);
@@ -295,6 +329,9 @@ public class Player : MonoBehaviour
 
         // Disable gravity during dash
         rb.gravityScale = 0f; // Disable gravity
+
+        // Plays Audio
+        playerAudio.PlayDash();
 
         lastImageXpos = transform.position.x;
 
@@ -342,15 +379,24 @@ public class Player : MonoBehaviour
 
         if (!isOnGround) {
             isAttackingInAir = true;
+            playerAudio.PlayAttack("air");
+            StartCoroutine(DelayBeforeAttack(0.1f));
+            attackArea.SetActive(isAttacking);
+        } else {
+            playerAudio.PlayAttack("ground");
+            StartCoroutine(DelayBeforeAttack(0.2f));
+            attackArea.SetActive(isAttacking);
         }
-
-        attackArea.SetActive(isAttacking);
 
         lastAttackTime = Time.time; // Record time
 
         attackTimer = 0f; // Reset time after
 
         attackRecoveryTimer = attackRecovery;
+    }
+
+    private IEnumerator DelayBeforeAttack(float time) {
+        yield return new WaitForSeconds(time);
     }
 
     // ---------- Getters, Setters and Status Checkers ----------
@@ -380,7 +426,7 @@ public class Player : MonoBehaviour
             if (playerHealth - damageTaken <= 0) 
             {
                 playerHealth = 0;
-                StartCoroutine(DieWithDelay(0.6f));
+                StartCoroutine(DieWithDelay());
             } 
             else 
             {
@@ -391,7 +437,8 @@ public class Player : MonoBehaviour
     public void AddBonusHealth(int healthBonus) {
         playerMaxHealth += healthBonus;
     }
-    public void Heal(int heal){
+    public void Heal(int heal) {
+        playerAudio.PlayHeal();
         playerHealth += heal;
         if (playerHealth > playerMaxHealth) {
             playerHealth = playerMaxHealth;
@@ -402,6 +449,7 @@ public class Player : MonoBehaviour
         if (isDashing) {
             return;
         }
+        playerAudio.PlayHurt();
         TakeDamage(damage, existsKnockback);
     }
 
@@ -429,7 +477,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    private IEnumerator DieWithDelay(float time) {
+    private IEnumerator DieWithDelay() {
         yield return new WaitForSeconds(hurtDuration);
         Death();
     }
