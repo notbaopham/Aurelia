@@ -23978,11 +23978,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!4 &346195520 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4423790062290724278, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
-  m_PrefabInstance: {fileID: 1235671342}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &677425841
 GameObject:
   m_ObjectHideFlags: 0
@@ -36877,6 +36872,14 @@ PrefabInstance:
       propertyPath: isDoubleJumpUnlocked
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1010841287345455632, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
+      propertyPath: inputManager
+      value: 
+      objectReference: {fileID: 1475435740}
+    - target: {fileID: 1642597891047724865, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4423790062290724278, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -36930,17 +36933,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
---- !u!114 &1235671343 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 790477021634807113, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
-  m_PrefabInstance: {fileID: 1235671342}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9fdbcd9b20c9d1469540a2e0f8dce34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1255355825
 GameObject:
   m_ObjectHideFlags: 0
@@ -39494,7 +39486,7 @@ PrefabInstance:
     - target: {fileID: 3046079857821110951, guid: 52b1563c03954f74e9fdf5ed0c632fe9, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1235671343}
+      objectReference: {fileID: 0}
     - target: {fileID: 5893745474669247392, guid: 52b1563c03954f74e9fdf5ed0c632fe9, type: 3}
       propertyPath: settingsMenu
       value: 
@@ -39542,7 +39534,7 @@ PrefabInstance:
     - target: {fileID: 8051473139356911814, guid: 52b1563c03954f74e9fdf5ed0c632fe9, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1235671343}
+      objectReference: {fileID: 0}
     - target: {fileID: 8051473139356911814, guid: 52b1563c03954f74e9fdf5ed0c632fe9, type: 3}
       propertyPath: dashImage
       value: 
@@ -40883,7 +40875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c511f982191e5fd4f8ba60305925d915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 346195520}
+  target: {fileID: 0}
   FollowSpeed: 4.5
   yOffset: 1
   cam: {fileID: 1922667674}
@@ -41703,7 +41695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50bb9c2ac584fa74b89313ae0c35863f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1235671343}
+  player: {fileID: 0}
 --- !u!1 &1985338766
 GameObject:
   m_ObjectHideFlags: 0
