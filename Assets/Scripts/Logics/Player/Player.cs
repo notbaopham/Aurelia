@@ -26,7 +26,7 @@ public class Player : MonoBehaviour
     private Vector2 currentlyFacing;
 
     // Dashing variables
-    private bool isDashUnlocked = false;
+    [SerializeField] private bool isDashUnlocked = false;
     private bool isDashing = false;
     [SerializeField] private float dashSpeed = 20f;
     private float dashTime, lastDashTime;
@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float dashCooldown = 5f;
 
     // Double Jump variables
-    private bool isDoubleJumpUnlocked = false;
+    [SerializeField] private bool isDoubleJumpUnlocked = false;
     private bool canDoubleJump;
 
     // Attack variable

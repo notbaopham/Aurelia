@@ -36877,8 +36877,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1475435740}
     - target: {fileID: 1642597891047724865, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1642597891047724865, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 13.5
       objectReference: {fileID: 0}
     - target: {fileID: 4423790062290724278, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39948,6 +39952,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Dash unlocked
       objectReference: {fileID: 0}
+    - target: {fileID: 3496501892690884184, guid: 6444ab18a372c83488c018446ec5095b, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1953035050}
     - target: {fileID: 3496501892690884184, guid: 6444ab18a372c83488c018446ec5095b, type: 3}
       propertyPath: sceneName
       value: Map3Scene
