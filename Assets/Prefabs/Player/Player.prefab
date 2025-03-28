@@ -222,9 +222,11 @@ MonoBehaviour:
   consideredGround:
     serializedVersion: 2
     m_Bits: 8
+  isDashUnlocked: 0
   dashSpeed: 12
   dashDuration: 0.3
   dashCooldown: 2
+  isDoubleJumpUnlocked: 0
   attackCooldown: 0.1
   attackRecovery: 0.7
   myAttackAreaObject: {fileID: 4668892829901367823}
@@ -581,7 +583,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 5
   m_Sprite: {fileID: -6493582068784779526, guid: 395405d15b443794e91363c3cca7ff2b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

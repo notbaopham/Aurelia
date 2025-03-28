@@ -1338,7 +1338,7 @@ GameObject:
   - component: {fileID: 1847333573}
   - component: {fileID: 1847333572}
   m_Layer: 0
-  m_Name: BGM Audio
+  m_Name: Menu Audio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1636,6 +1636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2682b83940be0ad408089a6ef078e668, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bgmAudioSourceLowerBy: 0.5
   masterVolume: 1
 --- !u!1 &2076523464
 GameObject:

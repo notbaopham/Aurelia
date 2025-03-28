@@ -36876,6 +36876,10 @@ PrefabInstance:
       propertyPath: inputManager
       value: 
       objectReference: {fileID: 1475435740}
+    - target: {fileID: 1010841287345455632, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
+      propertyPath: isDoubleJumpUnlocked
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1642597891047724865, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18.1
