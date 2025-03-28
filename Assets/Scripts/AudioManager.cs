@@ -4,6 +4,7 @@ using System.Collections.Generic;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
+    [SerializeField] private float bgmAudioSourceLowerBy = 0.5f; // Reference to the BGM AudioSource
 
     private List<AudioSource> audioSources = new List<AudioSource>();
     [Range(0f, 1f)] public float masterVolume = 1f;
@@ -47,7 +48,15 @@ public class AudioManager : MonoBehaviour
             if (!audioSources.Contains(source))
             {
                 audioSources.Add(source);
-                source.volume = masterVolume;
+                // If the AudioSource is named "BGM Audio", apply lower volume
+                if (source.gameObject.name == "BGM Audio")
+                {
+                    source.volume = masterVolume * bgmAudioSourceLowerBy; // 50% of master volume
+                }
+                else
+                {
+                    source.volume = masterVolume;
+                }
             }
         }
     }
@@ -59,7 +68,14 @@ public class AudioManager : MonoBehaviour
         {
             if (source != null)
             {
-                source.volume = masterVolume;
+                if (source.gameObject.name == "BGM Audio")
+                {
+                    source.volume = masterVolume * bgmAudioSourceLowerBy; // 50% of master volume
+                }
+                else
+                {
+                    source.volume = masterVolume;
+                }
             }
         }
     }
