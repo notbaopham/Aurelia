@@ -44,7 +44,11 @@ public class WindManager : MonoBehaviour
 
             // Start wind
             windActive = true;
-            player.EnableWindEffect(currentDirection, windForce);
+            Wind.WindDirection windDir = (currentDirection == WindDirection.Left)
+                ? Wind.WindDirection.Left
+                : Wind.WindDirection.Right;
+
+            Wind.Instance.EnableWind(windDir, windForce);
 
             float windDuration = Random.Range(windMinTime, windMaxTime);
             yield return new WaitForSeconds(windDuration);
@@ -52,7 +56,7 @@ public class WindManager : MonoBehaviour
             yield return new WaitForSeconds(windDuration);
 
             // End wind
-            player.DisableWindEffect();
+            Wind.Instance.DisableWind();
             windActive = false;
         }
     }

@@ -173,10 +173,10 @@ public class UiManager : MonoBehaviour
     private IEnumerator WarningCountdown(string direction, float duration)
     {
         int timeLeft = Mathf.CeilToInt(duration);
-
+        string arrowSymbols = direction.ToLower() == "left" ? "<<<" : ">>>";
         while (timeLeft > 0)
         {
-            string message = $"Wind in {timeLeft}s, towards the {direction.ToLower()}!";
+            string message = $"Wind in {timeLeft}s {arrowSymbols}";
             warningText.text = message;
 
             // Flicker on
