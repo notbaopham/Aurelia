@@ -244,6 +244,7 @@ public class Player : MonoBehaviour
         }
 
         if (isOnGround) {
+            playerAudio.PlayJumpStart();
             Vector2 jumpDir = Vector2.up;
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
             rb.AddForce(jumpDir * jumpForce, ForceMode2D.Impulse);
@@ -268,18 +269,11 @@ public class Player : MonoBehaviour
             rb.AddForce(directionInput * acceleration);
     }
 
-    [SerializeField] private float softLandingForce = 10f; // Small force to counteract the abrupt landing
-
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("Ground") && rb.linearVelocity.y < 0) // Only apply on landing
+        if (collision.collider.CompareTag("Ground"))
         {
-            // Slight upward force to smooth landing - bumping out the stops at the landing
-            rb.linearVelocity = new Vector2(0, Mathf.Lerp(rb.linearVelocity.y, 0, Time.deltaTime * softLandingForce));
-        }
-        if (collision.collider.CompareTag("Wall"))
-        {
-
+            playerAudio.PlayJumpLand();
         }
     }
 

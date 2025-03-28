@@ -1,10 +1,11 @@
+using Mono.Cecil;
 using UnityEngine;
 
 public class PlayerAudio : MonoBehaviour
 {
     public AudioSource audioSource;
     public AudioClip jumpSound, dashSound, healPotionPop, healSoothingVoice, attackSound, runSound;
-    private AudioClip[] runSounds;
+    private AudioClip[] runSounds, jumpStartSounds, jumpLandSounds;
     private Player player;
 
     public void PlayWalkSound() => audioSource.PlayOneShot(runSound);
@@ -15,6 +16,8 @@ public class PlayerAudio : MonoBehaviour
     void Awake()
     {
         runSounds = Resources.LoadAll<AudioClip>("Audio/Run/Grass");
+        jumpStartSounds = Resources.LoadAll<AudioClip>("Audio/Jump/JumpOff");
+        jumpLandSounds = Resources.LoadAll<AudioClip>("Audio/Jump/Landing");
     }
     void Start()
     {
@@ -38,6 +41,29 @@ public class PlayerAudio : MonoBehaviour
                 }
                 timeSinceLastRunSound = 0f;
             }
+        }
+    }
+
+    public void PlayJumpStart() {
+        int randomIndex = Random.Range(0, jumpStartSounds.Length);
+        audioSource.PlayOneShot(jumpStartSounds[randomIndex]);
+    }
+
+    public void PlayJumpLand() {
+        int randomIndex = Random.Range(0, jumpLandSounds.Length);
+        audioSource.PlayOneShot(jumpLandSounds[randomIndex]);
+    }
+
+    public void PlayDoubleJumpStart() {
+        
+    }
+
+    public void PlayAttack(string attackType) {
+        if (attackType == "air") {
+
+        }
+        if (attackType == "ground") {
+            
         }
     }
 }
