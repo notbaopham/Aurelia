@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float jumpForce = 3f;
     private bool isMovementKeyOn;
     [SerializeField] private float gravityScale = 2f;
-    private float releaseTimer = 0.5f;
+    private float releaseTimer = 20f;
 
     // Overlord variables
     [SerializeField] private LayerMask consideredGround;
