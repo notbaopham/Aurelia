@@ -1554,7 +1554,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7436842413946327995, guid: 52b1563c03954f74e9fdf5ed0c632fe9, type: 3}
   m_PrefabInstance: {fileID: 1875155076}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1875155078}
+  m_GameObject: {fileID: 1190459145}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0e37f555b6aeaf47a6612fea4feae11, type: 3}
@@ -1838,9 +1838,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7295399986023051146, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 2056791173353990930, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1841944311}
+      addedObject: {fileID: 1150200315}
   m_SourcePrefab: {fileID: 100100000, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
 --- !u!1 &312326714
 GameObject:
@@ -3629,11 +3629,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 95016313}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2271523574774607144, guid: 3f1b33a8f2580b7429a128ea6161b055, type: 3}
       propertyPath: m_Name
       value: Falling Leaves Particle Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271523574774607144, guid: 3f1b33a8f2580b7429a128ea6161b055, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4088314470640145035, guid: 3f1b33a8f2580b7429a128ea6161b055, type: 3}
       propertyPath: VelocityModule.y.scalar
@@ -3771,7 +3775,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 1234839975}
-  player: {fileID: 0}
+  player: {fileID: 863426995}
 --- !u!61 &669851391
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5114,7 +5118,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1010841287345455632, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
   m_PrefabInstance: {fileID: 290333998}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1150200311}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9fdbcd9b20c9d1469540a2e0f8dce34, type: 3}
@@ -5712,6 +5716,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!4 &939367945 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7318666331003870765, guid: ec5de4ecfc3b16b46b4f8d955d57fae3, type: 3}
+  m_PrefabInstance: {fileID: 1720244721}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &941516880
 GameObject:
   m_ObjectHideFlags: 0
@@ -7772,17 +7781,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1150200311 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2056791173353990930, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
+  m_PrefabInstance: {fileID: 290333998}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1150200315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150200311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cbbe74ac2467c246b6f2730c01d5da8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windActive: 0
+  windDirection: 1
+  windForce: 0.1
 --- !u!1001 &1167013173
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 95016313}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2271523574774607144, guid: 3f1b33a8f2580b7429a128ea6161b055, type: 3}
       propertyPath: m_Name
       value: Falling Leaves Particle Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271523574774607144, guid: 3f1b33a8f2580b7429a128ea6161b055, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4088314470640145035, guid: 3f1b33a8f2580b7429a128ea6161b055, type: 3}
       propertyPath: VelocityModule.y.scalar
@@ -7874,11 +7907,6 @@ ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 4088314470640145035, guid: 3f1b33a8f2580b7429a128ea6161b055, type: 3}
   m_PrefabInstance: {fileID: 1167013173}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1167013176 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4667424556053477156, guid: 3f1b33a8f2580b7429a128ea6161b055, type: 3}
-  m_PrefabInstance: {fileID: 1167013173}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1178166507
 GameObject:
   m_ObjectHideFlags: 0
@@ -7966,6 +7994,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1190459145 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 484029916972643653, guid: 52b1563c03954f74e9fdf5ed0c632fe9, type: 3}
+  m_PrefabInstance: {fileID: 1875155076}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1199024301
 GameObject:
   m_ObjectHideFlags: 0
@@ -8614,7 +8647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 2022985209}
-  player: {fileID: 0}
+  player: {fileID: 863426995}
 --- !u!61 &1253395305
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8842,6 +8875,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52127ab19f79a6e48b2e9e20cc0d60a5, type: 3}
+--- !u!4 &1302078907 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8098672901183525439, guid: b872f3a239ea45648850f154f8ea5f10, type: 3}
+  m_PrefabInstance: {fileID: 6620502}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1309188726
 GameObject:
   m_ObjectHideFlags: 0
@@ -8888,7 +8926,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 1254569983}
-  player: {fileID: 0}
+  player: {fileID: 863426995}
 --- !u!61 &1309188729
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -60966,6 +61004,11 @@ CanvasGroup:
   m_CorrespondingSourceObject: {fileID: 4029604330773998357, guid: 6444ab18a372c83488c018446ec5095b, type: 3}
   m_PrefabInstance: {fileID: 1319067692}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1610234076 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5291871700200419657, guid: 35c5c8b7267f9f3479e66659038d1d4f, type: 3}
+  m_PrefabInstance: {fileID: 2080768777}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1636177053
 GameObject:
   m_ObjectHideFlags: 0
@@ -65801,26 +65844,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1841944310 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7295399986023051146, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
-  m_PrefabInstance: {fileID: 290333998}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1841944311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1841944310}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cbbe74ac2467c246b6f2730c01d5da8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  windActive: 0
-  windDirection: 1
-  windForce: 2
 --- !u!225 &1847293990 stripped
 CanvasGroup:
   m_CorrespondingSourceObject: {fileID: 5889832047219352731, guid: 6444ab18a372c83488c018446ec5095b, type: 3}
@@ -65873,11 +65896,6 @@ Transform:
   - {fileID: 1762438878}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1863832700 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4667424556053477156, guid: 3f1b33a8f2580b7429a128ea6161b055, type: 3}
-  m_PrefabInstance: {fileID: 669765340}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1870939327
 GameObject:
   m_ObjectHideFlags: 0
@@ -66076,19 +66094,53 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 484029916972643653, guid: 52b1563c03954f74e9fdf5ed0c632fe9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1875155079}
+      addedObject: {fileID: 1875155081}
   m_SourcePrefab: {fileID: 100100000, guid: 52b1563c03954f74e9fdf5ed0c632fe9, type: 3}
 --- !u!114 &1875155077 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5893745474669247392, guid: 52b1563c03954f74e9fdf5ed0c632fe9, type: 3}
   m_PrefabInstance: {fileID: 1875155076}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1190459145}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 542e2b8bb51655d4ea51e077dbbd37e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1875155078 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8051473139356911814, guid: 52b1563c03954f74e9fdf5ed0c632fe9, type: 3}
+  m_PrefabInstance: {fileID: 1875155076}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190459145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdbe209659c6ff94d805654971a9041c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1875155081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190459145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e70992740dd32fc47b401e56a702f51a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentDirection: 0
+  windForce: 5
+  warningTime: 5
+  windMinTime: 5
+  windMaxTime: 10
+  minDelay: 20
+  maxDelay: 30
+  player: {fileID: 863426995}
+  uiManager: {fileID: 1875155078}
+  windParticleLeft: {fileID: 1167013174}
+  windParticleRight: {fileID: 669765341}
 --- !u!1 &1893727033
 GameObject:
   m_ObjectHideFlags: 0
@@ -68232,16 +68284,15 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 223171044}
-  - {fileID: 1594748822}
-  - {fileID: 1889350021}
   - {fileID: 1532121647}
   - {fileID: 1506746155}
-  - {fileID: 109014400}
   - {fileID: 1235111003}
   - {fileID: 1285755699}
-  - {fileID: 1454356356}
   - {fileID: 2044170724}
   - {fileID: 971610156}
+  - {fileID: 939367945}
+  - {fileID: 1302078907}
+  - {fileID: 1610234076}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2080768777
@@ -68710,3 +68761,6 @@ SceneRoots:
   - {fileID: 146303180}
   - {fileID: 1893727034}
   - {fileID: 941516882}
+  - {fileID: 1167013173}
+  - {fileID: 669765340}
+  - {fileID: 1870939328}
