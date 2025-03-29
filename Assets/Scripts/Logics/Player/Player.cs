@@ -238,34 +238,36 @@ public class Player : MonoBehaviour
         spriteObject.GetComponent<Animator>().SetBool("isHurting", isHurting);
 
         // Updating wind sequence
-        if (Wind.Instance.windActive)
+        float modifiedAcceleration = acceleration;
+        if (Wind.Instance.windActive && !isDashing)
         {
-            Vector2 windDir = (Wind.Instance.windDirection == Wind.WindDirection.Left) ? Vector2.left : Vector2.right;
+            Vector2 windDir = Wind.Instance.windDirection == Wind.WindDirection.Left ? Vector2.left : Vector2.right;
             float windForce = Wind.Instance.windForce;
 
-            float currentSpeed = rb.linearVelocity.x;
-
-            // Player state: idle
-            if (Mathf.Abs(horizontalInput) < 0.1f)
+            if (!isMovementKeyOn)
             {
                 rb.linearVelocity = new Vector2(windDir.x * windForce, rb.linearVelocity.y);
             }
-            // Player state: moving with wind
-            else if ((horizontalInput > 0 && Wind.Instance.windDirection == Wind.WindDirection.Right) ||
-                     (horizontalInput < 0 && Wind.Instance.windDirection == Wind.WindDirection.Left))
-            {
-                float boostedSpeed = Mathf.Clamp(rb.linearVelocity.x + windDir.x * windForce, -maxSpeed - windForce, maxSpeed + windForce);
-                rb.linearVelocity = new Vector2(boostedSpeed, rb.linearVelocity.y);
-            }
-            // Player state: moving against wind
             else
             {
-                float reducedSpeed = Mathf.Clamp(rb.linearVelocity.x - windDir.x * windForce, -maxSpeed, maxSpeed);
-                rb.linearVelocity = new Vector2(reducedSpeed, rb.linearVelocity.y);
+                float inputDir = horizontalInput;
+                if ((inputDir > 0 && windDir == Vector2.right) || (inputDir < 0 && windDir == Vector2.left))
+                {
+                    modifiedAcceleration += windForce;
+                }
+                else if ((inputDir > 0 && windDir == Vector2.left) || (inputDir < 0 && windDir == Vector2.right))
+                {
+                    modifiedAcceleration -= windForce;
+                }
             }
         }
 
+        if (!isDashing && !isAttacking && !isHurting)
+        {
+            rb.AddForce(new Vector2(horizontalInput * modifiedAcceleration, 0f));
+        }
     }
+
 
     // ---------- Player's Jump, Movement and Dash
 
