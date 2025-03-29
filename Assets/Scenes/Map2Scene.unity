@@ -39524,7 +39524,7 @@ PrefabInstance:
       objectReference: {fileID: 95750651}
     - target: {fileID: 6128992608565710240, guid: 52b1563c03954f74e9fdf5ed0c632fe9, type: 3}
       propertyPath: bgmAudioSourceLowerBy
-      value: 0.3
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 6308112941301106559, guid: 52b1563c03954f74e9fdf5ed0c632fe9, type: 3}
       propertyPath: m_LocalPosition.x
