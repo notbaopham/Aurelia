@@ -75,6 +75,7 @@ public class Player : MonoBehaviour
     private bool isDying;
     private float dieDuration;
 
+    private float horizontalInput;
     // Start of the player object
     private void Awake()
     {
@@ -275,7 +276,38 @@ public class Player : MonoBehaviour
 
         // Updating hurt sequence
         spriteObject.GetComponent<Animator>().SetBool("isHurting", isHurting);
+
+        // Updating wind sequence
+        float modifiedAcceleration = acceleration;
+        if (Wind.Instance.windActive && !isDashing)
+        {
+            Vector2 windDir = Wind.Instance.windDirection == Wind.WindDirection.Left ? Vector2.left : Vector2.right;
+            float windForce = Wind.Instance.windForce;
+
+            if (!isMovementKeyOn)
+            {
+                rb.linearVelocity = new Vector2(windDir.x * windForce, rb.linearVelocity.y);
+            }
+            else
+            {
+                float inputDir = horizontalInput;
+                if ((inputDir > 0 && windDir == Vector2.right) || (inputDir < 0 && windDir == Vector2.left))
+                {
+                    modifiedAcceleration += windForce;
+                }
+                else if ((inputDir > 0 && windDir == Vector2.left) || (inputDir < 0 && windDir == Vector2.right))
+                {
+                    modifiedAcceleration -= windForce;
+                }
+            }
+        }
+
+        if (!isDashing && !isAttacking && !isHurting)
+        {
+            rb.AddForce(new Vector2(horizontalInput * modifiedAcceleration, 0f));
+        }
     }
+
 
     // ---------- Player's Jump, Movement and Dash
 

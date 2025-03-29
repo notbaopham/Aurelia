@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -22,6 +23,12 @@ public class UiManager : MonoBehaviour
 
     [SerializeField] float fadeDuration = 1f;
     private bool isSceneChanging = false;
+
+    // Variables for wind text warning and flickering effect
+    [SerializeField] private TMP_Text warningText;
+    [SerializeField] private TMP_Text durationText;
+    private Coroutine flickerRoutine;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -153,5 +160,59 @@ public class UiManager : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+    //-------------------------Wind Warning Text--------------------------------------------
+    public void ShowWarning(string direction, float time)
+    {
+        if (flickerRoutine != null)
+            StopCoroutine(flickerRoutine);
+
+        flickerRoutine = StartCoroutine(WarningCountdown(direction, time));
+
+    }
+
+    private IEnumerator WarningCountdown(string direction, float duration)
+    {
+        int timeLeft = Mathf.CeilToInt(duration);
+        string arrowSymbols = direction.ToLower() == "left" ? "<<<" : ">>>";
+        while (timeLeft > 0)
+        {
+            string message = $"Wind in {timeLeft}s {arrowSymbols}";
+            warningText.text = message;
+
+            // Flicker on
+            warningText.enabled = true;
+            yield return new WaitForSeconds(0.5f);
+
+            // Flicker off
+            warningText.enabled = false;
+            yield return new WaitForSeconds(0.5f);
+
+            timeLeft--;
+        }
+
+        warningText.enabled = false;
+    }
+
+    //-------------------------Wind Duration Text--------------------------------------------
+    public void ShowWindDuration(float duration)
+    {
+        if (flickerRoutine != null)
+            StopCoroutine(flickerRoutine);
+
+        StartCoroutine(WindDurationCountdown(duration));
+    }
+
+    private IEnumerator WindDurationCountdown(float duration)
+    {
+        float timeLeft = duration;
+
+        durationText.enabled = true;
+        durationText.text = $"Wind Duration: {Mathf.CeilToInt(timeLeft)}s";
+        yield return new WaitForSeconds(2f);
+
+        durationText.enabled = false;
+        durationText.text = "";
+    }
+
 }
 
