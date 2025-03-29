@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class TeleportOnTouch : MonoBehaviour
@@ -5,7 +6,28 @@ public class TeleportOnTouch : MonoBehaviour
     [SerializeField] private Transform teleportTarget; // The object B's transform (where the player will teleport)
     [SerializeField] private Player player; // The player object
 
-    void OnTriggerEnter2D(Collider2D other)
+  void Start()
+  {
+    StartCoroutine(AssignPlayerAfterDelay());
+  }
+  private IEnumerator AssignPlayerAfterDelay()
+    {
+        yield return new WaitForSeconds(1);
+
+        // Find all active Player objects
+        Player[] players = FindObjectsByType<Player>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+
+        if (players.Length > 0)
+        {
+            player = players[0];
+            Debug.Log("Player assigned!");
+        }
+        else
+        {
+            Debug.LogWarning("No Player instance found!");
+        }
+    }
+  void OnTriggerEnter2D(Collider2D other)
     {
         // Check if the object that touched is the player
         if (other.CompareTag("Player"))
