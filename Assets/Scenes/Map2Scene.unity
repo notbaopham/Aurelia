@@ -24154,6 +24154,26 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &695516688 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5274851443146553393, guid: 883e5874c01e0b64884391f2915424c5, type: 3}
+  m_PrefabInstance: {fileID: 871927023}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &695516694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695516688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cbbe74ac2467c246b6f2730c01d5da8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windActive: 0
+  windDirection: 1
+  windForce: 0.1
 --- !u!1 &798489111
 GameObject:
   m_ObjectHideFlags: 0
@@ -24697,7 +24717,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5274851443146553393, guid: 883e5874c01e0b64884391f2915424c5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 695516694}
   m_SourcePrefab: {fileID: 100100000, guid: 883e5874c01e0b64884391f2915424c5, type: 3}
 --- !u!114 &871927024 stripped
 MonoBehaviour:
@@ -39499,6 +39522,10 @@ PrefabInstance:
       propertyPath: settingsMenu
       value: 
       objectReference: {fileID: 95750651}
+    - target: {fileID: 6128992608565710240, guid: 52b1563c03954f74e9fdf5ed0c632fe9, type: 3}
+      propertyPath: bgmAudioSourceLowerBy
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 6308112941301106559, guid: 52b1563c03954f74e9fdf5ed0c632fe9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.3802185

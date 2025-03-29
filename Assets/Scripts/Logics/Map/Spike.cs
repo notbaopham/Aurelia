@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Spike : MonoBehaviour
@@ -6,7 +7,24 @@ public class Spike : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        StartCoroutine(AssignPlayerAfterDelay());
+    }
+    private IEnumerator AssignPlayerAfterDelay()
+    {
+        yield return new WaitForSeconds(1);
+
+        // Find all active Player objects
+        Player[] players = FindObjectsByType<Player>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+
+        if (players.Length > 0)
+        {
+            player = players[0];
+            Debug.Log("Player from Scene 1 assigned!");
+        }
+        else
+        {
+            Debug.LogWarning("No Player instance found!");
+        }
     }
 
     // Update is called once per frame
