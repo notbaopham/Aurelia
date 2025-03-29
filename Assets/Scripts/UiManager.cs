@@ -37,13 +37,13 @@ public class UiManager : MonoBehaviour
         UpdateHealthUI(player.GetHealth());
         UpdateMaxHealthUI(player.GetMaxHealth());
        
-        if(!player.isDoubleJumpUnlocked)
+        if(!player.IsDoubleJumpUnlocked())
         {
             doubleJumpImage.enabled = false;
             doubleJumpBorder.enabled = false;
         }
 
-         if(!player.isDashUnlocked)
+         if(!player.IsDashUnlocked())
         {
             dashImage.enabled = false;
             dashBorder.enabled = false;
@@ -53,7 +53,7 @@ public class UiManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!player.isDoubleJumpUnlocked)
+        if(!player.IsDoubleJumpUnlocked())
         {
             doubleJumpImage.enabled = false;
             doubleJumpBorder.enabled = false;
@@ -64,7 +64,7 @@ public class UiManager : MonoBehaviour
             doubleJumpBorder.enabled = true;
         }
 
-        if(!player.isDashUnlocked)
+        if(!player.IsDashUnlocked())
         {
             dashImage.enabled = false;
             dashBorder.enabled = false;

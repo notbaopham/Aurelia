@@ -9,7 +9,7 @@ public class ChangeOfScene : MonoBehaviour
     [SerializeField] private InputManager inputManager; // Reference to the InputManager
     [SerializeField] CanvasGroup blackScreen; // Reference to the black screen
     [SerializeField] CanvasGroup endScreen; // Reference to the end screen
-
+    [SerializeField] Player player; // Reference to the player
     [SerializeField] float fadeDuration = 1f;
 
     private void Start()
@@ -21,15 +21,34 @@ public class ChangeOfScene : MonoBehaviour
         // }
         // DontDestroyOnLoad(gameObject);
         // inputManager = FindObjectsByType<InputManager>(FindObjectsSortMode.None)
+        // Find all Player objects and take the first one
+        StartCoroutine(AssignPlayerAfterDelay());
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Player touched trigger — disabling movement.");
+            // Debug.Log("Player touched trigger — disabling movement.");
             StartCoroutine(ChangingScene(disableDuration, other));
         }
         
+    }
+    private IEnumerator AssignPlayerAfterDelay()
+    {
+        yield return new WaitForSeconds(1);
+
+        // Find all active Player objects
+        Player[] players = FindObjectsByType<Player>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+
+        if (players.Length > 0)
+        {
+            player = players[0];
+            Debug.Log("Player from Scene 1 assigned!");
+        }
+        else
+        {
+            Debug.LogWarning("No Player instance found!");
+        }
     }
 
     private IEnumerator ChangingScene(float duration, Collider2D other)
@@ -40,14 +59,15 @@ public class ChangeOfScene : MonoBehaviour
         
         yield return new WaitForSeconds(duration);
         
-        inputManager.isMovementDisabled = false;
         
-        Debug.Log("Movement Enabled");
         FadeIn(endScreen);
         yield return new WaitForSeconds(4f);
         FadeOut(endScreen);
         yield return new WaitForSeconds(fadeDuration + 0.5f);
         FadeOut(blackScreen);
+        inputManager.isMovementDisabled = false;
+        
+        Debug.Log("Movement Enabled");
         other.transform.position = new Vector3(0, 0, 0);
         SwitchScene(sceneName);
     }
@@ -82,6 +102,14 @@ public class ChangeOfScene : MonoBehaviour
     }
     private void SwitchScene(string sceneName)
     {
+        if (!player.IsDoubleJumpUnlocked())
+        {
+            player.UnlockDoubleJump();
+        }
+        else
+        {
+           player.UnlockDash();
+        }
         SceneManager.LoadScene(sceneName);
     }
 }

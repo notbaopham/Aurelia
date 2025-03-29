@@ -62,7 +62,24 @@ public class InGameMenuManager : MonoBehaviour
     }
     public void SwitchScene(string sceneName)
     {
+        // Destroy all DontDestroyOnLoad objects
+        if(sceneName == "MainMenu"){
+            ClearAllDontDestroyOnLoadObjects();
+        }
+        // Load the new scene
         SceneManager.LoadScene(sceneName);
+    }
+    private void ClearAllDontDestroyOnLoadObjects()
+    {
+        Debug.Log("Destroying DontDestroyOnLoad objects");
+        Destroy(GameObject.Find("Player 1"));
+        Destroy(GameObject.Find("Player After Image Pool"));
+        Destroy(GameObject.Find("Game Manager"));
+        Destroy(GameObject.Find("Settings Canvas"));
+        Destroy(GameObject.Find("Player UI Canvas"));
+
+        
+
     }
     // public void SetVolume(float volume)
     // {
