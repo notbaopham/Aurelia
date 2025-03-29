@@ -907,6 +907,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2965131551668051728}
   - component: {fileID: 4503277281903829285}
+  - component: {fileID: 2200166947913131207}
   m_Layer: 5
   m_Name: Volume
   m_TagString: Untagged
@@ -987,6 +988,19 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2200166947913131207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6704241584579273276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2367357891aacc546be18bdd0837d6b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeSlider: {fileID: 4503277281903829285}
 --- !u!1 &6994417011615111013
 GameObject:
   m_ObjectHideFlags: 0
