@@ -153,6 +153,11 @@ public class UiManager : MonoBehaviour
         yield return new WaitForSeconds(4f);
         changeOfScene.FadeOut(endScreen);
         yield return new WaitForSeconds(fadeDuration + 0.5f);
+        Destroy(GameObject.Find("Player 1"));
+        Destroy(GameObject.Find("Player After Image Pool"));
+        Destroy(GameObject.Find("Game Manager"));
+        Destroy(GameObject.Find("Settings Canvas"));
+        Destroy(GameObject.Find("Player UI Canvas"));
         SwitchScene("MainMenu");
     }
     //----------------------------Scene Changer---------------------------------------------

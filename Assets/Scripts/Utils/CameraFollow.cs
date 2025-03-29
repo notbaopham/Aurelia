@@ -20,6 +20,7 @@ public class CameraFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (target == null) return; // Exit if target is not set
         Vector3 newPosition = new Vector3(target.position.x, target.position.y + yOffset, -10f);
         transform.position = Vector3.Lerp(transform.position, newPosition, FollowSpeed * Time.deltaTime);
 

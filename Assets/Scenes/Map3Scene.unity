@@ -2975,7 +2975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50bb9c2ac584fa74b89313ae0c35863f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 863426995}
 --- !u!19719996 &521111229
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -4010,7 +4010,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1319067692}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3277b7739aa5d2b41a3e5fd30f9890e9, type: 3}
   m_Name: 
@@ -7801,6 +7801,11 @@ MonoBehaviour:
   windActive: 0
   windDirection: 1
   windForce: 0.1
+--- !u!4 &1150200316 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1642597891047724865, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
+  m_PrefabInstance: {fileID: 290333998}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1167013173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8758,7 +8763,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5291871700200419657, guid: 35c5c8b7267f9f3479e66659038d1d4f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -46.24
+      value: -43.25
       objectReference: {fileID: 0}
     - target: {fileID: 5291871700200419657, guid: 35c5c8b7267f9f3479e66659038d1d4f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9031,11 +9036,11 @@ PrefabInstance:
       objectReference: {fileID: 608403229}
     - target: {fileID: 3496501892690884184, guid: 6444ab18a372c83488c018446ec5095b, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3496501892690884184, guid: 6444ab18a372c83488c018446ec5095b, type: 3}
       propertyPath: sceneName
-      value: Map3Scene
+      value: MainMenu
       objectReference: {fileID: 0}
     - target: {fileID: 3496501892690884184, guid: 6444ab18a372c83488c018446ec5095b, type: 3}
       propertyPath: inputManager
@@ -12861,9 +12866,9 @@ Tilemap:
   - first: {x: 7, y: -3, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 39
-      m_TileSpriteIndex: 4
-      m_TileMatrixIndex: 1
+      m_TileIndex: 38
+      m_TileSpriteIndex: 147
+      m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
@@ -27526,9 +27531,9 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: ab1e9811cd399974fa40ef030c2c758a, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 859c71a9880076f418388b9ccde94444, type: 2}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 8a67b06bf63aa814c88b0eb561785d00, type: 2}
-  - m_RefCount: 193
+  - m_RefCount: 192
     m_Data: {fileID: 11400000, guid: c19aa70a08314b74c86879067f024722, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: a5221120e36a23f4380a938e865a0e3c, type: 2}
@@ -27837,7 +27842,7 @@ Tilemap:
     m_Data: {fileID: -988904151, guid: 68ab13e8847d88c4c971ec54dc4b2f0f, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 1774751525, guid: 68ab13e8847d88c4c971ec54dc4b2f0f, type: 3}
-  - m_RefCount: 193
+  - m_RefCount: 192
     m_Data: {fileID: 2379968111596127497, guid: 68ab13e8847d88c4c971ec54dc4b2f0f, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
@@ -28123,7 +28128,7 @@ Tilemap:
     m_Data: {fileID: 2084621805, guid: 68ab13e8847d88c4c971ec54dc4b2f0f, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: -2083391896, guid: 68ab13e8847d88c4c971ec54dc4b2f0f, type: 3}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: -4408021779107858112, guid: 68ab13e8847d88c4c971ec54dc4b2f0f, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: -1531483375, guid: 68ab13e8847d88c4c971ec54dc4b2f0f, type: 3}
@@ -28208,25 +28213,25 @@ Tilemap:
   - m_RefCount: 4
     m_Data: {fileID: 1119832786, guid: 68ab13e8847d88c4c971ec54dc4b2f0f, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 0
+  - m_RefCount: 1
     m_Data:
-      e00: -2.8165474e-29
-      e01: 0
-      e02: 1e-45
-      e03: 2.6463734e-38
-      e10: 7.13e-43
+      e00: 0
+      e01: 1
+      e02: 0
+      e03: 0
+      e10: -1
       e11: 0
       e12: 0
-      e13: 7.1e-43
-      e20: 1.508988e-35
-      e21: 2.6463734e-38
-      e22: -2.8165474e-29
-      e23: -8.39597e-19
-      e30: 4.5911e-41
-      e31: 7.1e-43
-      e32: 7.13e-43
-      e33: 7.1e-43
-  - m_RefCount: 1777
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - m_RefCount: 1776
     m_Data:
       e00: 1
       e01: 0
@@ -68694,7 +68699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c511f982191e5fd4f8ba60305925d915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 1150200316}
   FollowSpeed: 4.5
   yOffset: 1
   cam: {fileID: 2145505900}
