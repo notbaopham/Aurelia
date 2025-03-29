@@ -112,8 +112,10 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
         {
-            isMovementKeyOn = true;
-            releaseTimer = 20f;
+            if (Math.Abs(rb.linearVelocityX) > 0.01f) {
+                releaseTimer = 20f;
+                isMovementKeyOn = true;
+            }
         }
         else
         {
@@ -148,11 +150,16 @@ public class Player : MonoBehaviour
 
     private IEnumerator CountDownTimer()
     {
+        if (Math.Abs(rb.linearVelocityX) < 0.01f) {
+            releaseTimer = 0f;
+        }
+
         while (releaseTimer > 0f)
         {
             yield return new WaitForSeconds(0.05f); 
             releaseTimer -= 0.05f;
         }
+
         releaseTimer = 0f; // Ensure it stops at 0
     }
 
@@ -212,13 +219,13 @@ public class Player : MonoBehaviour
         }
 
         // Ground collision check
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.55f, consideredGround);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.6f, consideredGround);
         Vector2 backRayPos = new Vector2(transform.position.x - (currentlyFacing.x * 0.35f), transform.position.y);
         Vector2 frontRayPos = new Vector2(transform.position.x - (currentlyFacing.x * -0.35f), transform.position.y);
 
         // Extra RayCasting, to prevent player dangling
-        RaycastHit2D backRay = Physics2D.Raycast(backRayPos, Vector2.down, 0.55f, consideredGround);
-        RaycastHit2D frontRay = Physics2D.Raycast(frontRayPos, Vector2.down, 0.55f, consideredGround);
+        RaycastHit2D backRay = Physics2D.Raycast(backRayPos, Vector2.down, 0.6f, consideredGround);
+        RaycastHit2D frontRay = Physics2D.Raycast(frontRayPos, Vector2.down, 0.6f, consideredGround);
         Debug.DrawLine(backRayPos, transform.position, Color.blue);
         Debug.DrawLine(frontRayPos, transform.position, Color.blue);
 
