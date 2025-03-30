@@ -11,9 +11,17 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private float zoomLevel = 5f;
     [SerializeField] private float minZoom = 2f;
     [SerializeField] private float maxZoom = 10f;
+    [SerializeField] private float timeUntilAttach;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
+        // target = GameObject.FindGameObjectWithTag("Player").transform;
+        StartCoroutine(WaitUntilAttachCamera(timeUntilAttach));
+    }
+
+    private IEnumerator WaitUntilAttachCamera(float time) {
+        yield return new WaitForSeconds(time);
         target = GameObject.FindGameObjectWithTag("Player").transform;
     }
 

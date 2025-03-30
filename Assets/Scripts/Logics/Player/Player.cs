@@ -116,6 +116,12 @@ public class Player : MonoBehaviour
             if (Math.Abs(rb.linearVelocityX) > 0.01f) {
                 releaseTimer = 20f;
                 isMovementKeyOn = true;
+            } else {
+                if (Input.GetKey(KeyCode.A)) {
+                    rb.AddForce(Vector3.left * 5f, ForceMode2D.Impulse);
+                } else {
+                    rb.AddForce(Vector3.right * 5f, ForceMode2D.Impulse);
+                }
             }
         }
         else
@@ -291,18 +297,18 @@ public class Player : MonoBehaviour
             Vector2 windDir = Wind.Instance.windDirection == Wind.WindDirection.Left ? Vector2.left : Vector2.right;
             float windForce = Wind.Instance.windForce;
 
-            if (!isMovementKeyOn)
+            if (!isMovementKeyOn && rb.linearVelocity.x < 0.01f)
             {
                 rb.linearVelocity = new Vector2(windDir.x * windForce, rb.linearVelocity.y);
             }
             else
             {
                 float inputDir = horizontalInput;
-                if ((inputDir > 0 && windDir == Vector2.right) || (inputDir < 0 && windDir == Vector2.left))
+                if (((inputDir > 0 && windDir == Vector2.right) || (inputDir < 0 && windDir == Vector2.left)) && Math.Abs(rb.linearVelocityX) > 0.01f)
                 {
                     modifiedAcceleration += windForce;
                 }
-                else if ((inputDir > 0 && windDir == Vector2.left) || (inputDir < 0 && windDir == Vector2.right))
+                else if (((inputDir > 0 && windDir == Vector2.left) || (inputDir < 0 && windDir == Vector2.right)) && Math.Abs(rb.linearVelocityX) > 0.01f)
                 {
                     modifiedAcceleration -= windForce;
                 }
