@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PlayerAudio : MonoBehaviour
 {
@@ -7,7 +8,6 @@ public class PlayerAudio : MonoBehaviour
     private AudioClip[] runSounds, jumpStartSounds, jumpLandSounds, doubleJumpSounds, dashSounds, attackVoices, healPotionPops, healSoothingVoices, hurtSounds, hurtVoices;
     private string currentMapName;
     private Player player;
-
     private float runSoundInterval = 0.4f;  // Time interval between each sound play
     private float timeSinceLastRunSound = 0f;  // Timer to track intervals
 
@@ -25,17 +25,27 @@ public class PlayerAudio : MonoBehaviour
 
     }
 
-    public void setCurrentName(string newMapName) 
-    {
-        currentMapName = newMapName;
-    }
-
     void Start()
     {   
+        string sceneName = SceneManager.GetActiveScene().name;
         player = GetComponentInParent<Player>();
         audioSource = GetComponentInChildren<AudioSource>();
-        // case ()
-        runSounds = Resources.LoadAll<AudioClip>("Audio/Run/Grass");
+
+        // Switching based on the current Map
+        switch (sceneName) {
+            case "Map1Scene":
+                runSounds = Resources.LoadAll<AudioClip>("Audio/Run/Grass");
+                break;
+            case "Map2Scene":
+                runSounds = Resources.LoadAll<AudioClip>("Audio/Run/Snow");
+                break;
+            case "Map3Scene":
+                runSounds = Resources.LoadAll<AudioClip>("Audio/Run/Desert");
+                break;
+            default:
+                runSounds = Resources.LoadAll<AudioClip>("Audio/Run/Grass");
+                break;
+        }
     }
 
     // Update is called once per frame
