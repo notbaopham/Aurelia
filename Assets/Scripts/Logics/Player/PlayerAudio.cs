@@ -105,9 +105,6 @@ public class PlayerAudio : MonoBehaviour
     private void PlaySound(AudioClip[] audioArray, float volume) {
         int randomIndex = Random.Range(0, audioArray.Length);
         audioSource.PlayOneShot(audioArray[randomIndex]);
-        if (volume != 1.0f) {
-            audioSource.PlayOneShot(audioArray[randomIndex], volume);
-        }
     }
 
     private IEnumerator AttackGroundSound() {
