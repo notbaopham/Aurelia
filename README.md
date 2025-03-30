@@ -64,6 +64,23 @@ https://github.com/notbaopham/COSC-416-Proj/commit/2850285dadff6bdc67aa6ea558321
 https://github.com/user-attachments/assets/c2d22e78-a994-4688-a82c-ef71c439158a
 
 
+All of my pull requests:
+https://github.com/notbaopham/Aurelia/pull/1
+https://github.com/notbaopham/Aurelia/pull/3
+https://github.com/notbaopham/Aurelia/pull/4
+https://github.com/notbaopham/Aurelia/pull/5
+https://github.com/notbaopham/Aurelia/pull/6
+https://github.com/notbaopham/Aurelia/pull/7
+https://github.com/notbaopham/Aurelia/pull/8
+https://github.com/notbaopham/Aurelia/pull/14
+https://github.com/notbaopham/Aurelia/pull/17
+https://github.com/notbaopham/Aurelia/pull/21
+https://github.com/notbaopham/Aurelia/pull/22
+https://github.com/notbaopham/Aurelia/pull/23
+https://github.com/notbaopham/Aurelia/pull/26
+https://github.com/notbaopham/Aurelia/pull/28
+https://github.com/notbaopham/Aurelia/pull/32
+
 
 ### Phong Nguyen:
 - Map 2:
