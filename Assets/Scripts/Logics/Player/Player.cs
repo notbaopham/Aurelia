@@ -118,9 +118,11 @@ public class Player : MonoBehaviour
                 isMovementKeyOn = true;
             } else {
                 if (Input.GetKey(KeyCode.A)) {
-                    rb.AddForce(Vector3.left * 5f, ForceMode2D.Impulse);
+                    currentlyFacing = Vector2.left;
+                    rb.AddForce(Vector2.left * 5f, ForceMode2D.Impulse);
                 } else {
-                    rb.AddForce(Vector3.right * 5f, ForceMode2D.Impulse);
+                    currentlyFacing = Vector2.right;
+                    rb.AddForce(Vector2.right * 5f, ForceMode2D.Impulse);
                 }
             }
         }
