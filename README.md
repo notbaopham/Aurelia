@@ -1,7 +1,8 @@
 # COSC 416 Project - Aurelia
 
+## !!!Please also check ALL the pull request history since we can't add all the showcase videos here!!!
 ## Contributors: 
-## Please also check pull request history since we cant add all the videos here
+
 ### Hoc Nguyen:
 - Rough monster's designs:
 
