@@ -61652,7 +61652,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -957.59, y: -538.91}
+  m_AnchoredPosition: {x: -482.57, y: -266.71}
   m_SizeDelta: {x: 5, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1535323626
@@ -69369,8 +69369,8 @@ MonoBehaviour:
   warningTime: 5
   windMinTime: 5
   windMaxTime: 10
-  minDelay: 10
-  maxDelay: 10
+  minDelay: 20
+  maxDelay: 30
   player: {fileID: 863426995}
   uiManager: {fileID: 1875155078}
   windParticleLeft: {fileID: 1167013174}
