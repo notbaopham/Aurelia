@@ -529,11 +529,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Tony Nguyen
-
-    Dr. Iman Jalilvand
+  m_text: 'Dr. Iman Jalilvand
 
     Dr. Raymond Lawrence
+
+    Tony Nguyen
 
     Omang
     Baheti

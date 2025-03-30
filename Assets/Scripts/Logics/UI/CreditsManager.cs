@@ -20,7 +20,7 @@ public class CreditsManager : MonoBehaviour
     }
     private IEnumerator AppearAfterDelay()
     {
-        yield return new WaitForSeconds(delayBeforeAppear - 3.5f); // Wait for 1 second
+        yield return new WaitForSeconds(delayBeforeAppear - 3f); // Wait for 1 second
         StartCoroutine(StartWhiteScreen());
         yield return new WaitForSeconds(3.5f); // Wait for 2 seconds
 
@@ -34,10 +34,10 @@ public class CreditsManager : MonoBehaviour
         float elapsedTime = 0f;
         Color color = whitePanel.color;
         
-        while (elapsedTime < 3.5f)
+        while (elapsedTime < 3f)
         {
             elapsedTime += Time.deltaTime;
-            color.a = Mathf.Lerp(0, 1, elapsedTime / 3.5f);
+            color.a = Mathf.Lerp(0, 1, elapsedTime / 3f);
             whitePanel.color = color;
             yield return null;
         }
@@ -48,7 +48,8 @@ public class CreditsManager : MonoBehaviour
         // yield return new WaitForSeconds(delayBeforeFade);
         float elapsedTime = 0f;
         Color color = BlackPanel.color;
-        
+        whitePanel.gameObject.SetActive(false); // Hide white panel after fade
+        creditsText.gameObject.SetActive(false); // Show credits text
         FadeIn(mainScreen, fadeDuration - 1); // Fade out the main screen
         while (elapsedTime < fadeDuration)
         {
