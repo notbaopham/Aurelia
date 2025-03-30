@@ -62933,6 +62933,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 883e5874c01e0b64884391f2915424c5, type: 3}
+--- !u!1 &1737867950 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5274851443146553393, guid: 883e5874c01e0b64884391f2915424c5, type: 3}
+  m_PrefabInstance: {fileID: 1737867949}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1738621195
 GameObject:
   m_ObjectHideFlags: 0
@@ -66986,6 +66991,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 863426995}
     - target: {fileID: 8051473139356911814, guid: 52b1563c03954f74e9fdf5ed0c632fe9, type: 3}
+      propertyPath: playerUI
+      value: 
+      objectReference: {fileID: 1737867950}
+    - target: {fileID: 8051473139356911814, guid: 52b1563c03954f74e9fdf5ed0c632fe9, type: 3}
       propertyPath: dashImage
       value: 
       objectReference: {fileID: 1143283375}
@@ -68771,12 +68780,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentDirection: 0
-  windForce: 2
+  windForce: 3
   warningTime: 5
   windMinTime: 5
   windMaxTime: 10
-  minDelay: 20
-  maxDelay: 30
+  minDelay: 10
+  maxDelay: 10
   player: {fileID: 863426995}
   uiManager: {fileID: 1875155078}
   windParticleLeft: {fileID: 1167013174}

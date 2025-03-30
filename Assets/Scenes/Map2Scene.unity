@@ -36841,6 +36841,11 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 6
   m_TargetDisplay: 0
+--- !u!1 &939023272 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5274851443146553393, guid: 883e5874c01e0b64884391f2915424c5, type: 3}
+  m_PrefabInstance: {fileID: 871927023}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1031458372
 GameObject:
   m_ObjectHideFlags: 0
@@ -40471,6 +40476,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1953035050}
+    - target: {fileID: 8051473139356911814, guid: 52b1563c03954f74e9fdf5ed0c632fe9, type: 3}
+      propertyPath: playerUI
+      value: 
+      objectReference: {fileID: 939023272}
     - target: {fileID: 8051473139356911814, guid: 52b1563c03954f74e9fdf5ed0c632fe9, type: 3}
       propertyPath: dashImage
       value: 

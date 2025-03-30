@@ -13093,11 +13093,11 @@ PrefabInstance:
       objectReference: {fileID: 228959979}
     - target: {fileID: 1642597891047724865, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 183.4
       objectReference: {fileID: 0}
     - target: {fileID: 1642597891047724865, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 43.7
       objectReference: {fileID: 0}
     - target: {fileID: 4423790062290724278, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
       propertyPath: m_LocalPosition.x
@@ -90709,7 +90709,7 @@ PrefabInstance:
       objectReference: {fileID: 887326681}
     - target: {fileID: 8051473139356911814, guid: 52b1563c03954f74e9fdf5ed0c632fe9, type: 3}
       propertyPath: uiDelaySec
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8051473139356911814, guid: 52b1563c03954f74e9fdf5ed0c632fe9, type: 3}
       propertyPath: blackScreen

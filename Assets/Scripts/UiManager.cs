@@ -32,14 +32,10 @@ public class UiManager : MonoBehaviour
     [SerializeField] private float uiDelaySec = 5f; // Delay before showing the UI
     private bool isUIShown = false;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+  void Start()
     {
         playerUI = GameObject.Find("Player UI Canvas");
-        playerUI.SetActive(false); // Hide the player UI at the start
-        foreach (var heart in hearts) heart.enabled = false;
-        foreach (var maxHeart in maxHearts) maxHeart.enabled = false;
-        StartCoroutine(DelayUI());
+        // StartCoroutine(DelayUI());
         previousHealth = player.GetHealth();
         previousMaxHealth = player.GetMaxHealth();
         UpdateHealthUI(player.GetHealth());
@@ -71,7 +67,8 @@ public class UiManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!isUIShown) return; // Ignore update if UI is not shown
+        // if (!isUIShown) return; // Ignore update if UI is not shown
+        
         if(!player.IsDoubleJumpUnlocked())
         {
             doubleJumpImage.enabled = false;
@@ -122,7 +119,10 @@ public class UiManager : MonoBehaviour
     }  
     
     private IEnumerator DelayUI()
-    {{
+    {
+        Debug.Log("DelayUI Coroutine started. Waiting for " + uiDelaySec + " seconds.");
+        playerUI.SetActive(false); // Hide the player UI at the start
+
         yield return new WaitForSeconds(uiDelaySec); // Wait for 5 seconds
         playerUI.SetActive(true); // Show the player UI
         Debug.Log("UI is now visible.");
@@ -143,8 +143,8 @@ public class UiManager : MonoBehaviour
             dashImage.enabled = true;
             dashBorder.enabled = true;
         }
-}
-        
+        Debug.Log("Player UI is enabled after delay.");
+      
     }
     void UpdateSkillImage(bool skill, Image image)
     {
