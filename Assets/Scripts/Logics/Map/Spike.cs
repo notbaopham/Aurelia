@@ -19,7 +19,7 @@ public class Spike : MonoBehaviour
         if (players.Length > 0)
         {
             player = players[0];
-            Debug.Log("Player from Scene 1 assigned!");
+            Debug.Log("Player assigned!");
         }
         else
         {
