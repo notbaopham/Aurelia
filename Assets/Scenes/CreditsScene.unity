@@ -1790,10 +1790,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0de515f095a915b4b96905e99869cca5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectA: {fileID: 1632639749}
-  objectB: {fileID: 1628670248}
-  creditsScreen: {fileID: 395976945}
-  duration: 10
+  creditsText: {fileID: 1288343448}
+  moveDistance: 1000
+  moveDuration: 10
 --- !u!1 &563834895
 GameObject:
   m_ObjectHideFlags: 0
