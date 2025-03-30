@@ -5,7 +5,7 @@ public class BringOver : MonoBehaviour
     void Awake()
     {
         gameObject.SetActive(true);
-        if (FindObjectsByType<SettingsCanvas>(FindObjectsSortMode.None).Length > 1)
+        if (FindObjectsByType<BringOver>(FindObjectsSortMode.None).Length > 1)
         {
             Destroy(gameObject);
             return; 

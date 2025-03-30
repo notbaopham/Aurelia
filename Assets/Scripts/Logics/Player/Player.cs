@@ -493,6 +493,10 @@ public class Player : MonoBehaviour
             playerHealth = playerMaxHealth;
         }
     }
+    public void HealFull() {
+        playerAudio.PlayHeal();
+        playerHealth = playerMaxHealth;
+    }
 
     public void Hurt(int damage, bool existsKnockback) {
         if (isDashing) {
