@@ -1,7 +1,6 @@
 using UnityEngine;
 using TMPro;
 using System.Collections;
-using Mono.Cecil;
 
 public class TypingDialogue : MonoBehaviour
 {
