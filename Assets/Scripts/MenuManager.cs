@@ -27,6 +27,7 @@ public class MenuManager : MonoBehaviour
         Destroy(GameObject.Find("Game Manager"));
         Destroy(GameObject.Find("Settings Canvas"));
         Destroy(GameObject.Find("Player UI Canvas"));
+        Destroy(GameObject.Find("Bring Over"));
     }
 
     // Update is called once per frame

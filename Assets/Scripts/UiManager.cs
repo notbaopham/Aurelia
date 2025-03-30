@@ -48,6 +48,16 @@ public class UiManager : MonoBehaviour
             dashImage.enabled = false;
             dashBorder.enabled = false;
         }
+        GameObject gameOverCanvas = GameObject.Find("Game Over Canvas");
+
+        if (gameOverCanvas != null)
+        {
+            Debug.Log("Found Game Over Canvas: " + gameOverCanvas.name);
+        }
+        else
+        {
+            Debug.Log("Game Over Canvas not found!");
+        }
     }
 
     // Update is called once per frame
