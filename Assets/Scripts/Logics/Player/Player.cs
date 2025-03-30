@@ -111,16 +111,26 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.A)) {
+            rb.AddForce(Vector2.left * 0.5f, ForceMode2D.Impulse);
+        }
+
+        if (Input.GetKeyDown(KeyCode.D)) {
+            rb.AddForce(Vector2.right * 0.5f, ForceMode2D.Impulse);
+        }
+
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
         {
-            if (Math.Abs(rb.linearVelocityX) < 0.01f) {
-                releaseTimer = 0f;
-                isMovementKeyOn = false;
-            } else {
+            if (Math.Abs(rb.linearVelocityX) > 0.01f) {
                 releaseTimer = 20f;
                 isMovementKeyOn = true;
+            } else {
+                if (Input.GetKey(KeyCode.A)) {
+                    currentlyFacing = Vector2.left;
+                } else {
+                    currentlyFacing = Vector2.right;
+                }
             }
-
         }
         else
         {
@@ -224,15 +234,13 @@ public class Player : MonoBehaviour
         }
 
         // Ground collision check
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.6f, consideredGround);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.65f, consideredGround);
         Vector2 backRayPos = new Vector2(transform.position.x - (currentlyFacing.x * 0.35f), transform.position.y);
         Vector2 frontRayPos = new Vector2(transform.position.x - (currentlyFacing.x * -0.35f), transform.position.y);
 
         // Extra RayCasting, to prevent player dangling
-        RaycastHit2D backRay = Physics2D.Raycast(backRayPos, Vector2.down, 0.6f, consideredGround);
-        RaycastHit2D frontRay = Physics2D.Raycast(frontRayPos, Vector2.down, 0.6f, consideredGround);
-        Debug.DrawLine(backRayPos, transform.position, Color.blue);
-        Debug.DrawLine(frontRayPos, transform.position, Color.blue);
+        RaycastHit2D backRay = Physics2D.Raycast(backRayPos, Vector2.down, 0.65f, consideredGround);
+        RaycastHit2D frontRay = Physics2D.Raycast(frontRayPos, Vector2.down, 0.65f, consideredGround);
 
         if (hit || backRay || frontRay) {
             isOnGround = true;
@@ -295,18 +303,18 @@ public class Player : MonoBehaviour
             Vector2 windDir = Wind.Instance.windDirection == Wind.WindDirection.Left ? Vector2.left : Vector2.right;
             float windForce = Wind.Instance.windForce;
 
-            if (!isMovementKeyOn)
+            if (!isMovementKeyOn && rb.linearVelocity.x < 0.01f)
             {
                 rb.linearVelocity = new Vector2(windDir.x * windForce, rb.linearVelocity.y);
             }
             else
             {
                 float inputDir = horizontalInput;
-                if ((inputDir > 0 && windDir == Vector2.right) || (inputDir < 0 && windDir == Vector2.left))
+                if (((inputDir > 0 && windDir == Vector2.right) || (inputDir < 0 && windDir == Vector2.left)) && Math.Abs(rb.linearVelocityX) > 0.01f)
                 {
                     modifiedAcceleration += windForce;
                 }
-                else if ((inputDir > 0 && windDir == Vector2.left) || (inputDir < 0 && windDir == Vector2.right))
+                else if (((inputDir > 0 && windDir == Vector2.left) || (inputDir < 0 && windDir == Vector2.right)) && Math.Abs(rb.linearVelocityX) > 0.01f)
                 {
                     modifiedAcceleration -= windForce;
                 }
@@ -319,7 +327,8 @@ public class Player : MonoBehaviour
         }
     }
 
-    // ---------- Player's Jump, Movement and Dash ----------
+
+    // ---------- Player's Jump, Movement and Dash
 
     void Jump() {
         // Debug.Log("Jumping");
@@ -496,9 +505,6 @@ public class Player : MonoBehaviour
             playerHealth = playerMaxHealth;
         }
     }
-    public void HealFull() {
-        playerHealth = playerMaxHealth;
-    }
 
     public void Hurt(int damage, bool existsKnockback) {
         if (isDashing) {
@@ -560,5 +566,9 @@ public class Player : MonoBehaviour
 
     public bool getAttackingState() {
         return isAttacking || isInRecovery;
+    }
+
+    public void HealFull() {
+        playerHealth = playerMaxHealth;
     }
 }
