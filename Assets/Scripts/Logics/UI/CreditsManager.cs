@@ -37,10 +37,10 @@ public class CreditsManager : MonoBehaviour
         float elapsedTime = 0f;
         Color color = whitePanel.color;
         
-        while (elapsedTime < 3f)
+        while (elapsedTime < 2.5f)
         {
             elapsedTime += Time.deltaTime;
-            color.a = Mathf.Lerp(0, 1, elapsedTime / 3f);
+            color.a = Mathf.Lerp(0, 1, elapsedTime / 2.5f);
             whitePanel.color = color;
             yield return null;
         }
