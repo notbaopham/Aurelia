@@ -28,14 +28,10 @@ public class UiManager : MonoBehaviour
     [SerializeField] private TMP_Text warningText;
     [SerializeField] private TMP_Text durationText;
     private Coroutine flickerRoutine;
-    [SerializeField] private GameObject playerUI;
-    [SerializeField] private float uiDelaySec = 5f; // Delay before showing the UI
-    private bool isUIShown = false;
 
-  void Start()
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
     {
-        playerUI = GameObject.Find("Player UI Canvas");
-        // StartCoroutine(DelayUI());
         previousHealth = player.GetHealth();
         previousMaxHealth = player.GetMaxHealth();
         UpdateHealthUI(player.GetHealth());
@@ -52,23 +48,11 @@ public class UiManager : MonoBehaviour
             dashImage.enabled = false;
             dashBorder.enabled = false;
         }
-        GameObject gameOverCanvas = GameObject.Find("Game Over Canvas");
-
-        if (gameOverCanvas != null)
-        {
-            Debug.Log("Found Game Over Canvas: " + gameOverCanvas.name);
-        }
-        else
-        {
-            Debug.Log("Game Over Canvas not found!");
-        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        // if (!isUIShown) return; // Ignore update if UI is not shown
-        
         if(!player.IsDoubleJumpUnlocked())
         {
             doubleJumpImage.enabled = false;
@@ -118,34 +102,6 @@ public class UiManager : MonoBehaviour
         }
     }  
     
-    private IEnumerator DelayUI()
-    {
-        Debug.Log("DelayUI Coroutine started. Waiting for " + uiDelaySec + " seconds.");
-        playerUI.SetActive(false); // Hide the player UI at the start
-
-        yield return new WaitForSeconds(uiDelaySec); // Wait for 5 seconds
-        playerUI.SetActive(true); // Show the player UI
-        Debug.Log("UI is now visible.");
-        isUIShown = true; // Allow Update() to control UI
-
-        // Enable UI elements
-        UpdateHealthUI(player.GetHealth());
-        UpdateMaxHealthUI(player.GetMaxHealth());
-
-        if (player.IsDoubleJumpUnlocked())
-        {
-            doubleJumpImage.enabled = true;
-            doubleJumpBorder.enabled = true;
-        }
-
-        if (player.IsDashUnlocked())
-        {
-            dashImage.enabled = true;
-            dashBorder.enabled = true;
-        }
-        Debug.Log("Player UI is enabled after delay.");
-      
-    }
     void UpdateSkillImage(bool skill, Image image)
     {
         if (Player.Instance != null)

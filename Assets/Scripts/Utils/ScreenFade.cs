@@ -14,7 +14,7 @@ public class ScreenFade : MonoBehaviour
         StartCoroutine(FadeIn());
     }
 
-    private IEnumerator FadeIn()
+    IEnumerator FadeIn()
     {
         yield return new WaitForSeconds(delayBeforeFade);
         float elapsedTime = 0f;
