@@ -13,11 +13,11 @@ public class MenuManager : MonoBehaviour
     void Awake()
     {
         settingsMenu.SetActive(false);
-        if (audioSource != null)
-        {
-            audioSource.time = startTime; // Set start time
-            audioSource.Play(); // Play from the specified time
-        }
+        // if (audioSource != null)
+        // {
+        //     audioSource.time = startTime; // Set start time
+        //     audioSource.Play(); // Play from the specified time
+        // }
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -27,6 +27,7 @@ public class MenuManager : MonoBehaviour
         Destroy(GameObject.Find("Game Manager"));
         Destroy(GameObject.Find("Settings Canvas"));
         Destroy(GameObject.Find("Player UI Canvas"));
+        Destroy(GameObject.Find("Bring Over"));
     }
 
     // Update is called once per frame
