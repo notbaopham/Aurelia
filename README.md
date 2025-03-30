@@ -58,6 +58,11 @@ https://github.com/notbaopham/COSC-416-Proj/commit/2850285dadff6bdc67aa6ea558321
 - UI:
 - Credits Scene:
 
+
+https://github.com/user-attachments/assets/c2d22e78-a994-4688-a82c-ef71c439158a
+
+
+
 ### Phong Nguyen:
 - Map 2:
 - Map 3:
