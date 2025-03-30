@@ -497,7 +497,6 @@ public class Player : MonoBehaviour
         }
     }
     public void HealFull() {
-        playerAudio.PlayHeal();
         playerHealth = playerMaxHealth;
     }
 

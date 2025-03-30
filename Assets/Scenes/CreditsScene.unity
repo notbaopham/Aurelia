@@ -811,7 +811,7 @@ PrefabInstance:
     - target: {fileID: 94759799109212448, guid: 68e3a700282976b4ea71ed58b16c06d0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 544331499}
     - target: {fileID: 94759799109212448, guid: 68e3a700282976b4ea71ed58b16c06d0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1844,6 +1844,8 @@ MonoBehaviour:
   mainScreen: {fileID: 398805233}
   whitePanel: {fileID: 830545912}
   creditsText: {fileID: 395976946}
+  creditsParticleSystem: {fileID: 1010943711}
+  menuParticleSystem: {fileID: 1639644312}
 --- !u!1 &563834895
 GameObject:
   m_ObjectHideFlags: 0
@@ -2887,6 +2889,10 @@ PrefabInstance:
     - target: {fileID: 7022814647645796296, guid: e06eb497ccbdf464e8ec2ead2c6e55d1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 544331499}
+    - target: {fileID: 7022814647645796296, guid: e06eb497ccbdf464e8ec2ead2c6e55d1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CloseSettings
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3112,6 +3118,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -2007.9999}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!198 &1010943711 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4088314470640145035, guid: 3f1b33a8f2580b7429a128ea6161b055, type: 3}
+  m_PrefabInstance: {fileID: 2002129862}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1016984481
 GameObject:
   m_ObjectHideFlags: 0
@@ -5504,7 +5515,7 @@ PrefabInstance:
     - target: {fileID: 94759799109212448, guid: 68e3a700282976b4ea71ed58b16c06d0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 544331499}
     - target: {fileID: 94759799109212448, guid: 68e3a700282976b4ea71ed58b16c06d0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -5796,6 +5807,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632639748}
   m_CullTransparentMesh: 1
+--- !u!198 &1639644312 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4088314470640145035, guid: 3f1b33a8f2580b7429a128ea6161b055, type: 3}
+  m_PrefabInstance: {fileID: 528455117}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1783241586
 GameObject:
   m_ObjectHideFlags: 0
@@ -6372,7 +6388,7 @@ PrefabInstance:
     - target: {fileID: 94759799109212448, guid: 68e3a700282976b4ea71ed58b16c06d0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 544331499}
     - target: {fileID: 94759799109212448, guid: 68e3a700282976b4ea71ed58b16c06d0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2

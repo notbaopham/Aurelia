@@ -1,4 +1,5 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 public class CreditsManager : MonoBehaviour
@@ -11,6 +12,8 @@ public class CreditsManager : MonoBehaviour
     [SerializeField] private CanvasGroup mainScreen; // Reference to the end screen
     [SerializeField] private Image whitePanel; // Reference to the end screen
     [SerializeField] private CanvasGroup creditsText; // Reference to the end screen
+    [SerializeField] private ParticleSystem creditsParticleSystem; // Reference to the end screen
+    [SerializeField] private ParticleSystem menuParticleSystem; // Reference to the end screen
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,9 +23,9 @@ public class CreditsManager : MonoBehaviour
     }
     private IEnumerator AppearAfterDelay()
     {
-        yield return new WaitForSeconds(delayBeforeAppear - 3f); // Wait for 1 second
+        yield return new WaitForSeconds(delayBeforeAppear - 2.5f); // Wait for 1 second
         StartCoroutine(StartWhiteScreen());
-        yield return new WaitForSeconds(3.5f); // Wait for 2 seconds
+        yield return new WaitForSeconds(2.3f); // Wait for 2 seconds
 
         Debug.Log("FadeIn Called");
         StartCoroutine(StartFadeIn()); // Start the fade-in effect
@@ -58,7 +61,9 @@ public class CreditsManager : MonoBehaviour
             BlackPanel.color = color;
             yield return null;
         }
-
+        creditsParticleSystem.Stop(); // Stop the particle system
+        creditsParticleSystem.Clear(); // Clear the particle system
+        menuParticleSystem.gameObject.SetActive(true); // Show menu particle system
         BlackPanel.gameObject.SetActive(false); // Hide panel after fade
     }
     // Update is called once per frame

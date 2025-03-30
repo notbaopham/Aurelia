@@ -22,7 +22,7 @@ public class MenuManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Destroy(GameObject.Find("Player 1"));
+        Destroy(GameObject.Find("Player"));
         Destroy(GameObject.Find("Player After Image Pool"));
         Destroy(GameObject.Find("Game Manager"));
         Destroy(GameObject.Find("Settings Canvas"));

@@ -20,5 +20,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Map3Scene.unity
     guid: a641ed37c28cd27498b02e209b48d1c4
+  - enabled: 1
+    path: Assets/Scenes/CreditsScene.unity
+    guid: e8f67846d8293664898412a30741229a
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

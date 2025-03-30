@@ -2046,6 +2046,14 @@ PrefabInstance:
       propertyPath: isDoubleJumpUnlocked
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1642597891047724865, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 86.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1642597891047724865, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 50.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4423790062290724278, guid: 1100cdc4fb4ffa0469fe922856f7ab18, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.21
@@ -9544,7 +9552,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2986288101623598193, guid: 6444ab18a372c83488c018446ec5095b, type: 3}
       propertyPath: m_text
-      value: Thank you for playing our game
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3496501892690884184, guid: 6444ab18a372c83488c018446ec5095b, type: 3}
       propertyPath: endScreen
@@ -9556,7 +9564,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3496501892690884184, guid: 6444ab18a372c83488c018446ec5095b, type: 3}
       propertyPath: sceneName
-      value: MainMenu
+      value: CreditsScene
       objectReference: {fileID: 0}
     - target: {fileID: 3496501892690884184, guid: 6444ab18a372c83488c018446ec5095b, type: 3}
       propertyPath: inputManager
@@ -9576,7 +9584,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7336553069232159553, guid: 6444ab18a372c83488c018446ec5095b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8571110659049689723, guid: 6444ab18a372c83488c018446ec5095b, type: 3}
       propertyPath: m_text
@@ -68407,7 +68415,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4491646134807762131, guid: ec5de4ecfc3b16b46b4f8d955d57fae3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.24
+      value: -4.58
       objectReference: {fileID: 0}
     - target: {fileID: 7318666331003870765, guid: ec5de4ecfc3b16b46b4f8d955d57fae3, type: 3}
       propertyPath: m_LocalPosition.x

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -55,4 +56,9 @@ public class InputManager : MonoBehaviour
         // which reflects the state of the game
         OnMove?.Invoke(input.normalized);
     }
+        public void setSettingsMenuOpen(bool isOpen)
+        {
+            isSettingMenuOpen = isOpen; // Set the settings menu state
+        }
+
 }
