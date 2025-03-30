@@ -28,12 +28,41 @@ public class WindManager : MonoBehaviour
         windParticleLeft.Clear();
         windParticleRight.Stop();
         windParticleRight.Clear();
+        StartCoroutine(AssignAfterDelay());
         StartCoroutine(WindCycle());
     }
 
     void Update()
     {
 
+    }
+    private IEnumerator AssignAfterDelay()
+    {
+        yield return new WaitForSeconds(1);
+
+        // Find all active Player objects
+        Player[] players = FindObjectsByType<Player>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+
+        if (players.Length > 0)
+        {
+            player = players[0];
+            Debug.Log("Player from Scene 1 assigned!");
+        }
+        else
+        {
+            Debug.LogWarning("No Player instance found!");
+        }
+        UiManager[] uiManagers = FindObjectsByType<UiManager>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+
+        if (players.Length > 0)
+        {
+            uiManager = uiManagers[0];
+            Debug.Log("UI assigned!");
+        }
+        else
+        {
+            Debug.LogWarning("No UI instance found!");
+        }
     }
 
     IEnumerator WindCycle()

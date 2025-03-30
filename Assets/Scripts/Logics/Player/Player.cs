@@ -113,7 +113,10 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
         {
-            if (Math.Abs(rb.linearVelocityX) > 0.01f) {
+            if (Math.Abs(rb.linearVelocityX) < 0.01f) {
+                releaseTimer = 0f;
+                isMovementKeyOn = false;
+            } else {
                 releaseTimer = 20f;
                 isMovementKeyOn = true;
             } else {
@@ -125,6 +128,7 @@ public class Player : MonoBehaviour
                     rb.AddForce(Vector2.right * 5f, ForceMode2D.Impulse);
                 }
             }
+
         }
         else
         {
@@ -323,8 +327,7 @@ public class Player : MonoBehaviour
         }
     }
 
-
-    // ---------- Player's Jump, Movement and Dash
+    // ---------- Player's Jump, Movement and Dash ----------
 
     void Jump() {
         // Debug.Log("Jumping");
@@ -500,6 +503,9 @@ public class Player : MonoBehaviour
         if (playerHealth > playerMaxHealth) {
             playerHealth = playerMaxHealth;
         }
+    }
+    public void HealFull() {
+        playerHealth = playerMaxHealth;
     }
 
     public void Hurt(int damage, bool existsKnockback) {

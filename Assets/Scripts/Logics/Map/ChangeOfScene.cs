@@ -111,5 +111,6 @@ public class ChangeOfScene : MonoBehaviour
            player.UnlockDash();
         }
         SceneManager.LoadScene(sceneName);
+        player.HealFull();
     }
 }

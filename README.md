@@ -1,6 +1,8 @@
 # COSC 416 Project - Aurelia
 
+## !!!Please also check ALL the pull request history since we can't add all the showcase videos here!!!
 ## Contributors: 
+
 ### Hoc Nguyen:
 - Rough monster's designs:
 
@@ -43,7 +45,9 @@ https://github.com/notbaopham/COSC-416-Proj/commit/c7cd508d109ec8e84968d3fdd5d89
 
 
 
-https://github.com/user-attachments/assets/36677656-b11e-4fe5-b7d4-d3d038f6f7ef
+
+https://github.com/user-attachments/assets/2497325b-85d5-44df-a2d6-4ff2356ea5e2
+
 
 
     
@@ -54,6 +58,30 @@ https://github.com/notbaopham/COSC-416-Proj/commit/2850285dadff6bdc67aa6ea558321
 
 - Map 1:
 - UI:
+- Credits Scene:
+
+
+https://github.com/user-attachments/assets/c2d22e78-a994-4688-a82c-ef71c439158a
+
+
+All of my pull requests:
+https://github.com/notbaopham/Aurelia/pull/1
+https://github.com/notbaopham/Aurelia/pull/3
+https://github.com/notbaopham/Aurelia/pull/4
+https://github.com/notbaopham/Aurelia/pull/5
+https://github.com/notbaopham/Aurelia/pull/6
+https://github.com/notbaopham/Aurelia/pull/7
+https://github.com/notbaopham/Aurelia/pull/8
+https://github.com/notbaopham/Aurelia/pull/14
+https://github.com/notbaopham/Aurelia/pull/17
+https://github.com/notbaopham/Aurelia/pull/21
+https://github.com/notbaopham/Aurelia/pull/22
+https://github.com/notbaopham/Aurelia/pull/23
+https://github.com/notbaopham/Aurelia/pull/26
+https://github.com/notbaopham/Aurelia/pull/28
+https://github.com/notbaopham/Aurelia/pull/32
+
+
 ### Phong Nguyen:
 - Map 2:
 - Map 3:

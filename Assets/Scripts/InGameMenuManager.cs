@@ -32,7 +32,7 @@ public class InGameMenuManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        inputManager = FindObjectsByType<InputManager>(FindObjectsInactive.Include, FindObjectsSortMode.None)[0];
     }
 
     // Update is called once per frame
@@ -52,6 +52,7 @@ public class InGameMenuManager : MonoBehaviour
         // titleImage.SetActive(false);
         settingsMenu.SetActive(true);
         isSettingsMenuActive = true;
+        inputManager.setSettingsMenuOpen(true);
     }
     public void CloseSettings()
     {
@@ -59,6 +60,7 @@ public class InGameMenuManager : MonoBehaviour
         // titleImage.SetActive(true);
         settingsMenu.SetActive(false);
         isSettingsMenuActive = false;
+        inputManager.setSettingsMenuOpen(false);
     }
     public void SwitchScene(string sceneName)
     {
