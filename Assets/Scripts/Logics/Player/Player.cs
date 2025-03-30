@@ -113,10 +113,14 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
         {
-            if (Math.Abs(rb.linearVelocityX) > 0.01f) {
+            if (Math.Abs(rb.linearVelocityX) < 0.01f) {
+                releaseTimer = 0f;
+                isMovementKeyOn = false;
+            } else {
                 releaseTimer = 20f;
                 isMovementKeyOn = true;
             }
+
         }
         else
         {
@@ -139,6 +143,9 @@ public class Player : MonoBehaviour
                 }
             }
         }
+
+        Debug.Log(isMovementKeyOn);
+        Debug.Log(releaseTimer);
     }
 
     public bool keyPressingState() {
