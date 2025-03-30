@@ -143,9 +143,6 @@ public class Player : MonoBehaviour
                 }
             }
         }
-
-        Debug.Log(isMovementKeyOn);
-        Debug.Log(releaseTimer);
     }
 
     public bool keyPressingState() {
@@ -322,8 +319,7 @@ public class Player : MonoBehaviour
         }
     }
 
-
-    // ---------- Player's Jump, Movement and Dash
+    // ---------- Player's Jump, Movement and Dash ----------
 
     void Jump() {
         // Debug.Log("Jumping");
