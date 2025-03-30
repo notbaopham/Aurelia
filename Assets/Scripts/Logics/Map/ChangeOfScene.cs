@@ -68,10 +68,7 @@ public class ChangeOfScene : MonoBehaviour
         inputManager.isMovementDisabled = false;
         
         Debug.Log("Movement Enabled");
-        if (sceneName == "Map2Scene")
-            other.transform.position = new Vector3(-3.25f, -1.483544f, 0);
-        if (sceneName == "Map3Scene")
-            other.transform.position = new Vector3(-4f, -9f, 0);
+        other.transform.position = new Vector3(0, 0, 0);
         SwitchScene(sceneName);
     }
     public void FadeIn(CanvasGroup canvasGroup)
