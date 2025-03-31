@@ -121,15 +121,15 @@ https://clembod.itch.io/warrior-free-animation-set
 - Map 2/3: https://deadpixstudios.itch.io/pixel-art-platformer-pack
 
 ### UI:
-- menu
-https://theflavare.itch.io/mondstadt-theme-background-pixel-art
+- menu:
+<br>https://theflavare.itch.io/mondstadt-theme-background-pixel-art<br>
 https://toffeecraft.itch.io/ui-user-interface-pack-cozy-coffee
 
 - in-game:
-https://clockworkraven.itch.io/raven-fantasy-icons
-https://bdragon1727.itch.io/basic-pixel-health-bar-and-scroll-bar
-https://bdragon1727.itch.io/custom-border-and-panels-menu-all-part
-https://dreammix.itch.io/keyboard-keys-for-ui
+<br>https://clockworkraven.itch.io/raven-fantasy-icons<br>
+https://bdragon1727.itch.io/basic-pixel-health-bar-and-scroll-bar<br>
+https://bdragon1727.itch.io/custom-border-and-panels-menu-all-part<br>
+https://dreammix.itch.io/keyboard-keys-for-ui<br>
 
 - font:
 https://poppyworks.itch.io/silver
