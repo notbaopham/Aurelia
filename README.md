@@ -125,7 +125,7 @@ UI:
 https://theflavare.itch.io/mondstadt-theme-background-pixel-art
 https://toffeecraft.itch.io/ui-user-interface-pack-cozy-coffee
 
--in-game:
+- in-game:
 https://clockworkraven.itch.io/raven-fantasy-icons
 https://bdragon1727.itch.io/basic-pixel-health-bar-and-scroll-bar
 https://bdragon1727.itch.io/custom-border-and-panels-menu-all-part
@@ -140,9 +140,9 @@ https://www.youtube.com/watch?v=raXdAoPCTMs&t=194s
 
 Monster:
 
-Slime: https://chiecola.itch.io/momo-mama-slime
-Wolf: https://craftpix.net/freebies/free-werewolf-sprite-sheets-pixel-art/?srsltid=AfmBOoqB5prTzqU5ZfBGVdd7ZWpuAjDU_mjxeumuJ5sjdwmzSrrWb5KA
-Flying: https://luizmelo.itch.io/monsters-creatures-fantasy
+- Slime: https://chiecola.itch.io/momo-mama-slime
+- Wolf: https://craftpix.net/freebies/free-werewolf-sprite-sheets-pixel-art/?srsltid=AfmBOoqB5prTzqU5ZfBGVdd7ZWpuAjDU_mjxeumuJ5sjdwmzSrrWb5KA
+- Flying: https://luizmelo.itch.io/monsters-creatures-fantasy
 # Project Demo Vid
 
 https://youtu.be/pU-sjnGJeTg
