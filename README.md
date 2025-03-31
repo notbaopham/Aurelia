@@ -112,15 +112,15 @@ https://github.com/notbaopham/Aurelia/pull/18
 https://docs.google.com/document/d/1TSPixM8_AtIrX3csjbhFzEDKAuGKMky6HCQQg1OyV8o/edit?usp=sharing
 
 # Project Resources
-Player:
+### Player:
 https://clembod.itch.io/warrior-free-animation-set
 
-Map:
+### Map:
 - Map 1: https://anokolisa.itch.io/sidescroller-pixelart-sprites-asset-pack-forest-16x16
 - Map 1: https://ansimuz.itch.io/magic-cliffs-environment
 - Map 2/3: https://deadpixstudios.itch.io/pixel-art-platformer-pack
 
-UI:
+### UI:
 - menu
 https://theflavare.itch.io/mondstadt-theme-background-pixel-art
 https://toffeecraft.itch.io/ui-user-interface-pack-cozy-coffee
@@ -134,7 +134,7 @@ https://dreammix.itch.io/keyboard-keys-for-ui
 - font:
 https://poppyworks.itch.io/silver
 
-Audio/SFX:
+### Audio/SFX:
 https://cyrex-studios.itch.io/universal-ui-soundpack
 ### All Music by Zippy: https://www.youtube.com/@zippysound
 - Menu/Credits: https://www.youtube.com/watch?v=raXdAoPCTMs&t=194s
@@ -142,7 +142,7 @@ https://cyrex-studios.itch.io/universal-ui-soundpack
 - Map 2: https://www.youtube.com/watch?v=62-dczE8-ls
 - Map 3: https://www.youtube.com/watch?v=pKfSUzw3VGQ
 - License: https://zippysound.fanbox.cc/posts/8574304
-\n Monster:
+### Monster:
 
 - Slime: https://chiecola.itch.io/momo-mama-slime
 - Wolf: https://craftpix.net/freebies/free-werewolf-sprite-sheets-pixel-art/?srsltid=AfmBOoqB5prTzqU5ZfBGVdd7ZWpuAjDU_mjxeumuJ5sjdwmzSrrWb5KA
