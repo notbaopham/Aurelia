@@ -147,6 +147,7 @@ https://cyrex-studios.itch.io/universal-ui-soundpack
 - Slime: https://chiecola.itch.io/momo-mama-slime
 - Wolf: https://craftpix.net/freebies/free-werewolf-sprite-sheets-pixel-art/?srsltid=AfmBOoqB5prTzqU5ZfBGVdd7ZWpuAjDU_mjxeumuJ5sjdwmzSrrWb5KA
 - Flying: https://luizmelo.itch.io/monsters-creatures-fantasy
+### Other resources are selfmaded
 # Project Demo Vid
 
 https://youtu.be/pU-sjnGJeTg
