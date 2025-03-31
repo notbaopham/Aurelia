@@ -98,8 +98,14 @@ https://github.com/notbaopham/Aurelia/pull/32
 - Map 2:
 - Map 3:
 ### Bao Pham:
-- Player:
-
+- Player, CutScene, and many Adjustments + Bugfixings (included Video in almost all of them): 
+https://github.com/notbaopham/Aurelia/pull/33
+https://github.com/notbaopham/Aurelia/pull/31
+https://github.com/notbaopham/Aurelia/pull/29
+https://github.com/notbaopham/Aurelia/pull/27
+https://github.com/notbaopham/Aurelia/pull/25
+https://github.com/notbaopham/Aurelia/pull/20
+https://github.com/notbaopham/Aurelia/pull/18
 
 # Project Brief
 
