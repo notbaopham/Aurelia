@@ -64,6 +64,12 @@ https://github.com/user-attachments/assets/1b560e32-4b68-427a-8992-fcc0548d9088
 
 
 - UI:
+
+  
+
+https://github.com/user-attachments/assets/f567aff2-9eca-4b9a-8b56-ccf9a74f494b
+
+
 - Credits Scene:
 
 
