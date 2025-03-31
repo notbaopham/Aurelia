@@ -142,7 +142,7 @@ https://cyrex-studios.itch.io/universal-ui-soundpack
 - Map 2: https://www.youtube.com/watch?v=62-dczE8-ls
 - Map 3: https://www.youtube.com/watch?v=pKfSUzw3VGQ
 - License: https://zippysound.fanbox.cc/posts/8574304
-Monster:
+\n Monster:
 
 - Slime: https://chiecola.itch.io/momo-mama-slime
 - Wolf: https://craftpix.net/freebies/free-werewolf-sprite-sheets-pixel-art/?srsltid=AfmBOoqB5prTzqU5ZfBGVdd7ZWpuAjDU_mjxeumuJ5sjdwmzSrrWb5KA
