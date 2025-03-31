@@ -116,9 +116,9 @@ Player:
 https://clembod.itch.io/warrior-free-animation-set
 
 Map:
-https://anokolisa.itch.io/sidescroller-pixelart-sprites-asset-pack-forest-16x16
-https://ansimuz.itch.io/magic-cliffs-environment
-https://deadpixstudios.itch.io/pixel-art-platformer-pack
+- Map 1: https://anokolisa.itch.io/sidescroller-pixelart-sprites-asset-pack-forest-16x16
+- Map 1: https://ansimuz.itch.io/magic-cliffs-environment
+- Map 2/3: https://deadpixstudios.itch.io/pixel-art-platformer-pack
 
 UI:
 - menu
@@ -136,8 +136,12 @@ https://poppyworks.itch.io/silver
 
 Audio/SFX:
 https://cyrex-studios.itch.io/universal-ui-soundpack
-https://www.youtube.com/watch?v=raXdAoPCTMs&t=194s
-
+### All Music by Zippy: https://www.youtube.com/@zippysound
+- Menu/Credits: https://www.youtube.com/watch?v=raXdAoPCTMs&t=194s
+- Map 1: https://www.youtube.com/watch?v=lnK6kHbO6h8
+- Map 2: https://www.youtube.com/watch?v=62-dczE8-ls
+- Map 3: https://www.youtube.com/watch?v=pKfSUzw3VGQ
+- License: https://zippysound.fanbox.cc/posts/8574304
 Monster:
 
 - Slime: https://chiecola.itch.io/momo-mama-slime
