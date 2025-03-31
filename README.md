@@ -57,6 +57,12 @@ https://github.com/notbaopham/COSC-416-Proj/commit/ff12199e7493e8cc77b35e7810693
 https://github.com/notbaopham/COSC-416-Proj/commit/2850285dadff6bdc67aa6ea558321920359ae37b
 
 - Map 1:
+
+  
+
+https://github.com/user-attachments/assets/1b560e32-4b68-427a-8992-fcc0548d9088
+
+
 - UI:
 - Credits Scene:
 
