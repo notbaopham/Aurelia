@@ -112,7 +112,37 @@ https://github.com/notbaopham/Aurelia/pull/18
 https://docs.google.com/document/d/1TSPixM8_AtIrX3csjbhFzEDKAuGKMky6HCQQg1OyV8o/edit?usp=sharing
 
 # Project Resources
+Player:
+https://clembod.itch.io/warrior-free-animation-set
 
+Map:
+https://anokolisa.itch.io/sidescroller-pixelart-sprites-asset-pack-forest-16x16
+https://ansimuz.itch.io/magic-cliffs-environment
+https://deadpixstudios.itch.io/pixel-art-platformer-pack
+
+UI:
+- menu
+https://theflavare.itch.io/mondstadt-theme-background-pixel-art
+https://toffeecraft.itch.io/ui-user-interface-pack-cozy-coffee
+
+-in-game:
+https://clockworkraven.itch.io/raven-fantasy-icons
+https://bdragon1727.itch.io/basic-pixel-health-bar-and-scroll-bar
+https://bdragon1727.itch.io/custom-border-and-panels-menu-all-part
+https://dreammix.itch.io/keyboard-keys-for-ui
+
+- font:
+https://poppyworks.itch.io/silver
+
+Audio/SFX:
+https://cyrex-studios.itch.io/universal-ui-soundpack
+https://www.youtube.com/watch?v=raXdAoPCTMs&t=194s
+
+Monster:
+
+Slime: https://chiecola.itch.io/momo-mama-slime
+Wolf: https://craftpix.net/freebies/free-werewolf-sprite-sheets-pixel-art/?srsltid=AfmBOoqB5prTzqU5ZfBGVdd7ZWpuAjDU_mjxeumuJ5sjdwmzSrrWb5KA
+Flying: https://luizmelo.itch.io/monsters-creatures-fantasy
 # Project Demo Vid
 
 https://youtu.be/pU-sjnGJeTg
